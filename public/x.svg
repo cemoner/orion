@@ -1,0 +1,20 @@
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bold { font-weight: bold; font-family: Arial, sans-serif; }
+    .regular { font-weight: normal; font-family: Arial, sans-serif; }
+    .small { font-size: 16px; }
+    .large { font-size: 28px; }
+  </style>
+
+  <!-- 60. yıl -->
+  <text x="380" y="40" class="regular small">60. yıl</text>
+
+  <!-- EKİNCİLER -->
+  <text x="50" y="80" class="bold large">EKİNCİLER</text>
+
+  <!-- Mirastan geleceğe -->
+  <text x="55" y="110" class="regular small">Mirastan geleceğe</text>
+
+  <!-- güvencesiyle -->
+  <text x="50" y="160" class="regular small">güvencesiyle</text>
+</svg>
