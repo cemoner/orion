@@ -1,11 +1,12 @@
 'use client'
 
-import { HeroSlide } from "../components/specific/HeroSlide";
+import { HeroSlide } from "@/app/components/specific/HeroSlide";
+
 
 export const Home = () => {
     return(
         <main>
-            <HeroSlide />
+            <HeroSlide/>
         </main>
     );
 }

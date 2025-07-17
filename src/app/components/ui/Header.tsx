@@ -1,15 +1,15 @@
 "use client";
 
 import Link from "next/link";
+import type { FC } from "react";
 import React, { useState } from "react";
 import { ThemeSwitcher } from "../specific/ThemeSwitcher";
 import { useIntlayer } from "next-intlayer";
 // ...register with intlayer, e.g. add to dictionary array
 
-export const Header = () => {
+export const Header: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const content = useIntlayer("header");
-  console.log("Intlayer 'header' content:", content); // <-- Add this line
 
   return (
     <header className="bg-background dark:bg-background-dark shadow-md rounded-b-lg w-full md:sticky top-0 z-50 h-20 flex items-center justify-between relative">
@@ -322,5 +322,3 @@ z"
     </header>
   );
 };
-
-export default Header;

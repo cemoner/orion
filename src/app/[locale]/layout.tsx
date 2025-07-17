@@ -18,7 +18,7 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
   return (
     <html lang={locale} dir={getHTMLTextDir(locale)}>
       <body
-        className={`${inter.className} flex flex-col min-h-screen bg-gray-50`}>
+        className={`${inter.className} flex flex-col h-screen relative bg-gray-50`}>
           {children}
       </body>
     </html>

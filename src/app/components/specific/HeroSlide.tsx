@@ -73,10 +73,8 @@ export const HeroSlide: React.FC = () => {
 
     return () => clearInterval(sliderInterval); // Cleanup interval on component unmount
   }, [goToNext]);
-
-
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-[clamp(500px,80vh,720px)] overflow-hidden">
       {/* Slides Container */}
       <div className="w-full h-full">
         {slides.map((slide, index) => (
@@ -92,7 +90,7 @@ export const HeroSlide: React.FC = () => {
             </div>
 
             {/* Content */}
-            <div className="relative z-10 flex flex-col items-start justify-center w-full h-full p-8 md:p-16 lg:p-24">
+            <div className="relative z-10 flex flex-col items-center justify-center w-full h-full p-8 md:p-16 lg:p-24">
               <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-4" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.5)'}}>
                 {slide.title}
               </h1>
