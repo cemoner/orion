@@ -1,13 +1,14 @@
 import { NextLayoutIntlayer } from "next-intlayer";
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google"; // Make sure this path is correct
+import {Inter } from "next/font/google"; // Make sure this path is correct
 
 import { getHTMLTextDir } from "intlayer";
 
 export { generateStaticParams } from "next-intlayer";
 
 const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Orion - Your Next Generation App",
