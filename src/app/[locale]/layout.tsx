@@ -1,29 +1,27 @@
-import { NextLayoutIntlayer } from "next-intlayer";
-
-import type { Metadata } from "next";
-import {Inter } from "next/font/google"; // Make sure this path is correct
-
-import { getHTMLTextDir } from "intlayer";
-
-export { generateStaticParams } from "next-intlayer";
-
-const inter = Inter({ subsets: ["latin"] });
-
-
-export const metadata: Metadata = {
-  title: "Orion - Your Next Generation App",
-  description: "A modern web application built with Next.js and Tailwind CSS",
-};
-const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
-  const { locale } = await params;
+import {NextIntlClientProvider, hasLocale} from 'next-intl';
+import {notFound} from 'next/navigation';
+import {routing} from '@/i18n/routing';
+import VerticalTicker, { marketData } from '../components/specific/TickerBar';
+ 
+export default async function LocaleLayout({
+  children,
+  params
+}: {
+  children: React.ReactNode;
+  params: Promise<{locale: string}>;
+}) {
+  // Ensure that the incoming `locale` is valid
+  const {locale} = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+ 
   return (
-    <html lang={locale} dir={getHTMLTextDir(locale)}>
-      <body
-        className={`${inter.className} flex flex-col h-screen relative bg-gray-50`}>
-          {children}
+    <html lang={locale}>
+      <body>
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <VerticalTicker items={marketData}/>
       </body>
     </html>
   );
-};
-
-export default LocaleLayout;
+}

@@ -1,0 +1,50 @@
+{
+  "Header": {
+    "nav": {
+      "home": "Anasayfa",
+      "products": "Ürünler",
+      "about": "Hakkında",
+      "contact": "İletişim",
+      "offer": "Teklif",
+      "references": "Referanslar"
+    }
+  },
+  "Footer": {
+    "title": "Daha fazla bilgi için talep oluşturun",
+    "address": {
+      "title": "Adresimiz",
+      "text": "Yeşiloba Mh. Turhan Cemal Beriker Bul. Adana İş Merkezi A/Blok No:443 I Seyhan /ADANA Ofis: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Blok No:50 Kat:1 Daire: 2 Seyhan /ADANA",
+      "button": "Bize Ulaşın"
+    },
+    "newsletter": {
+      "title": "Bültenimize Abone Olun",
+      "subtitle": "Günlük demir fiyatlarını e-postanıza alın",
+      "label": "Bültenimize abone olun",
+      "placeholder": "E-postanızı girin",
+      "button": "Abone Ol"
+    },
+    "copyright": "© 2025 Orion Demir.",
+    "links": {
+      "home": "Ana Sayfa",
+      "cookiePolicy": "Çerez Politikası",
+      "privacyPolicy": "Gizlilik Politikası"
+    }
+  },
+  "HeroSlide": {
+    "slide1": {
+      "title": "Çeliği Benzersiz Bir Dokunuşla Yeniden Keşfedin",
+      "subtitle": "Modern ve yüksek kapasiteli üretim tesislerimizden yenilikçi çözümler sunuyoruz."
+    },
+    "slide2": {
+      "title": "Günlük Piyasa Fiyatları ile Şeffaf Fiyatlandırma",
+      "subtitle": "Bugünün demir fiyatlarını kontrol edin, teklif isteyin ve sipariş verin — Türkiye'nin 81 iline teslimat yapıyoruz."
+    },
+    "slide3": {
+      "title": "2019'dan Beri Güçlü ve Güvenilir",
+      "subtitle": "2019'daki mütevazı başlangıçtan bugünün 200'den fazla ekip üyesine sahip lider çelik şirketine."
+    },
+    "previousButton": "Önceki Slayt",
+    "nextButton": "Sonraki Slayt",
+    "goToSlide": "{number}. slayta git"
+  }
+}

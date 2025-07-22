@@ -1,0 +1,50 @@
+{
+  "Header": {
+    "nav": {
+      "home": "Startseite",
+      "products": "Produkte",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "offer": "Angebot",
+      "references": "Referenzen"
+    }
+  },
+  "Footer": {
+    "title": "Fordern Sie weitere Informationen an",
+    "address": {
+      "title": "Unsere Adresse",
+      "text": "Yeşiloba Mh. Turhan Cemal Beriker Bul. Adana İş Merkezi A/Blok No:443 I Seyhan /ADANA Büro: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Blok No:50 Kat:1 Daire: 2 Seyhan /ADANA",
+      "button": "Kontaktieren Sie uns"
+    },
+    "newsletter": {
+      "title": "Abonnieren Sie unseren Newsletter",
+      "subtitle": "Erhalten Sie tägliche Eisenpreise per E-Mail",
+      "label": "Abonnieren Sie unseren Newsletter",
+      "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "button": "Abonnieren"
+    },
+    "copyright": "© 2025 Orion Demir.",
+    "links": {
+      "home": "Startseite",
+      "cookiePolicy": "Cookie-Richtlinie",
+      "privacyPolicy": "Datenschutzrichtlinie"
+    }
+  },
+  "HeroSlide": {
+    "slide1": {
+      "title": "Stahl Neu Erfunden mit Einzigartiger Note",
+      "subtitle": "Wir liefern innovative Lösungen aus unseren modernen, hochleistungsfähigen Produktionsanlagen."
+    },
+    "slide2": {
+      "title": "Transparente Preise mit Täglichen Marktkursen",
+      "subtitle": "Prüfen Sie die heutigen Betonstahlpreise, fordern Sie ein Angebot an und geben Sie Ihre Bestellung auf — wir liefern in alle 81 Provinzen der Türkei."
+    },
+    "slide3": {
+      "title": "Stark und Vertrauenswürdig Seit 2019",
+      "subtitle": "Von einem bescheidenen Anfang im Jahr 2019 zu einem führenden Stahlunternehmen mit heute über 200 Teammitgliedern."
+    },
+    "previousButton": "Vorherige Folie",
+    "nextButton": "Nächste Folie",
+    "goToSlide": "Gehe zu Folie {number}"
+  }
+}

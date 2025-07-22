@@ -1,9 +1,7 @@
-// next.config.js
-import type { NextConfig } from 'next';
-import { withIntlayer } from 'next-intlayer/server'; 
-
-const nextConfig: NextConfig = {
-
-};
-
-export default withIntlayer(nextConfig);
+import {NextConfig} from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
+ 
+const nextConfig: NextConfig = {};
+ 
+const withNextIntl = createNextIntlPlugin();
+export default withNextIntl(nextConfig);

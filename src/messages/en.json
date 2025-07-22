@@ -1,0 +1,51 @@
+{
+  "Header": {
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "about": "About",
+      "contact": "Contact",
+      "offer": "Offer",
+      "references": "References"
+    }
+  },
+  "Footer": {
+    "title": "Request for more information",
+    "address": {
+      "title": "Our Address",
+      "text": "Yeşiloba Mh. Turhan Cemal Beriker Bul. Adana İş Merkezi A/Blok No:443 I Seyhan /ADANA Office: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Blok No:50 Kat:1 Daire: 2 Seyhan /ADANA",
+      "button": "Contact Us"
+    },
+    "newsletter": {
+      "title": "Subscribe to our Newsletter",
+      "subtitle": "Get daily iron prices to your mail",
+      "label": "Subscribe to our newsletter",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "copyright": "© 2025 Orion Demir.",
+    "links": {
+      "home": "Home",
+      "cookiePolicy": "Cookie Policy",
+      "privacyPolicy": "Privacy Policy"
+    }
+  },
+  "HeroSlide": {
+    "slide1": {
+      "title": "Steel Reinvented with a Unique Touch",
+      "subtitle": "We deliver innovative solutions from our modern, high-capacity production facilities."
+    },
+    "slide2": {
+      "title": "Transparent Pricing with Daily Market Rates",
+      "subtitle": "Check today’s rebar prices, request a quote, and place your order — we deliver across all 81 provinces in Türkiye."
+    },
+    "slide3": {
+      "title": "Strong and Trusted Since 2019",
+      "subtitle": "From a humble start in 2019 to a leading steel company with over 200 team members today."
+    },
+    "previousButton": "Previous Slide",
+    "nextButton": "Next Slide",
+    "goToSlide": "Go to slide {number}"
+  }
+
+}
