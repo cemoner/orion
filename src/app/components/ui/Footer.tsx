@@ -162,7 +162,7 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://instagram.com/your-profile"
+              href="https://www.instagram.com/oriondemir/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 border rounded-full transition-all duration-300 ease-in-out 
