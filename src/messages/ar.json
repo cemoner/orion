@@ -1,0 +1,50 @@
+{
+  "Header": {
+    "nav": {
+      "home": "الرئيسية",
+      "products": "المنتجات",
+      "about": "من نحن",
+      "contact": "اتصل بنا",
+      "offer": "طلب عرض سعر",
+      "references": "أعمالنا"
+    }
+  },
+  "Footer": {
+    "title": "اطلب المزيد من المعلومات",
+    "address": {
+      "title": "عنواننا",
+      "text": "Yeşiloba Mh. Turhan Cemal Beriker Bul. Adana İş Merkezi A/Blok No:443 I Seyhan /ADANA Büro: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Blok No:50 Kat:1 Daire: 2 Seyhan /ADANA",
+      "button": "اتصل بنا"
+    },
+    "newsletter": {
+      "title": "اشترك في نشرتنا الإخبارية",
+      "subtitle": "احصل على أسعار الحديد اليومية عبر البريد الإلكتروني",
+      "label": "اشترك في نشرتنا الإخبارية",
+      "placeholder": "أدخل عنوان بريدك الإلكتروني",
+      "button": "اشتراك"
+    },
+    "copyright": "© ٢٠٢٥ أوريون ديمير.",
+    "links": {
+      "home": "الرئيسية",
+      "cookiePolicy": "سياسة ملفات تعريف الارتباط",
+      "privacyPolicy": "سياسة الخصوصية"
+    }
+  },
+  "HeroSlide": {
+    "slide1": {
+      "title": "إعادة ابتكار الصلب بلمسة فريدة",
+      "subtitle": "نقدم حلولاً مبتكرة من منشآتنا الإنتاجية الحديثة وعالية الأداء."
+    },
+    "slide2": {
+      "title": "أسعار شفافة مع أسعار السوق اليومية",
+      "subtitle": "تحقق من أسعار حديد التسليح اليوم، اطلب عرض سعر، وقدم طلبك — نقوم بالتوصيل إلى جميع محافظات تركيا الـ 81."
+    },
+    "slide3": {
+      "title": "قوة وثقة منذ عام ٢٠١٩",
+      "subtitle": "من بداية متواضعة في عام ٢٠١٩ إلى شركة رائدة في صناعة الصلب تضم اليوم أكثر من ٢٠٠ عضو في الفريق."
+    },
+    "previousButton": "الشريحة السابقة",
+    "nextButton": "الشريحة التالية",
+    "goToSlide": "اذهب إلى الشريحة {number}"
+  }
+}

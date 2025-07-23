@@ -5,6 +5,7 @@ import type { FC } from "react";
 import React, { useState } from "react";
 import { ThemeSwitcher } from "../specific/ThemeSwitcher";
 import { useTranslations } from "next-intl";
+import LanguageSwitcher from "../specific/LanguageSwitcher";
 
 export const Header: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -62,6 +63,7 @@ export const Header: FC = () => {
         </nav>
 
         <div className="flex items-center gap-x-5">
+          <LanguageSwitcher/>
           <ThemeSwitcher />
           <div className="md:hidden">
             <button
