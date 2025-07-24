@@ -46,5 +46,9 @@
     "previousButton": "Vorherige Folie",
     "nextButton": "Nächste Folie",
     "goToSlide": "Gehe zu Folie {number}"
+  },
+    "Sustainability": {
+    "title": "Engagiert für eine grünere Zukunft",
+    "button": "Mehr erfahren"
   }
 }

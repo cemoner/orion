@@ -22,8 +22,8 @@
   --color-logo-blue: #2f79ed; /* Custom Blue */
   --color-logo-blue-dark: #1a2b4d; /* Darker Custom Blue */
   --color-border-gray:gray-300;
-  --color-sustainability-green:green-600;
-  --color-sustainability-green-dark:green-700;
+  --color-sustainability-green:#16A34A;
+  --color-sustainability-green-dark:#166534;
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

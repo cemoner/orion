@@ -46,5 +46,9 @@
     "previousButton": "اسلاید قبلی",
     "nextButton": "اسلاید بعدی",
     "goToSlide": "برو به اسلاید {number}"
+  },
+    "Sustainability": {
+    "title": "متعهد به آینده‌ای سبزتر",
+    "button": "بیشتر بدانید"
   }
 }

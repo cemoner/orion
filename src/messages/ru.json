@@ -46,5 +46,9 @@
     "previousButton": "Предыдущий слайд",
     "nextButton": "Следующий слайд",
     "goToSlide": "Перейти к слайду {number}"
+  },
+    "Sustainability": {
+    "title": "Приверженность зелёному будущему",
+    "button": "Узнать больше"
   }
 }

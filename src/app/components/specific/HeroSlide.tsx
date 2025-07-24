@@ -94,7 +94,7 @@ export const HeroSlide: React.FC = () => {
 
             {/* Content */}
             <div className="relative z-10 flex flex-col items-center justify-center w-full h-full p-8 text-center">
-              <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-4" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.5)'}}>
+              <h1 className="text-white text-3xl md:text-6xl lg:text-4xl font-bold leading-tight mb-4" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.5)'}}>
                 {slide.title}
               </h1>
               <p className="text-white text-lg md:text-xl max-w-2xl mb-8" style={{textShadow: '1px 1px 2px rgba(0,0,0,0.5)'}}>

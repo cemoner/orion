@@ -46,5 +46,9 @@
     "previousButton": "الشريحة السابقة",
     "nextButton": "الشريحة التالية",
     "goToSlide": "اذهب إلى الشريحة {number}"
+  },
+    "Sustainability": {
+    "title": "ملتزمون بمستقبل أكثر خضرة",
+    "button": "أعرف أكثر"
   }
 }

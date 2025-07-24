@@ -46,6 +46,10 @@
     "previousButton": "Previous Slide",
     "nextButton": "Next Slide",
     "goToSlide": "Go to slide {number}"
-  }
+  },
+    "Sustainability": {
+      "title": "Committed to a Greener Future",
+      "button": "Learn More"
+    } 
 
 }

@@ -46,5 +46,9 @@
     "previousButton": "Önceki Slayt",
     "nextButton": "Sonraki Slayt",
     "goToSlide": "{number}. slayta git"
+  },
+    "Sustainability": {
+    "title": "Daha Yeşil Bir Geleceğe Bağlıyız",
+    "button": "Daha Fazla Bilgi"
   }
 }
