@@ -21,7 +21,10 @@
       "subtitle": "Get daily iron prices to your mail",
       "label": "Subscribe to our newsletter",
       "placeholder": "Enter your email",
-      "button": "Subscribe"
+      "button": "Subscribe",
+      "button_loading":"Subscribing..."
+
+      
     },
     "copyright": "© 2025 Orion Demir.",
     "links": {
@@ -40,6 +43,10 @@
       "subtitle": "Check today’s rebar prices, request a quote, and place your order — we deliver across all 81 provinces in Türkiye."
     },
     "slide3": {
+      "title": "Strong and Trusted Since 2019",
+      "subtitle": "From a humble start in 2019 to a leading steel company with over 200 team members today."
+    },
+    "slide4": {
       "title": "Strong and Trusted Since 2019",
       "subtitle": "From a humble start in 2019 to a leading steel company with over 200 team members today."
     },

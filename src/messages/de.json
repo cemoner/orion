@@ -21,7 +21,8 @@
       "subtitle": "Erhalten Sie tägliche Eisenpreise per E-Mail",
       "label": "Abonnieren Sie unseren Newsletter",
       "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
-      "button": "Abonnieren"
+      "button": "Abonnieren",
+      "button_loading":"Wird abonniert..."
     },
     "copyright": "© 2025 Orion Demir.",
     "links": {
@@ -40,6 +41,10 @@
       "subtitle": "Prüfen Sie die heutigen Betonstahlpreise, fordern Sie ein Angebot an und geben Sie Ihre Bestellung auf — wir liefern in alle 81 Provinzen der Türkei."
     },
     "slide3": {
+      "title": "Stark und Vertrauenswürdig Seit 2019",
+      "subtitle": "Von einem bescheidenen Anfang im Jahr 2019 zu einem führenden Stahlunternehmen mit heute über 200 Teammitgliedern."
+    },
+    "slide4": {
       "title": "Stark und Vertrauenswürdig Seit 2019",
       "subtitle": "Von einem bescheidenen Anfang im Jahr 2019 zu einem führenden Stahlunternehmen mit heute über 200 Teammitgliedern."
     },

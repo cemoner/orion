@@ -21,7 +21,8 @@
       "subtitle": "Günlük demir fiyatlarını e-postanıza alın",
       "label": "Bültenimize abone olun",
       "placeholder": "E-postanızı girin",
-      "button": "Abone Ol"
+      "button": "Abone Ol",
+      "button_loading":"Abone olunuyor..."
     },
     "copyright": "© 2025 Orion Demir.",
     "links": {
@@ -40,6 +41,10 @@
       "subtitle": "Bugünün demir fiyatlarını kontrol edin, teklif isteyin ve sipariş verin — Türkiye'nin 81 iline teslimat yapıyoruz."
     },
     "slide3": {
+      "title": "2019'dan Beri Güçlü ve Güvenilir",
+      "subtitle": "2019'daki mütevazı başlangıçtan bugünün 200'den fazla ekip üyesine sahip lider çelik şirketine."
+    },
+    "slide4": {
       "title": "2019'dan Beri Güçlü ve Güvenilir",
       "subtitle": "2019'daki mütevazı başlangıçtan bugünün 200'den fazla ekip üyesine sahip lider çelik şirketine."
     },
