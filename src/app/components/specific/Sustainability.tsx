@@ -9,12 +9,12 @@ const SustainabilitySection = () => {
 
   return (
     <section className="relative w-full shadow:lg text-white overflow-hidden" style={{ maxHeight: '600px' }}>
-      <div className="w-full relative" style={{ aspectRatio: '2.865' }}>
+      <div className="w-full relative" style={{ aspectRatio: '2.865', minHeight:'300px' }}>
         <Image
           src="/sustain.jpg"
           alt="Sustainability"
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
         />
       </div>
