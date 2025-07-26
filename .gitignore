@@ -43,3 +43,9 @@ next-env.d.ts
 
 #intlayer
 .intlayer
+
+#local env files
+.env.local
+
+#firebase service account key
+firebase-service-account.json

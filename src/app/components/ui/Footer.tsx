@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { Abhaya_Libre } from "next/font/google";
+import SubscriptionForm from "../specific/SubscriptionForm";
 
 // 1. Instantiate the font with desired weights and subsets
 const abhaya = Abhaya_Libre({
@@ -38,32 +39,7 @@ export const Footer = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between w-full">
             <div className="flex flex-col items-center space-x-2 gap-0 md:justify-center w-full">
-              <h4 className="text-lg font-semibold text-hover-gray dark:text-text">
-                {t('newsletter.title')}
-              </h4>
-              <p className="text-sm opacity-90 text-hover-gray dark:text-text mb-6">
-                {t('newsletter.subtitle')}
-              </p>
-              <form
-                action=""
-                className="flex flex-col gap-y-6 items-center justify-center w-full max-w-md"
-              >
-                <label htmlFor="email" className="sr-only">
-                  {t('newsletter.label')}
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  placeholder={t('newsletter.placeholder')}
-                  className="px-4 py-2 rounded-4xl text-text focus:outline-none bg-background dark:bg-gray-100"
-                />
-                <button
-                  type="submit"
-                  className="py-3 px-6 text-sm bg-logo-blue hover:bg-logo-blue-dark transition-colors duration-300 text-text-dark rounded-4xl cursor-pointer"
-                >
-                  {t('newsletter.button')}
-                </button>
-              </form>
+              <SubscriptionForm/>
             </div>
           </div>
         </div>
