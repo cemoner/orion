@@ -15,14 +15,20 @@
       "title": "Our Address",
       "text": "Yeşiloba Mh. Turhan Cemal Beriker Bul. Adana İş Merkezi A/Blok No:443 I Seyhan /ADANA Office: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Blok No:50 Kat:1 Daire: 2 Seyhan /ADANA",
       "button": "Contact Us"
-    },
+    }
+,
     "newsletter": {
       "title": "Subscribe to our Newsletter",
       "subtitle": "Get daily iron prices to your mail",
       "label": "Subscribe to our newsletter",
       "placeholder": "Enter your email",
       "button": "Subscribe",
-      "button_loading":"Subscribing..."
+      "button_loading":"Subscribing...",
+       "success": "You're successfully subscribed!",
+      "already_subscribed": "You're already subscribed.",
+      "invalid_email": "Please enter a valid email address.",
+      "error_generic": "Something went wrong. Please try again later.",
+      "config_error": "Configuration error, please contact admin."
 
       
     },
@@ -32,6 +38,16 @@
       "cookiePolicy": "Cookie Policy",
       "privacyPolicy": "Privacy Policy"
     }
+  },
+    "About_Us": {
+      "title": "Get to know Orion Demir",
+      "paragraph1": "With our innovative vision, we have been taking a leading role in energy to industry, fuel to transportation, construction to export for more than 30 years.",
+      "paragraph2": "Equita Group is a representative logistics operator providing full range of service in the sphere of customs clearance transportation worldwide for any cargo.",
+      "paragraph3": "We pride ourselves on providing the best transport and shipping services available all over the world. Our skilled personnel, utilising the latest communications, tracking and combined with experience through integrated supply chain solutions!",
+      "card_title": "Corporate",
+      "card_heading": "We are a Green-conscious Company with sustainable technology.",
+      "card_text": "For our promotional film and more...",
+      "card_button": "Details"
   },
   "HeroSlide": {
     "slide1": {
@@ -57,6 +73,5 @@
     "Sustainability": {
       "title": "Committed to a Greener Future",
       "button": "Learn More"
-    } 
-
+    }
 }

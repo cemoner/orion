@@ -31,6 +31,16 @@
       "privacyPolicy": "Gizlilik Politikası"
     }
   },
+  "About_Us": {
+    "title": "Orion Demir'i Tanıyın",
+    "paragraph1": "Yenilikçi vizyonumuzla, 30 yılı aşkın süredir enerjiden sanayiye, yakıttan ulaşıma, inşaattan ihracata kadar birçok alanda öncü bir rol üstleniyoruz.",
+    "paragraph2": "Equita Group, dünya genelinde gümrük işlemleri ve taşımacılık hizmetleri sunan temsilci bir lojistik operatörüdür.",
+    "paragraph3": "Dünya çapında en iyi taşımacılık ve nakliye hizmetlerini sunmaktan gurur duyuyoruz. Deneyimli personelimiz, en son iletişim ve takip teknolojilerini entegre tedarik zinciri çözümleriyle birleştirerek hizmet veriyor!",
+    "card_title": "Kurumsal",
+    "card_heading": "Sürdürülebilir teknoloji ile çevre bilinci yüksek bir şirketiz.",
+    "card_text": "Tanıtım filmimiz ve daha fazlası için...",
+    "card_button": "Detaylar"
+  },
   "HeroSlide": {
     "slide1": {
       "title": "Çeliği Benzersiz Bir Dokunuşla Yeniden Keşfedin",

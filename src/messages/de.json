@@ -31,6 +31,16 @@
       "privacyPolicy": "Datenschutzrichtlinie"
     }
   },
+  "About_Us": {
+      "title": "Lernen Sie Orion Demir kennen",
+      "paragraph1": "Mit unserer innovativen Vision übernehmen wir seit über 30 Jahren eine führende Rolle in den Bereichen Energie, Industrie, Treibstoff, Transport, Bau und Export.",
+      "paragraph2": "Die Equita Group ist ein führender Logistikdienstleister, der weltweit vollständige Dienstleistungen im Bereich Zollabfertigung und Transport für jede Art von Fracht anbietet.",
+      "paragraph3": "Wir sind stolz darauf, die besten Transport- und Versanddienste weltweit anzubieten. Unser erfahrenes Personal nutzt modernste Kommunikation, Tracking und integrierte Lieferkettenlösungen!",
+      "card_title": "Unternehmen",
+      "card_heading": "Wir sind ein umweltbewusstes Unternehmen mit nachhaltiger Technologie.",
+      "card_text": "Für unseren Imagefilm und mehr...",
+      "card_button": "Details"
+    },
   "HeroSlide": {
     "slide1": {
       "title": "Stahl Neu Erfunden mit Einzigartiger Note",
