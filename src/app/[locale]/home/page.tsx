@@ -3,6 +3,7 @@
 import { HeroSlide } from "@/app/components/specific/HeroSlide";
 import SustainabilitySection from "@/app/components/specific/Sustainability";
 import AboutUs from "@/app/components/specific/About";
+import Location from "@/app/components/specific/Location";
 
 
 export const Home = () => {
@@ -17,6 +18,9 @@ export const Home = () => {
             </section>
             <section>
                 <SustainabilitySection/>
+            </section>
+            <section>
+                <Location/>
             </section>
         </main>
         </div>
