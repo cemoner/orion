@@ -22,7 +22,7 @@
       "label": "Bültenimize abone olun",
       "placeholder": "E-postanızı girin",
       "button": "Abone Ol",
-      "button_loading":"Abone olunuyor..."
+      "button_loading": "Abone olunuyor..."
     },
     "copyright": "© 2025 Orion Demir.",
     "links": {
@@ -33,13 +33,23 @@
   },
   "About_Us": {
     "title": "Orion Demir'i Tanıyın",
-    "paragraph1": "Yenilikçi vizyonumuzla, 30 yılı aşkın süredir enerjiden sanayiye, yakıttan ulaşıma, inşaattan ihracata kadar birçok alanda öncü bir rol üstleniyoruz.",
-    "paragraph2": "Equita Group, dünya genelinde gümrük işlemleri ve taşımacılık hizmetleri sunan temsilci bir lojistik operatörüdür.",
-    "paragraph3": "Dünya çapında en iyi taşımacılık ve nakliye hizmetlerini sunmaktan gurur duyuyoruz. Deneyimli personelimiz, en son iletişim ve takip teknolojilerini entegre tedarik zinciri çözümleriyle birleştirerek hizmet veriyor!",
-    "card_title": "Kurumsal",
-    "card_heading": "Sürdürülebilir teknoloji ile çevre bilinci yüksek bir şirketiz.",
-    "card_text": "Tanıtım filmimiz ve daha fazlası için...",
+    "paragraph1": "2019 yılında Adana’da kurulan Orion Demir, demir-çelik sektöründe kaliteli ürün, güvenilir hizmet ve sürdürülebilir üretim anlayışını bir araya getirerek Türkiye genelinde güçlü bir tedarik markası haline gelmiştir. Farklı çaplardaki TS ve CE belgeli nervürlü inşaat demiri ürünlerini yüksek stok gücüyle sunan Orion Demir, müşteri memnuniyetini merkeze alan yapısıyla; hem büyük ölçekli sanayi projelerine hem de bölgesel ihtiyaçlara özel çözümler sunmaktadır.",
+    "paragraph2": "Her gün gelişen altyapımızla, 8 mm’den 32 mm’ye kadar çeşitli ölçülerde inşaat demiri ihtiyaçlarını karşılıyor; hem büyük ölçekli sanayi projelerine hem de bireysel müteahhitlere aynı titizlikle hizmet sunuyoruz. Günlük olarak güncellenen piyasa fiyatlarımız, dijital sipariş altyapımız ve şeffaf süreç yönetimimiz sayesinde iş ortaklarımıza zaman ve maliyet avantajı sağlıyoruz.",
     "card_button": "Detaylar"
+  },
+  "Location": {
+    "title": "Stratejik Konumun Gücüyle Fark Yaratıyoruz",
+    "paragraph1": "Orion Demir, üretim ve lojistik faaliyetlerini Türkiye’nin en stratejik şehirlerinden biri olan Adana’da sürdürmektedir. Bu konum, firmamıza hem ulusal hem de uluslararası pazarlarda güçlü bir rekabet avantajı sağlamaktadır.",
+    "paragraph2": "Türkiye’nin güneyinde stratejik bir kavşak noktası olan Adana, ülkenin dört bir yanına hızlı ve etkin erişim imkânı sunar. Gelişmiş kara ve demiryolu altyapısı sayesinde yurt içi dağıtımlar hızlı, güvenli ve ekonomik bir şekilde gerçekleştirilir. İskenderun ve Mersin limanları aracılığıyla Akdeniz’e açılan deniz yolu ise ürünlerimizin Avrupa, Afrika ve Orta Doğu pazarlarına kolaylıkla ulaşmasını sağlar."
+  },
+  "Products": {
+    "title": "Ürünlerimiz",
+    "paragraph1": "Orion Demir olarak, Türkiye genelinde farklı sektörlerden müşterilerimize kaliteli ve güvenilir ürün tedariki sağlamaktayız. Özellikle nervürlü inşaat demiri tedarikinde geniş ürün yelpazemizle hizmet vermekteyiz.",
+    "paragraph2":"  Stoklarımızda yer alan nervürlü inşaat demirleri;Ø8 mm, Ø10 mm, Ø12 mm, Ø14 mm, Ø16 mm, Ø18 mm, Ø20 mm, Ø22 mm, Ø25 mm, Ø32 mm ve Ø40 mm çaplarında mevcuttur.İnşaat sektörünün ihtiyaç duyduğu bu ürünler, TSE standartlarına uygun şekilde sertifikalı ve güvenilir üreticilerden temin edilmektedir",   
+   "paragraph3": "Önemli Bilgilendirme: Fiyatlara KDV Dahildir, Nakliye Ücretleri Hariçtir",
+   "paragraph4":"Stok durumu, fiyat teklifi veya sevkiyat süreci hakkında daha fazla bilgi almak isterseniz, bizimle e-posta yoluyla iletişime geçebilirsiniz. İletişim E-Posta Adresi: info@oriondemir.com.tr",
+    "paragraph5":"Firmamız doğrudan sevkiyat (nakliye) hizmeti sunmamakta; ancak müşterilerimizin talebi doğrultusunda, anlaşmalı olduğumuz nakliye firmaları aracılığıyla ürün gönderimi organize edilebilmektedir. Bu noktada, nakliye ücreti müşteriye ait olup, sipariş sürecinde ayrıca değerlendirilmelidir.",
+   "card_button":"Ürünler"
   },
   "HeroSlide": {
     "slide1": {
@@ -62,7 +72,7 @@
     "nextButton": "Sonraki Slayt",
     "goToSlide": "{number}. slayta git"
   },
-    "Sustainability": {
+  "Sustainability": {
     "title": "Daha Yeşil Bir Geleceğe Bağlıyız",
     "button": "Daha Fazla Bilgi"
   }

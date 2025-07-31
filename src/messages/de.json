@@ -22,7 +22,7 @@
       "label": "Abonnieren Sie unseren Newsletter",
       "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
       "button": "Abonnieren",
-      "button_loading":"Wird abonniert..."
+      "button_loading": "Wird abonniert..."
     },
     "copyright": "© 2025 Orion Demir.",
     "links": {
@@ -32,15 +32,23 @@
     }
   },
   "About_Us": {
-      "title": "Lernen Sie Orion Demir kennen",
-      "paragraph1": "Mit unserer innovativen Vision übernehmen wir seit über 30 Jahren eine führende Rolle in den Bereichen Energie, Industrie, Treibstoff, Transport, Bau und Export.",
-      "paragraph2": "Die Equita Group ist ein führender Logistikdienstleister, der weltweit vollständige Dienstleistungen im Bereich Zollabfertigung und Transport für jede Art von Fracht anbietet.",
-      "paragraph3": "Wir sind stolz darauf, die besten Transport- und Versanddienste weltweit anzubieten. Unser erfahrenes Personal nutzt modernste Kommunikation, Tracking und integrierte Lieferkettenlösungen!",
-      "card_title": "Unternehmen",
-      "card_heading": "Wir sind ein umweltbewusstes Unternehmen mit nachhaltiger Technologie.",
-      "card_text": "Für unseren Imagefilm und mehr...",
-      "card_button": "Details"
-    },
+    "title": "Lernen Sie Orion Demir kennen",
+    "paragraph1": "Orion Demir wurde 2019 in Adana gegründet und hat sich durch die Verbindung von Qualitätsprodukten, zuverlässigem Service und einem nachhaltigen Produktionsansatz zu einer starken Liefermarke in der gesamten Türkei im Eisen- und Stahlsektor entwickelt. Mit einer hohen Lagerkapazität bietet Orion Demir gerippte Bewehrungsstähle in verschiedenen Durchmessern mit TS- und CE-Zertifizierung an und stellt die Kundenzufriedenheit in den Mittelpunkt, indem maßgeschneiderte Lösungen sowohl für groß angelegte Industrieprojekte als auch für regionale Anforderungen bereitgestellt werden.",
+    "paragraph2": "Mit unserer ständig wachsenden Infrastruktur decken wir den Bedarf an Bewehrungsstahl in verschiedenen Größen von 8 mm bis 32 mm ab und bedienen sowohl groß angelegte Industrieprojekte als auch einzelne Bauunternehmer mit derselben Sorgfalt. Durch unsere täglich aktualisierten Marktpreise, digitale Bestellstruktur und transparente Prozessführung bieten wir unseren Geschäftspartnern Zeit- und Kostenvorteile.",
+    "card_button": "Details"
+  },
+  "Location": {
+    "title": "Wir schaffen einen Unterschied durch die Kraft strategischer Lage",
+    "paragraph1": "Orion Demir führt seine Produktions- und Logistikaktivitäten in Adana durch, einer der strategisch wichtigsten Städte der Türkei. Diese Lage verschafft unserem Unternehmen sowohl auf nationalen als auch auf internationalen Märkten einen starken Wettbewerbsvorteil.",
+    "paragraph2": "Adana, gelegen an einem strategischen Knotenpunkt im Süden der Türkei, bietet schnellen und effizienten Zugang zu allen Regionen des Landes. Dank der gut ausgebauten Straßen- und Schieneninfrastruktur erfolgen Inlandsverteilungen schnell, sicher und kostengünstig. Die über die Häfen von İskenderun und Mersin erreichbare Seeverbindung zum Mittelmeer ermöglicht es, unsere Produkte problemlos in die Märkte Europas, Afrikas und des Nahen Ostens zu exportieren."
+  },
+  "Products": {
+    "title": "pıoopwıefopewfopmefopmewopwefopwım",
+    "paragraph1": "lorfoıeuroerıgueıoguneıorguıeorgnueıornueıorgnuerıonueıgrnuıungıoungıorungıeonuıounıo",
+    "paragraph2": "wepfwmeoğpfomwepğfomefwpğomwepğowpeğmfo",
+    "paragraph3": "",
+    "card_button":"Produkte"
+  },
   "HeroSlide": {
     "slide1": {
       "title": "Stahl Neu Erfunden mit Einzigartiger Note",
@@ -62,7 +70,7 @@
     "nextButton": "Nächste Folie",
     "goToSlide": "Gehe zu Folie {number}"
   },
-    "Sustainability": {
+  "Sustainability": {
     "title": "Engagiert für eine grünere Zukunft",
     "button": "Mehr erfahren"
   }

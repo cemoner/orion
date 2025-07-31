@@ -15,22 +15,19 @@
       "title": "Our Address",
       "text": "Yeşiloba Mh. Turhan Cemal Beriker Bul. Adana İş Merkezi A/Blok No:443 I Seyhan /ADANA Office: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Blok No:50 Kat:1 Daire: 2 Seyhan /ADANA",
       "button": "Contact Us"
-    }
-,
+    },
     "newsletter": {
       "title": "Subscribe to our Newsletter",
       "subtitle": "Get daily iron prices to your mail",
       "label": "Subscribe to our newsletter",
       "placeholder": "Enter your email",
       "button": "Subscribe",
-      "button_loading":"Subscribing...",
-       "success": "You're successfully subscribed!",
+      "button_loading": "Subscribing...",
+      "success": "You're successfully subscribed!",
       "already_subscribed": "You're already subscribed.",
       "invalid_email": "Please enter a valid email address.",
       "error_generic": "Something went wrong. Please try again later.",
       "config_error": "Configuration error, please contact admin."
-
-      
     },
     "copyright": "© 2025 Orion Demir.",
     "links": {
@@ -39,15 +36,23 @@
       "privacyPolicy": "Privacy Policy"
     }
   },
-    "About_Us": {
-      "title": "Get to know Orion Demir",
-      "paragraph1": "With our innovative vision, we have been taking a leading role in energy to industry, fuel to transportation, construction to export for more than 30 years.",
-      "paragraph2": "Equita Group is a representative logistics operator providing full range of service in the sphere of customs clearance transportation worldwide for any cargo.",
-      "paragraph3": "We pride ourselves on providing the best transport and shipping services available all over the world. Our skilled personnel, utilising the latest communications, tracking and combined with experience through integrated supply chain solutions!",
-      "card_title": "Corporate",
-      "card_heading": "We are a Green-conscious Company with sustainable technology.",
-      "card_text": "For our promotional film and more...",
-      "card_button": "Details"
+  "About_Us": {
+    "title": "Get to know Orion Demir",
+    "paragraph1": "Founded in 2019 in Adana, Orion Demir has become a strong supply brand across Turkey by combining quality products, reliable service, and a sustainable production approach in the iron and steel industry. Offering ribbed rebar products of various diameters with TS and CE certifications and strong inventory capacity, Orion Demir places customer satisfaction at its core and provides tailored solutions both for large-scale industrial projects and for regional needs.",
+    "paragraph2": "With our continuously developing infrastructure, we meet the needs for construction rebar in various sizes ranging from 8 mm to 32 mm, serving both large-scale industrial projects and individual contractors with the same meticulous care. Thanks to our daily updated market prices, digital ordering system, and transparent process management, we provide our business partners with time and cost advantages.",
+    "card_button": "Details"
+  },
+  "Location": {
+    "title": "Creating Distinction Through the Power of Strategic Location",
+    "paragraph1": "Orion Demir carries out its production and logistics operations in Adana, one of the most strategic cities in Turkey. This location provides our company with a strong competitive advantage in both national and international markets.",
+    "paragraph2": "Located at a strategic crossroads in southern Turkey, Adana offers fast and efficient access to all parts of the country. Thanks to its advanced road and rail infrastructure, domestic distribution is carried out quickly, safely, and economically. The sea route opening to the Mediterranean through the ports of İskenderun and Mersin allows our products to easily reach European, African, and Middle Eastern markets."
+  },
+  "Products": {
+    "title": "pıoopwıefopewfopmefopmewopwefopwım",
+    "paragraph1": "lorfoıeuroerıgueıoguneıorguıeorgnueıornueıorgnuerıonueıgrnuıungıoungıorungıeonuıounıo",
+    "paragraph2": "wepfwmeoğpfomwepğfomefwpğomwepğowpeğmfo",
+    "paragraph3": "",
+    "card_button":"Products"
   },
   "HeroSlide": {
     "slide1": {
@@ -70,8 +75,8 @@
     "nextButton": "Next Slide",
     "goToSlide": "Go to slide {number}"
   },
-    "Sustainability": {
-      "title": "Committed to a Greener Future",
-      "button": "Learn More"
-    }
+  "Sustainability": {
+    "title": "Committed to a Greener Future",
+    "button": "Learn More"
+  }
 }
