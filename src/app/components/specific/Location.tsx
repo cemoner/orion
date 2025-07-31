@@ -61,7 +61,7 @@ const Location: NextPage = () => {
           <div className="order-2 lg:order-1 pl-8 md:pl-0 lg:pl-16">
             <CorporateCard
               imageUrl="/location2.png"
-              overlayImageUrl="/location1.pn  "
+              overlayImageUrl="/location1.png"
             />
           </div>
 
