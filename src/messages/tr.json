@@ -6,7 +6,8 @@
       "about": "Hakkında",
       "contact": "İletişim",
       "offer": "Teklif",
-      "references": "Referanslar"
+      "references": "Referanslar",
+      "sustainability":"Sürdürülebilirlik"
     }
   },
   "Footer": {
@@ -44,8 +45,8 @@
   },
   "Products": {
     "title": "Ürünlerimiz",
-    "paragraph1": "Orion Demir olarak, Türkiye genelinde farklı sektörlerden müşterilerimize kaliteli ve güvenilir ürün tedariki sağlamaktayız. Özellikle nervürlü inşaat demiri tedarikinde geniş ürün yelpazemizle hizmet vermekteyiz.",
-    "paragraph2":"  Stoklarımızda yer alan nervürlü inşaat demirleri;Ø8 mm, Ø10 mm, Ø12 mm, Ø14 mm, Ø16 mm, Ø18 mm, Ø20 mm, Ø22 mm, Ø25 mm, Ø32 mm ve Ø40 mm çaplarında mevcuttur.İnşaat sektörünün ihtiyaç duyduğu bu ürünler, TSE standartlarına uygun şekilde sertifikalı ve güvenilir üreticilerden temin edilmektedir",   
+    "paragraph1":"Orion Demir olarak, Türkiye genelinde farklı sektörlerden müşterilerimize kaliteli ve güvenilir ürün tedariki sağlamaktayız. Özellikle nervürlü inşaat demiri tedarikinde geniş ürün yelpazemizle hizmet vermekteyiz.",
+    "paragraph2":"Stoklarımızda yer alan nervürlü inşaat demirleri;Ø8 mm, Ø10 mm, Ø12 mm, Ø14 mm, Ø16 mm, Ø18 mm, Ø20 mm, Ø22 mm, Ø25 mm, Ø32 mm ve Ø40 mm çaplarında mevcuttur.İnşaat sektörünün ihtiyaç duyduğu bu ürünler, TSE standartlarına uygun şekilde sertifikalı ve güvenilir üreticilerden temin edilmektedir",   
    "paragraph3": "Önemli Bilgilendirme: Fiyatlara KDV Dahildir, Nakliye Ücretleri Hariçtir",
    "paragraph4":"Stok durumu, fiyat teklifi veya sevkiyat süreci hakkında daha fazla bilgi almak isterseniz, bizimle e-posta yoluyla iletişime geçebilirsiniz. İletişim E-Posta Adresi: info@oriondemir.com.tr",
     "paragraph5":"Firmamız doğrudan sevkiyat (nakliye) hizmeti sunmamakta; ancak müşterilerimizin talebi doğrultusunda, anlaşmalı olduğumuz nakliye firmaları aracılığıyla ürün gönderimi organize edilebilmektedir. Bu noktada, nakliye ücreti müşteriye ait olup, sipariş sürecinde ayrıca değerlendirilmelidir.",

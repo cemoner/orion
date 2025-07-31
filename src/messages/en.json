@@ -6,7 +6,8 @@
       "about": "About",
       "contact": "Contact",
       "offer": "Offer",
-      "references": "References"
+      "references": "References",
+      "sustainability":"Sustainability"
     }
   },
   "Footer": {
@@ -48,10 +49,12 @@
     "paragraph2": "Located at a strategic crossroads in southern Turkey, Adana offers fast and efficient access to all parts of the country. Thanks to its advanced road and rail infrastructure, domestic distribution is carried out quickly, safely, and economically. The sea route opening to the Mediterranean through the ports of İskenderun and Mersin allows our products to easily reach European, African, and Middle Eastern markets."
   },
   "Products": {
-    "title": "pıoopwıefopewfopmefopmewopwefopwım",
-    "paragraph1": "lorfoıeuroerıgueıoguneıorguıeorgnueıornueıorgnuerıonueıgrnuıungıoungıorungıeonuıounıo",
-    "paragraph2": "wepfwmeoğpfomwepğfomefwpğomwepğowpeğmfo",
-    "paragraph3": "",
+    "title": "Our Products",
+    "paragraph1": "As Orion Demir, we provide quality and reliable product supply to our customers from various sectors across Turkey. We especially serve with a wide range of ribbed construction steel.",
+    "paragraph2": "The ribbed construction steels in our stock are available in Ø8 mm, Ø10 mm, Ø12 mm, Ø14 mm, Ø16 mm, Ø18 mm, Ø20 mm, Ø22 mm, Ø25 mm, Ø32 mm, and Ø40 mm diameters. These products, which are essential for the construction industry, are supplied from certified and reliable manufacturers in compliance with TSE standards.",
+    "paragraph3": "Important Notice: VAT is included in the prices, shipping fees are excluded.",
+    "paragraph4":"If you would like more information about stock availability, price quotation, or the shipping process, you can contact us via email. Contact Email Address: info@oriondemir.com.tr",
+    "paragraph5": "Our company does not provide direct shipping (transportation) services; however, upon our customers' requests, product delivery can be organized through our contracted shipping companies. In this case, the shipping cost is borne by the customer and should be considered separately during the ordering process.",
     "card_button":"Products"
   },
   "HeroSlide": {

@@ -2,6 +2,8 @@ import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import VerticalTicker, { marketData } from '../components/specific/TickerBar';
+import { Header } from '../components/ui/Header';
+import Footer from '../components/ui/Footer';
  
 export default async function LocaleLayout({
   children,
@@ -19,7 +21,11 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header/>
+          {children}
+          <Footer/>
+          </NextIntlClientProvider>
         <VerticalTicker items={marketData}/>
       </body>
     </html>

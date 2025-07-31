@@ -6,7 +6,8 @@
       "about": "Über uns",
       "contact": "Kontakt",
       "offer": "Angebot",
-      "references": "Referenzen"
+      "references": "Referenzen",
+      "sustainability":"Nachhaltigkeit"
     }
   },
   "Footer": {
@@ -43,10 +44,12 @@
     "paragraph2": "Adana, gelegen an einem strategischen Knotenpunkt im Süden der Türkei, bietet schnellen und effizienten Zugang zu allen Regionen des Landes. Dank der gut ausgebauten Straßen- und Schieneninfrastruktur erfolgen Inlandsverteilungen schnell, sicher und kostengünstig. Die über die Häfen von İskenderun und Mersin erreichbare Seeverbindung zum Mittelmeer ermöglicht es, unsere Produkte problemlos in die Märkte Europas, Afrikas und des Nahen Ostens zu exportieren."
   },
   "Products": {
-    "title": "pıoopwıefopewfopmefopmewopwefopwım",
-    "paragraph1": "lorfoıeuroerıgueıoguneıorguıeorgnueıornueıorgnuerıonueıgrnuıungıoungıorungıeonuıounıo",
-    "paragraph2": "wepfwmeoğpfomwepğfomefwpğomwepğowpeğmfo",
-    "paragraph3": "",
+    "title": "Unsere Produkte",
+    "paragraph1": "Als Orion Demir beliefern wir Kunden aus verschiedenen Branchen in der ganzen Türkei mit qualitativ hochwertigen und zuverlässigen Produkten. Insbesondere bieten wir ein breites Sortiment an geripptem Bewehrungsstahl an.",
+    "paragraph2": "Die in unserem Lager vorrätigen gerippten Baustähle sind in den Durchmessern Ø8 mm, Ø10 mm, Ø12 mm, Ø14 mm, Ø16 mm, Ø18 mm, Ø20 mm, Ø22 mm, Ø25 mm, Ø32 mm und Ø40 mm erhältlich. Diese für die Bauindustrie benötigten Produkte werden gemäß den TSE-Normen von zertifizierten und zuverlässigen Herstellern bezogen.",
+    "paragraph3": "Wichtiger Hinweis: Die Preise enthalten die Mehrwertsteuer, Versandkosten sind nicht inbegriffen.",
+    "paragraph4": "Wenn Sie weitere Informationen zu Lagerbestand, Preisangebot oder dem Versandprozess wünschen, können Sie uns per E-Mail kontaktieren. Kontakt-E-Mail-Adresse: info@oriondemir.com.tr",
+    "paragraph5":"Unser Unternehmen bietet keinen direkten Versand (Transport) an; jedoch kann auf Kundenwunsch die Lieferung der Produkte über unsere Vertragspartner im Transportbereich organisiert werden. In diesem Fall trägt der Kunde die Versandkosten, welche im Bestellprozess gesondert berücksichtigt werden müssen.",
     "card_button":"Produkte"
   },
   "HeroSlide": {
