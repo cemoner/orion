@@ -81,5 +81,34 @@
   "Sustainability": {
     "title": "Committed to a Greener Future",
     "button": "Learn More"
-  }
+  },
+  "Contact": {
+      "mainTitle": "Contact",
+      "subtitle": "Get in touch with us for your solution suggestions and questions.",
+      "formTitle": "Leave Us a Message",
+      "nameLabel": "Full Name *",
+      "namePlaceholder": "orion demir",
+      "emailLabel": "Email *",
+      "emailPlaceholder": "info@oriondemir.com.tr",
+      "messageLabel": "Write Your Message *",
+      "messagePlaceholder": "Your Message...",
+      "sendButton": "Send",
+      "addressTitle": "ADDRESS",
+      "addressLine1": "Sule: Yeşiloba Mh. Turhan Cemal Beriker Blvd. Adana Business Center A/Block No:443 1 Seyhan /ADANA",
+      "addressLine2": "Office: Kurtuluş Mh. Cumhuriyet St. MNS Plaza A/Block No:50 Floor:1 Flat: 2 Seyhan /ADANA",
+      "phoneTitle": "PHONE",
+      "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
+      "emailContactTitle": "E-M-A-I-L",
+      "contactEmail": "info@oriondemir.com.tr",
+      "companyNameLabel": "Official Company Name:",
+      "companyNameValue": "Orion Paint Construction Hardware Industry and Foreign Trade Limited Company",
+      "taxNoLabel": "Tax No:",
+      "taxNoValue": "6470588486",
+      "taxOfficeLabel": "Tax Office:",
+      "taxOfficeValue": "5 January",
+      "tradeRegNoLabel": "Trade Registry No:",
+      "tradeRegNoValue": "79529",
+      "mersisNoLabel": "Mersis No:",
+      "mersisNoValue": "0647058848600001"
+    }
 }

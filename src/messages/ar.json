@@ -76,5 +76,34 @@
   "Sustainability": {
     "title": "ملتزمون بمستقبل أكثر خضرة",
     "button": "أعرف أكثر"
-  }
+  },
+  "Contact": {
+      "mainTitle": "اتصل بنا",
+      "subtitle": "تواصل معنا للحصول على اقتراحات الحلول وأسئلتك.",
+      "formTitle": "اترك لنا رسالة",
+      "nameLabel": "الاسم الكامل *",
+      "namePlaceholder": "أوريون دمير",
+      "emailLabel": "البريد الإلكتروني *",
+      "emailPlaceholder": "info@oriondemir.com.tr",
+      "messageLabel": "اكتب رسالتك *",
+      "messagePlaceholder": "رسالتك...",
+      "sendButton": "إرسال",
+      "addressTitle": "العنوان",
+      "addressLine1": "سولي: Yeşiloba Mh. Turhan Cemal Beriker Bul. مركز أعمال أضنة A/بلوك رقم:443 1 Seyhan /ADANA",
+      "addressLine2": "المكتب: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/بلوك رقم:50 طابق:1 شقة: 2 Seyhan /ADANA",
+      "phoneTitle": "الهاتف",
+      "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
+      "emailContactTitle": "البريد الإلكتروني",
+      "contactEmail": "info@oriondemir.com.tr",
+      "companyNameLabel": "الاسم الرسمي للشركة:",
+      "companyNameValue": "شركة أوريون للدهانات ومعدات البناء والصناعة والتجارة الخارجية المحدودة",
+      "taxNoLabel": "الرقم الضريبي:",
+      "taxNoValue": "6470588486",
+      "taxOfficeLabel": "مكتب الضرائب:",
+      "taxOfficeValue": "5 يناير",
+      "tradeRegNoLabel": "رقم السجل التجاري:",
+      "tradeRegNoValue": "79529",
+      "mersisNoLabel": "رقم ميرسيس:",
+      "mersisNoValue": "0647058848600001"
+    }
 }

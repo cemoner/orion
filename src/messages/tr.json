@@ -76,5 +76,35 @@
   "Sustainability": {
     "title": "Daha Yeşil Bir Geleceğe Bağlıyız",
     "button": "Daha Fazla Bilgi"
-  }
+  },
+  "Contact": {
+      "mainTitle": "İletişim",
+      "subtitle": "Çözüm önerileriniz ve sorularınız için bizimle iletişime geçin.",
+      "formTitle": "Bize Mesaj Bırakın",
+      "nameLabel": "İsim Soyisim *",
+      "namePlaceholder": "orion demir",
+      "emailLabel": "Email *",
+      "emailPlaceholder": "info@oriondemir.com.tr",
+      "messageLabel": "Mesajınızı Yazınız *",
+      "messagePlaceholder": "Mesajınız...",
+      "sendButton": "Gönder",
+      "addressTitle": "ADRES",
+      "addressLine1": "Süle: Yeşiloba Mh. Turhan Cemal Beriker Bul. Adana İş Merkezi A/Blok No:443 1 Seyhan /ADANA",
+      "addressLine2": "Ofis: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Blok No:50 Kat:1 Daire: 2 Seyhan /ADANA",
+      "phoneTitle": "TELEFON",
+      "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
+      "emailContactTitle": "EMAIL",
+      "contactEmail": "info@oriondemir.com.tr",
+      "companyNameLabel": "Firma Resmi Adı:",
+      "companyNameValue": "Orion Boya Yapı Hırdavat Sanayi ve Dış Ticaret Limited Şirketi",
+      "taxNoLabel": "Vergi No:",
+      "taxNoValue": "6470588486",
+      "taxOfficeLabel": "Vergi Dairesi:",
+      "taxOfficeValue": "5 Ocak",
+      "tradeRegNoLabel": "Ticaret Sicil No:",
+      "tradeRegNoValue": "79529",
+      "mersisNoLabel": "Mersis No:",
+      "mersisNoValue": "0647058848600001"
+    }
+  
 }

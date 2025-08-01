@@ -19,7 +19,7 @@ export const Footer = () => {
   return (
     <footer className="bg-background-dark dark:bg-background w-full mx-auto">
       <div className="container mx-auto flex flex-col gap-4 px-6 pb-4 pt-8 text-center w-full min-w-full lg:w-4/5 lg:min-w-0 text-hover-gray">
-        <h1 className={`text-5xl md:text-4xl text-text-dark dark:text-text font-bold ${abhaya.className}`}>{t('title')}</h1>
+        <h1 className={`text-4xl md:text-4xl text-text-dark dark:text-text font-bold ${abhaya.className}`}>{t('title')}</h1>
         <div className=" flex flex-col md:flex-row gap-4 w-5/5 md:w-4/5 mx-auto">
           <div className="mb-1">
             <h4 className="text-lg font-semibold text-hover-gray dark:text-text mb-1">

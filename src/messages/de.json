@@ -76,5 +76,34 @@
   "Sustainability": {
     "title": "Engagiert für eine grünere Zukunft",
     "button": "Mehr erfahren"
-  }
+  },
+  "Contact": {
+      "mainTitle": "Kontakt",
+      "subtitle": "Kontaktieren Sie uns für Ihre Lösungsvorschläge und Fragen.",
+      "formTitle": "Hinterlassen Sie uns eine Nachricht",
+      "nameLabel": "Vollständiger Name *",
+      "namePlaceholder": "orion demir",
+      "emailLabel": "E-Mail *",
+      "emailPlaceholder": "info@oriondemir.com.tr",
+      "messageLabel": "Schreiben Sie Ihre Nachricht *",
+      "messagePlaceholder": "Ihre Nachricht...",
+      "sendButton": "Senden",
+      "addressTitle": "ADRESSE",
+      "addressLine1": "Sule: Yeşiloba Mh. Turhan Cemal Beriker Blvd. Adana Business Center A/Block Nr.:443 1 Seyhan /ADANA",
+      "addressLine2": "Büro: Kurtuluş Mh. Cumhuriyet Str. MNS Plaza A/Block Nr.:50 Etage:1 Wohnung: 2 Seyhan /ADANA",
+      "phoneTitle": "TELEFON",
+      "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
+      "emailContactTitle": "E-M-A-I-L",
+      "contactEmail": "info@oriondemir.com.tr",
+      "companyNameLabel": "Offizieller Firmenname:",
+      "companyNameValue": "Orion Paint Bau- und Eisenwarenindustrie und Außenhandel GmbH",
+      "taxNoLabel": "Steuernummer:",
+      "taxNoValue": "6470588486",
+      "taxOfficeLabel": "Finanzamt:",
+      "taxOfficeValue": "5. Januar",
+      "tradeRegNoLabel": "Handelsregisternummer:",
+      "tradeRegNoValue": "79529",
+      "mersisNoLabel": "Mersis-Nummer:",
+      "mersisNoValue": "0647058848600001"
+    }
 }

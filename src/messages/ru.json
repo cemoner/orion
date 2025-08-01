@@ -76,5 +76,34 @@
   "Sustainability": {
     "title": "Приверженность зелёному будущему",
     "button": "Узнать больше"
-  }
+  },
+  "Contact": {
+      "mainTitle": "Контакты",
+      "subtitle": "Свяжитесь с нами для ваших предложений по решениям и вопросов.",
+      "formTitle": "Оставьте нам сообщение",
+      "nameLabel": "Полное имя *",
+      "namePlaceholder": "orion demir",
+      "emailLabel": "Электронная почта *",
+      "emailPlaceholder": "info@oriondemir.com.tr",
+      "messageLabel": "Напишите ваше сообщение *",
+      "messagePlaceholder": "Ваше сообщение...",
+      "sendButton": "Отправить",
+      "addressTitle": "АДРЕС",
+      "addressLine1": "Суле: Yeşiloba Mh. Turhan Cemal Beriker Bul. Деловой центр Аданы A/Блок №:443 1 Seyhan /ADANA",
+      "addressLine2": "Офис: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Блок №:50 Этаж:1 Квартира: 2 Seyhan /ADANA",
+      "phoneTitle": "ТЕЛЕФОН",
+      "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
+      "emailContactTitle": "Э-Л-Е-К-Т-Р-О-Н-Н-А-Я П-О-Ч-Т-А",
+      "contactEmail": "info@oriondemir.com.tr",
+      "companyNameLabel": "Официальное название компании:",
+      "companyNameValue": "Orion Paint Construction Hardware Industry and Foreign Trade Limited Company",
+      "taxNoLabel": "Налоговый номер:",
+      "taxNoValue": "6470588486",
+      "taxOfficeLabel": "Налоговая инспекция:",
+      "taxOfficeValue": "5 Января",
+      "tradeRegNoLabel": "Номер торгового реестра:",
+      "tradeRegNoValue": "79529",
+      "mersisNoLabel": "Mersis номер:",
+      "mersisNoValue": "0647058848600001"
+    }
 }

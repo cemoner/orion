@@ -76,5 +76,34 @@
   "Sustainability": {
     "title": "متعهد به آینده‌ای سبزتر",
     "button": "بیشتر بدانید"
-  }
+  },
+  "Contact": {
+      "mainTitle": "تماس با ما",
+      "subtitle": "برای پیشنهادات و سوالات خود با ما در تماس باشید.",
+      "formTitle": "برای ما پیام بگذارید",
+      "nameLabel": "نام کامل *",
+      "namePlaceholder": "اوریون دمیر",
+      "emailLabel": "ایمیل *",
+      "emailPlaceholder": "info@oriondemir.com.tr",
+      "messageLabel": "پیام خود را بنویسید *",
+      "messagePlaceholder": "پیام شما...",
+      "sendButton": "ارسال",
+      "addressTitle": "آدرس",
+      "addressLine1": "سوله: Yeşiloba Mh. Turhan Cemal Beriker Bul. مرکز تجاری آدانا A/بلوک شماره 443 1 Seyhan /ADANA",
+      "addressLine2": "دفتر: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/بلوک شماره 50 طبقه 1 واحد 2 Seyhan /ADANA",
+      "phoneTitle": "تلفن",
+      "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
+      "emailContactTitle": "ایمیل",
+      "contactEmail": "info@oriondemir.com.tr",
+      "companyNameLabel": "نام رسمی شرکت:",
+      "companyNameValue": "شرکت محدود صنایع رنگ و ابزار ساختمانی و تجارت خارجی اوریون",
+      "taxNoLabel": "شماره مالیاتی:",
+      "taxNoValue": "6470588486",
+      "taxOfficeLabel": "اداره مالیات:",
+      "taxOfficeValue": "5 ژانویه",
+      "tradeRegNoLabel": "شماره ثبت تجارت:",
+      "tradeRegNoValue": "79529",
+      "mersisNoLabel": "شماره مرسیس:",
+      "mersisNoValue": "0647058848600001"
+    }
 }
