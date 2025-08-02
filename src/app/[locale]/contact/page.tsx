@@ -10,15 +10,10 @@ const MAX_CHARS = 150;
 export default function ContactSection() {
   const t = useTranslations("Contact");
   const [message, setMessage] = useState('');
-  // Use a state for character count
   const [charCount, setCharCount] = useState(0);
 
-  // This function now correctly handles character limits.
   const handleMessageChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const inputText = e.target.value;
-
-    // Only update the state if the input text is not over the character limit.
-    // This will effectively block the user from typing more characters.
     if (inputText.length <= MAX_CHARS) {
       setMessage(inputText);
       setCharCount(inputText.length);
@@ -26,7 +21,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="container min-w-full px-4 py-8 font-sans bg-background dark:bg-background-dark text-text dark:text-text-dark">
+    <section className="container min-w-full px-4 py-8 font-sans bg-background text-text">
       <div className="text-center mb-4">
         <h1 className="text-4xl font-bold mb-2 p-1">{t("mainTitle")}</h1>
         <p className="text-lg p-1">{t("subtitle")}</p>
@@ -34,13 +29,12 @@ export default function ContactSection() {
 
       <div className="flex flex-col lg:flex-row mx-auto items-center justify-center lg:gap-8 max-w-6xl">
         {/* Contact Info */}
-        <div className="w-full sm:max-w-md h-full mb-4 lg:mb-0 sm:mx-auto shadow-xl rounded-xl p-6 md:p-8 bg-background dark:bg-background-dark">
-          {/* ... all your contact info JSX remains the same ... */}
+        <div className="w-full sm:max-w-md h-full mb-4 lg:mb-0 sm:mx-auto shadow-xl rounded-xl p-6 md:p-8 bg-background">
           <div className="space-y-6 h-full flex flex-col justify-between">
             <div className="space-y-6">
               {/* Address */}
               <div className="flex items-start space-x-3">
-                <div className="flex-shrink-0 text-logo-blue dark:text-text-dark">
+                <div className="flex-shrink-0 text-logo-blue">
                   <MapPin className="h-5 w-5 mt-1.5" />
                 </div>
                 <div>
@@ -51,7 +45,7 @@ export default function ContactSection() {
               </div>
               {/* Phone */}
               <div className="flex items-start space-x-3">
-                <div className="flex-shrink-0 text-logo-blue dark:text-text-dark">
+                <div className="flex-shrink-0 text-logo-blue">
                   <Phone className="h-5 w-5 mt-1.5" />
                 </div>
                 <div>
@@ -61,7 +55,7 @@ export default function ContactSection() {
               </div>
               {/* Email */}
               <div className="flex items-start space-x-3">
-                <div className="flex-shrink-0 text-logo-blue dark:text-text-dark">
+                <div className="flex-shrink-0 text-logo-blue">
                   <Mail className="h-5 w-5 mt-1.5" />
                 </div>
                 <div>
@@ -92,11 +86,10 @@ export default function ContactSection() {
         </div>
 
         {/* Contact Form */}
-        <div className="w-full sm:max-w-md h-full sm:mx-auto shadow-xl rounded-xl p-2 md:p-2 bg-background dark:bg-background-dark">
-          <div className="p-6 rounded-xl sm:max-w-lg sm:mx-auto bg-background dark:bg-background-dark h-full flex flex-col justify-center">
+        <div className="w-full sm:max-w-md h-full sm:mx-auto shadow-xl rounded-xl p-2 md:p-2 bg-background">
+          <div className="p-6 rounded-xl sm:max-w-lg sm:mx-auto bg-background h-full flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4 text-center p-1">{t("formTitle")}</h2>
             <form className="space-y-6">
-              {/* ... name and email inputs are the same ... */}
               <div>
                 <label htmlFor="fullName" className="block text-sm font-medium mb-3 p-0.5">{t("nameLabel")}</label>
                 <input
@@ -104,7 +97,7 @@ export default function ContactSection() {
                   id="fullName"
                   name="fullName"
                   placeholder={t("namePlaceholder")}
-                  className="block w-full px-4 py-4 border border-gray-300 shadow-sm rounded-md focus:ring-2 focus:ring-logo-blue focus:border-logo-blue sm:text-sm bg-[var(--color-background)] dark:bg-background-dark text-text dark:text-text-dark transition-all duration-150 ease-in-out"
+                  className="block w-full px-4 py-4 border border-gray-300 shadow-sm rounded-md focus:ring-2 focus:ring-logo-blue focus:border-logo-blue sm:text-sm bg-[var(--color-background)] text-text transition-all duration-150 ease-in-out"
                   required
                 />
               </div>
@@ -115,7 +108,7 @@ export default function ContactSection() {
                   id="email"
                   name="email"
                   placeholder={t("emailPlaceholder")}
-                  className="block w-full px-4 py-4 border border-gray-300 shadow-sm rounded-md focus:ring-2 focus:ring-logo-blue focus:border-logo-blue sm:text-sm bg-[var(--color-background)] dark:bg-background-dark text-text dark:text-text-dark transition-all duration-150 ease-in-out"
+                  className="block w-full px-4 py-4 border border-gray-300 shadow-sm rounded-md focus:ring-2 focus:ring-logo-blue focus:border-logo-blue sm:text-sm bg-[var(--color-background)] text-text transition-all duration-150 ease-in-out"
                   required
                 />
               </div>
@@ -128,10 +121,9 @@ export default function ContactSection() {
                   placeholder={t("messagePlaceholder")}
                   value={message}
                   onChange={handleMessageChange}
-                  className="block w-full px-4 py-4 border border-gray-300 shadow-sm rounded-md focus:ring-2 focus:ring-logo-blue focus:border-logo-blue sm:text-sm resize-y bg-[var(--color-background)] dark:bg-background-dark text-text dark:text-text-dark transition-all duration-150 ease-in-out"
+                  className="block w-full px-4 py-4 border border-gray-300 shadow-sm rounded-md focus:ring-2 focus:ring-logo-blue focus:border-logo-blue sm:text-sm resize-y bg-[var(--color-background)] text-text transition-all duration-150 ease-in-out"
                   required
                 ></textarea>
-                {/* UPDATE THE COUNTER TEXT */}
                 <p className={`text-xs mt-1 text-right ${charCount >= MAX_CHARS ? 'text-red-500 font-semibold' : 'text-gray-500'}`}>
                   {charCount} / {MAX_CHARS} characters
                   {charCount >= MAX_CHARS && ' (limit reached)'}
@@ -140,7 +132,7 @@ export default function ContactSection() {
               <div>
                 <button
                   type="submit"
-                  className="w-full flex justify-center py-4 px-4 border border-transparent shadow-sm text-base font-medium text-white bg-logo-blue hover:bg-[var(--color-hover-blue)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-logo-blue transition-all duration-200 ease-in-out transform hover:scale-[1.02] dark:bg-logo-blue-dark dark:hover:bg-[var(--color-hover-blue-dark)] dark:focus:ring-logo-blue-dark rounded-md"
+                  className="w-full flex justify-center py-4 px-4 border border-transparent shadow-sm text-base font-medium text-white bg-logo-blue hover:bg-[var(--color-hover-blue)] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-logo-blue transition-all duration-200 ease-in-out transform hover:scale-[1.02] rounded-md"
                 >
                   {t("sendButton")}
                 </button>
