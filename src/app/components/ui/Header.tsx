@@ -12,7 +12,7 @@ export const Header: FC = () => {
   const t = useTranslations("Header");
 
   return (
-    <header className="bg-background dark:bg-background-dark shadow-md rounded-b-lg w-full md:sticky top-0 z-50 h-20 flex items-center justify-between relative">
+    <header className="bg-background dark:bg-background-dark shadow-md  w-full md:sticky top-0 z-50 h-20 flex items-center justify-between relative">
       <div className="mx-auto w-full md:px-6 py-6 flex justify-between items-center">
         <div className="text-xl font-bold text-gray-800">
           <Link

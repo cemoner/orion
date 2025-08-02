@@ -53,7 +53,7 @@ const Products: NextPage = () => {
   const t = useTranslations("Products");
 
   return (
-    <div className="flex items-center flex-col w-full justify-center shadow-2xl bg-gray-50 font-sans mb-8 lg:mb-8 p-4 sm:p-6 md:p-8">
+    <div className="flex items-center flex-col w-full justify-center  bg-gray-50 font-sans mb-8 lg:mb-8 p-4 sm:p-6 md:p-8">
       <div className="container mx-auto max-w-7xl mt-12">
         {/* H1 takes its own row, centered */}
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-center">

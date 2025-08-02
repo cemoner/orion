@@ -7,7 +7,7 @@
       "contact": "Kontakt",
       "offer": "Angebot",
       "references": "Referenzen",
-      "sustainability":"Nachhaltigkeit"
+      "sustainability": "Nachhaltigkeit"
     }
   },
   "Footer": {
@@ -38,6 +38,34 @@
     "paragraph2": "Mit unserer ständig wachsenden Infrastruktur decken wir den Bedarf an Bewehrungsstahl in verschiedenen Größen von 8 mm bis 32 mm ab und bedienen sowohl groß angelegte Industrieprojekte als auch einzelne Bauunternehmer mit derselben Sorgfalt. Durch unsere täglich aktualisierten Marktpreise, digitale Bestellstruktur und transparente Prozessführung bieten wir unseren Geschäftspartnern Zeit- und Kostenvorteile.",
     "card_button": "Details"
   },
+  "About_Us_Page": {
+    "pre_title": "Über uns",
+    "title": "Zuverlässiger Service und nachhaltige Produktion",
+    "paragraph1": "Orion Demir wurde 2019 in Adana gegründet und hat sich durch die Kombination von Qualitätsprodukten, zuverlässigem Service und einem nachhaltigen Produktionsansatz in der Eisen- und Stahlindustrie zu einer starken Liefermarke in der ganzen Türkei entwickelt. In unserer modernen Anlage in der organisierten Industriezone Hacı Sabancı bieten wir TS- und CE-zertifizierte Bewehrungsstahlprodukte in verschiedenen Durchmessern mit hoher Lagerkapazität an. Mit unserer auf Kundenzufriedenheit ausgerichteten Struktur bieten wir spezielle Lösungen für große Industrieprojekte und regionale Bedürfnisse und gewährleisten einen schnellen und sicheren Versand in alle 81 Provinzen der Türkei. Mit unserem transparenten, einfachen und digital basierten Serviceansatz vom Bestellprozess bis zur Lieferung erfüllen wir alle Bedürfnisse unserer Kunden effektiv.",
+    "paragraph2": "Orion Demir ist nicht nur ein Lieferant, sondern auch ein Lösungspartner. Dank unserer täglich aktualisierten Preispolitik, vertraglich vereinbarten Logistikdienstleistungen und flexiblen Zahlungsoptionen bieten wir unseren Geschäftspartnern Zeit- und Kostenvorteile. Wir sind uns auch unserer Verantwortung für die Umwelt bewusst. Wir übernehmen ein umweltfreundliches Industriemodell, indem wir bei all unseren Tätigkeiten nach den Grundsätzen der umweltfreundlichen Produktion und des nachhaltigen Ressourcenmanagements handeln. Als Name für Vertrauen, Qualität und Kontinuität in der Branche legen wir weiterhin solide Grundlagen für die Zukunft.",
+    "image_alt": "Orion Demir Anlagen",
+    "vision_title": "Unsere Vision",
+    "vision_description": "Der führende und bevorzugte Lösungspartner der Branche zu werden, indem wir Bau- und Industrieprojekten in der ganzen Türkei nicht nur Eisen, sondern auch Vertrauen, Kontinuität und Technologie bieten.",
+    "vision_points": [
+      "Digitalisierung der Lieferprozesse für Eisen und Stahl,",
+      "Maximale Effizienz in Logistik und Lagerverwaltung,",
+      "Kontinuierliche Verbesserung des Kundenerlebnisses,",
+      "Einen Unterschied machen mit Produktionsmodellen, die die Umweltauswirkungen minimieren,",
+      "Eine Referenzmarke werden, indem die Zuverlässigkeit auf dem nationalen Markt erhöht und der internationale Markt erschlossen wird."
+    ],
+    "mission_title": "Unsere Mission",
+    "mission_description": "Eine starke Struktur liegt dem Fundament jedes Projekts zugrunde, und ein zuverlässiger Lieferant liegt dem Fundament jeder starken Struktur zugrunde. Unsere Mission ist es, das unverzichtbare Element dieses Fundaments zu sein.",
+    "mission_points": [
+      "Unseren Kunden hochwertigen, TS- und CE-zertifizierten Bewehrungsstahl zur richtigen Zeit und auf die effizienteste Weise zu liefern,",
+      "Projekten mit unserer über die ganze Türkei verteilten Versand-Infrastruktur sichere logistische Unterstützung zu bieten,",
+      "Die Kostenkontrolle durch tägliche Preisaktualisierungen und transparente Bestellprozesse zu erleichtern,",
+      "Langfristige Kooperationen auf der Grundlage von Genauigkeit in der Lagerverwaltung, Pünktlichkeit bei der Lieferung und Klarheit in der Kommunikation aufzubauen,",
+      "Zur nachhaltigen Entwicklung beizutragen, indem Produktions- und Lieferprozesse mit ökologischer Sensibilität durchgeführt werden."
+    ],
+    "closing_title": "Der Name für Vertrauen, Qualität und Kontinuität in der Branche",
+    "closing_subtitle": "Wir legen weiterhin solide Grundlagen für die Zukunft.",
+    "closing_tagline": "Orion Demir – Steigt mit Vertrauen auf."
+  },
   "Location": {
     "title": "Wir schaffen einen Unterschied durch die Kraft strategischer Lage",
     "paragraph1": "Orion Demir führt seine Produktions- und Logistikaktivitäten in Adana durch, einer der strategisch wichtigsten Städte der Türkei. Diese Lage verschafft unserem Unternehmen sowohl auf nationalen als auch auf internationalen Märkten einen starken Wettbewerbsvorteil.",
@@ -49,8 +77,8 @@
     "paragraph2": "Die in unserem Lager vorrätigen gerippten Baustähle sind in den Durchmessern Ø8 mm, Ø10 mm, Ø12 mm, Ø14 mm, Ø16 mm, Ø18 mm, Ø20 mm, Ø22 mm, Ø25 mm, Ø32 mm und Ø40 mm erhältlich. Diese für die Bauindustrie benötigten Produkte werden gemäß den TSE-Normen von zertifizierten und zuverlässigen Herstellern bezogen.",
     "paragraph3": "Wichtiger Hinweis: Die Preise enthalten die Mehrwertsteuer, Versandkosten sind nicht inbegriffen.",
     "paragraph4": "Wenn Sie weitere Informationen zu Lagerbestand, Preisangebot oder dem Versandprozess wünschen, können Sie uns per E-Mail kontaktieren. Kontakt-E-Mail-Adresse: info@oriondemir.com.tr",
-    "paragraph5":"Unser Unternehmen bietet keinen direkten Versand (Transport) an; jedoch kann auf Kundenwunsch die Lieferung der Produkte über unsere Vertragspartner im Transportbereich organisiert werden. In diesem Fall trägt der Kunde die Versandkosten, welche im Bestellprozess gesondert berücksichtigt werden müssen.",
-    "card_button":"Produkte"
+    "paragraph5": "Unser Unternehmen bietet keinen direkten Versand (Transport) an; jedoch kann auf Kundenwunsch die Lieferung der Produkte über unsere Vertragspartner im Transportbereich organisiert werden. In diesem Fall trägt der Kunde die Versandkosten, welche im Bestellprozess gesondert berücksichtigt werden müssen.",
+    "card_button": "Produkte"
   },
   "HeroSlide": {
     "slide1": {
@@ -78,32 +106,32 @@
     "button": "Mehr erfahren"
   },
   "Contact": {
-      "mainTitle": "Kontakt",
-      "subtitle": "Kontaktieren Sie uns für Ihre Lösungsvorschläge und Fragen.",
-      "formTitle": "Hinterlassen Sie uns eine Nachricht",
-      "nameLabel": "Vollständiger Name *",
-      "namePlaceholder": "orion demir",
-      "emailLabel": "E-Mail *",
-      "emailPlaceholder": "info@oriondemir.com.tr",
-      "messageLabel": "Schreiben Sie Ihre Nachricht *",
-      "messagePlaceholder": "Ihre Nachricht...",
-      "sendButton": "Senden",
-      "addressTitle": "ADRESSE",
-      "addressLine1": "Sule: Yeşiloba Mh. Turhan Cemal Beriker Blvd. Adana Business Center A/Block Nr.:443 1 Seyhan /ADANA",
-      "addressLine2": "Büro: Kurtuluş Mh. Cumhuriyet Str. MNS Plaza A/Block Nr.:50 Etage:1 Wohnung: 2 Seyhan /ADANA",
-      "phoneTitle": "TELEFON",
-      "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
-      "emailContactTitle": "E-M-A-I-L",
-      "contactEmail": "info@oriondemir.com.tr",
-      "companyNameLabel": "Offizieller Firmenname:",
-      "companyNameValue": "Orion Paint Bau- und Eisenwarenindustrie und Außenhandel GmbH",
-      "taxNoLabel": "Steuernummer:",
-      "taxNoValue": "6470588486",
-      "taxOfficeLabel": "Finanzamt:",
-      "taxOfficeValue": "5. Januar",
-      "tradeRegNoLabel": "Handelsregisternummer:",
-      "tradeRegNoValue": "79529",
-      "mersisNoLabel": "Mersis-Nummer:",
-      "mersisNoValue": "0647058848600001"
-    }
+    "mainTitle": "Kontakt",
+    "subtitle": "Kontaktieren Sie uns für Ihre Lösungsvorschläge und Fragen.",
+    "formTitle": "Hinterlassen Sie uns eine Nachricht",
+    "nameLabel": "Vollständiger Name *",
+    "namePlaceholder": "orion demir",
+    "emailLabel": "E-Mail *",
+    "emailPlaceholder": "info@oriondemir.com.tr",
+    "messageLabel": "Schreiben Sie Ihre Nachricht *",
+    "messagePlaceholder": "Ihre Nachricht...",
+    "sendButton": "Senden",
+    "addressTitle": "ADRESSE",
+    "addressLine1": "Sule: Yeşiloba Mh. Turhan Cemal Beriker Blvd. Adana Business Center A/Block Nr.:443 1 Seyhan /ADANA",
+    "addressLine2": "Büro: Kurtuluş Mh. Cumhuriyet Str. MNS Plaza A/Block Nr.:50 Etage:1 Wohnung: 2 Seyhan /ADANA",
+    "phoneTitle": "TELEFON",
+    "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
+    "emailContactTitle": "E-M-A-I-L",
+    "contactEmail": "info@oriondemir.com.tr",
+    "companyNameLabel": "Offizieller Firmenname:",
+    "companyNameValue": "Orion Paint Bau- und Eisenwarenindustrie und Außenhandel GmbH",
+    "taxNoLabel": "Steuernummer:",
+    "taxNoValue": "6470588486",
+    "taxOfficeLabel": "Finanzamt:",
+    "taxOfficeValue": "5. Januar",
+    "tradeRegNoLabel": "Handelsregisternummer:",
+    "tradeRegNoValue": "79529",
+    "mersisNoLabel": "Mersis-Nummer:",
+    "mersisNoValue": "0647058848600001"
+  }
 }

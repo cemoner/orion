@@ -7,7 +7,7 @@
       "contact": "Contact",
       "offer": "Offer",
       "references": "References",
-      "sustainability":"Sustainability"
+      "sustainability": "Sustainability"
     }
   },
   "Footer": {
@@ -43,6 +43,34 @@
     "paragraph2": "With our continuously developing infrastructure, we meet the needs for construction rebar in various sizes ranging from 8 mm to 32 mm, serving both large-scale industrial projects and individual contractors with the same meticulous care. Thanks to our daily updated market prices, digital ordering system, and transparent process management, we provide our business partners with time and cost advantages.",
     "card_button": "Details"
   },
+  "About_Us_Page": {
+    "pre_title": "About Us",
+    "title": "Reliable Service and Sustainable Production",
+    "paragraph1": "Established in Adana in 2019, Orion Demir has become a strong supply brand throughout Turkey by combining quality products, reliable service, and a sustainable production approach in the iron and steel industry. At our modern facility in the Hacı Sabancı Organized Industrial Zone, we offer TS and CE certified rebar products in various diameters with high stock power. With our customer satisfaction-focused structure, we provide special solutions for both large-scale industrial projects and regional needs, ensuring fast and secure shipment to all 81 provinces of Turkey. With our transparent, easy, and digitally-based service approach from the order process to delivery, we effectively meet all the needs of our customers.",
+    "paragraph2": "Orion Demir is not just a supplier, but also a solution partner. Thanks to our daily updated pricing policy, contracted logistics services, and flexible payment options, we provide our business partners with time and cost advantages. We are also aware of our environmental responsibility. We adopt an environmentally friendly industrial model by acting according to the principles of green production and sustainable resource management in all our operations. As the name of trust, quality, and continuity in the sector, we continue to lay solid foundations for the future.",
+    "image_alt": "Orion Demir Facilities",
+    "vision_title": "Our Vision",
+    "vision_description": "To become the leading and most preferred solution partner in the sector by offering not only iron but also trust, continuity, and technology to construction and industrial projects all over Turkey.",
+    "vision_points": [
+      "Digitizing the iron and steel supply processes,",
+      "Providing maximum efficiency in logistics and stock management,",
+      "Continuously improving the customer experience,",
+      "Making a difference with production models that minimize environmental impacts,",
+      "Becoming a reference brand by increasing its reliability in the national market and opening up to the international market."
+    ],
+    "mission_title": "Our Mission",
+    "mission_description": "A strong structure lies at the foundation of every project, and a reliable supplier lies at the foundation of every strong structure. Our mission is to be the indispensable element of that foundation.",
+    "mission_points": [
+      "To deliver high-quality, TS and CE certified rebar to our customers at the right time and in the most efficient way,",
+      "To provide secure logistics support to projects with our shipping infrastructure spread across Turkey,",
+      "To facilitate cost control with daily price updates and transparent order processes,",
+      "To establish long-term collaborations based on accuracy in stock management, punctuality in delivery, and clarity in communication,",
+      "To contribute to sustainable development by carrying out production and supply processes with environmental sensitivity."
+    ],
+    "closing_title": "The Name of Trust, Quality, and Continuity in the Sector",
+    "closing_subtitle": "We continue to lay solid foundations for the future.",
+    "closing_tagline": "Orion Demir – Rises with Confidence."
+  },
   "Location": {
     "title": "Creating Distinction Through the Power of Strategic Location",
     "paragraph1": "Orion Demir carries out its production and logistics operations in Adana, one of the most strategic cities in Turkey. This location provides our company with a strong competitive advantage in both national and international markets.",
@@ -53,9 +81,9 @@
     "paragraph1": "As Orion Demir, we provide quality and reliable product supply to our customers from various sectors across Turkey. We especially serve with a wide range of ribbed construction steel.",
     "paragraph2": "The ribbed construction steels in our stock are available in Ø8 mm, Ø10 mm, Ø12 mm, Ø14 mm, Ø16 mm, Ø18 mm, Ø20 mm, Ø22 mm, Ø25 mm, Ø32 mm, and Ø40 mm diameters. These products, which are essential for the construction industry, are supplied from certified and reliable manufacturers in compliance with TSE standards.",
     "paragraph3": "Important Notice: VAT is included in the prices, shipping fees are excluded.",
-    "paragraph4":"If you would like more information about stock availability, price quotation, or the shipping process, you can contact us via email. Contact Email Address: info@oriondemir.com.tr",
+    "paragraph4": "If you would like more information about stock availability, price quotation, or the shipping process, you can contact us via email. Contact Email Address: info@oriondemir.com.tr",
     "paragraph5": "Our company does not provide direct shipping (transportation) services; however, upon our customers' requests, product delivery can be organized through our contracted shipping companies. In this case, the shipping cost is borne by the customer and should be considered separately during the ordering process.",
-    "card_button":"Products"
+    "card_button": "Products"
   },
   "HeroSlide": {
     "slide1": {
@@ -83,32 +111,32 @@
     "button": "Learn More"
   },
   "Contact": {
-      "mainTitle": "Contact",
-      "subtitle": "Get in touch with us for your solution suggestions and questions.",
-      "formTitle": "Leave Us a Message",
-      "nameLabel": "Full Name *",
-      "namePlaceholder": "orion demir",
-      "emailLabel": "Email *",
-      "emailPlaceholder": "info@oriondemir.com.tr",
-      "messageLabel": "Write Your Message *",
-      "messagePlaceholder": "Your Message...",
-      "sendButton": "Send",
-      "addressTitle": "ADDRESS",
-      "addressLine1": "Sule: Yeşiloba Mh. Turhan Cemal Beriker Blvd. Adana Business Center A/Block No:443 1 Seyhan /ADANA",
-      "addressLine2": "Office: Kurtuluş Mh. Cumhuriyet St. MNS Plaza A/Block No:50 Floor:1 Flat: 2 Seyhan /ADANA",
-      "phoneTitle": "PHONE",
-      "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
-      "emailContactTitle": "E-M-A-I-L",
-      "contactEmail": "info@oriondemir.com.tr",
-      "companyNameLabel": "Official Company Name:",
-      "companyNameValue": "Orion Paint Construction Hardware Industry and Foreign Trade Limited Company",
-      "taxNoLabel": "Tax No:",
-      "taxNoValue": "6470588486",
-      "taxOfficeLabel": "Tax Office:",
-      "taxOfficeValue": "5 January",
-      "tradeRegNoLabel": "Trade Registry No:",
-      "tradeRegNoValue": "79529",
-      "mersisNoLabel": "Mersis No:",
-      "mersisNoValue": "0647058848600001"
-    }
+    "mainTitle": "Contact",
+    "subtitle": "Get in touch with us for your solution suggestions and questions.",
+    "formTitle": "Leave Us a Message",
+    "nameLabel": "Full Name *",
+    "namePlaceholder": "orion demir",
+    "emailLabel": "Email *",
+    "emailPlaceholder": "info@oriondemir.com.tr",
+    "messageLabel": "Write Your Message *",
+    "messagePlaceholder": "Your Message...",
+    "sendButton": "Send",
+    "addressTitle": "ADDRESS",
+    "addressLine1": "Sule: Yeşiloba Mh. Turhan Cemal Beriker Blvd. Adana Business Center A/Block No:443 1 Seyhan /ADANA",
+    "addressLine2": "Office: Kurtuluş Mh. Cumhuriyet St. MNS Plaza A/Block No:50 Floor:1 Flat: 2 Seyhan /ADANA",
+    "phoneTitle": "PHONE",
+    "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
+    "emailContactTitle": "E-M-A-I-L",
+    "contactEmail": "info@oriondemir.com.tr",
+    "companyNameLabel": "Official Company Name:",
+    "companyNameValue": "Orion Paint Construction Hardware Industry and Foreign Trade Limited Company",
+    "taxNoLabel": "Tax No:",
+    "taxNoValue": "6470588486",
+    "taxOfficeLabel": "Tax Office:",
+    "taxOfficeValue": "5 January",
+    "tradeRegNoLabel": "Trade Registry No:",
+    "tradeRegNoValue": "79529",
+    "mersisNoLabel": "Mersis No:",
+    "mersisNoValue": "0647058848600001"
+  }
 }

@@ -7,7 +7,7 @@
       "contact": "İletişim",
       "offer": "Teklif",
       "references": "Referanslar",
-      "sustainability":"Sürdürülebilirlik"
+      "sustainability": "Sürdürülebilirlik"
     }
   },
   "Footer": {
@@ -38,6 +38,34 @@
     "paragraph2": "Her gün gelişen altyapımızla, 8 mm’den 32 mm’ye kadar çeşitli ölçülerde inşaat demiri ihtiyaçlarını karşılıyor; hem büyük ölçekli sanayi projelerine hem de bireysel müteahhitlere aynı titizlikle hizmet sunuyoruz. Günlük olarak güncellenen piyasa fiyatlarımız, dijital sipariş altyapımız ve şeffaf süreç yönetimimiz sayesinde iş ortaklarımıza zaman ve maliyet avantajı sağlıyoruz.",
     "card_button": "Detaylar"
   },
+  "About_Us_Page": {
+    "pre_title": "Hakkımızda",
+    "title": "Güvenilir Hizmet ve Sürdürülebilir Üretim",
+    "paragraph1": "2019 yılında Adana’da kurulan Orion Demir, demir-çelik sektöründe kaliteli ürün, güvenilir hizmet ve sürdürülebilir üretim anlayışını bir araya getirerek Türkiye genelinde güçlü bir tedarik markası haline gelmiştir. Hacı Sabancı Organize Sanayi Bölgesi’nde yer alan modern tesisimizde, farklı çaplardaki TS ve CE belgeli nervürlü inşaat demiri ürünlerini yüksek stok gücüyle sunuyoruz. Müşteri memnuniyetini merkeze alan yapımızla; hem büyük ölçekli sanayi projelerine hem de bölgesel ihtiyaçlara özel çözümler sunuyor, Türkiye'nin 81 iline hızlı ve güvenli sevkiyat sağlıyoruz. Sipariş sürecinden teslimata kadar şeffaf, kolay ve dijital altyapıya dayalı hizmet anlayışımızla, müşterilerimizin tüm ihtiyaçlarını etkin şekilde karşılıyoruz.",
+    "paragraph2": "Orion Demir, sadece tedarikçi değil, aynı zamanda çözüm ortağıdır. Günlük olarak güncellenen fiyat politikamız, anlaşmalı lojistik hizmetlerimiz ve esnek ödeme seçeneklerimiz sayesinde iş ortaklarımıza zaman ve maliyet avantajı sağlıyoruz. Ayrıca çevresel sorumluluğumuzun bilincindeyiz. Tüm operasyonlarımızda yeşil üretim ve sürdürülebilir kaynak yönetimi ilkelerine göre hareket ederek çevreye duyarlı bir sanayi modeli benimsiyoruz. Sektörde güvenin, kalitenin ve sürekliliğin adı olarak; geleceğe sağlam temeller atmaya devam ediyoruz.",
+    "image_alt": "Orion Demir Tesisleri",
+    "vision_title": "Vizyonumuz",
+    "vision_description": "Türkiye'nin dört bir yanındaki inşaat ve sanayi projelerine yalnızca demir değil, güven, süreklilik ve teknoloji sunarak sektörün lider ve en çok tercih edilen çözüm ortağı olmaktır.",
+    "vision_points": [
+      "Demir-çelik tedarik süreçlerini dijitalleştiren,",
+      "Lojistik ve stok yönetiminde maksimum verim sağlayan,",
+      "Müşteri deneyimini daima geliştiren,",
+      "Çevresel etkileri en aza indiren üretim modelleriyle fark yaratan,",
+      "Ulusal pazarda güvenilirliğini artırarak, uluslararası pazara da açılan,"
+    ],
+    "mission_title": "Misyonumuz",
+    "mission_description": "Her projenin temelinde güçlü bir yapı, her güçlü yapının temelinde ise güvenilir bir tedarikçi vardır. Misyonumuz bu temelin vazgeçilmez unsuru olmaktır.",
+    "mission_points": [
+      "Müşterilerimize TS ve CE belgeli, standartlara uygun, kaliteli inşaat demirini en doğru zamanda, en verimli şekilde ulaştırmak,",
+      "Türkiye’nin dört bir yanına yayılmış sevkiyat altyapımızla projelere güvenli lojistik desteği sağlamak,",
+      "Günlük fiyat güncellemeleri ve şeffaf sipariş süreçleriyle maliyet kontrolünü kolaylaştırmak,",
+      "Stok yönetiminde doğruluk, teslimatta dakiklik ve iletişimde açıklığı temel alarak uzun vadeli iş birlikleri kurmak,",
+      "Üretim ve tedarik süreçlerini çevresel duyarlılıkla yürüterek sürdürülebilir kalkınmaya katkı sağlamak."
+    ],
+    "closing_title": "Sektörde Güvenin, Kalitenin ve Sürekliliğin Adı",
+    "closing_subtitle": "Geleceğe sağlam temeller atmaya devam ediyoruz.",
+    "closing_tagline": "Orion Demir – Güvenle Yükselir."
+  },
   "Location": {
     "title": "Stratejik Konumun Gücüyle Fark Yaratıyoruz",
     "paragraph1": "Orion Demir, üretim ve lojistik faaliyetlerini Türkiye’nin en stratejik şehirlerinden biri olan Adana’da sürdürmektedir. Bu konum, firmamıza hem ulusal hem de uluslararası pazarlarda güçlü bir rekabet avantajı sağlamaktadır.",
@@ -45,12 +73,12 @@
   },
   "Products": {
     "title": "Ürünlerimiz",
-    "paragraph1":"Orion Demir olarak, Türkiye genelinde farklı sektörlerden müşterilerimize kaliteli ve güvenilir ürün tedariki sağlamaktayız. Özellikle nervürlü inşaat demiri tedarikinde geniş ürün yelpazemizle hizmet vermekteyiz.",
-    "paragraph2":"Stoklarımızda yer alan nervürlü inşaat demirleri;Ø8 mm, Ø10 mm, Ø12 mm, Ø14 mm, Ø16 mm, Ø18 mm, Ø20 mm, Ø22 mm, Ø25 mm, Ø32 mm ve Ø40 mm çaplarında mevcuttur.İnşaat sektörünün ihtiyaç duyduğu bu ürünler, TSE standartlarına uygun şekilde sertifikalı ve güvenilir üreticilerden temin edilmektedir",   
-   "paragraph3": "Önemli Bilgilendirme: Fiyatlara KDV Dahildir, Nakliye Ücretleri Hariçtir",
-   "paragraph4":"Stok durumu, fiyat teklifi veya sevkiyat süreci hakkında daha fazla bilgi almak isterseniz, bizimle e-posta yoluyla iletişime geçebilirsiniz. İletişim E-Posta Adresi: info@oriondemir.com.tr",
-    "paragraph5":"Firmamız doğrudan sevkiyat (nakliye) hizmeti sunmamakta; ancak müşterilerimizin talebi doğrultusunda, anlaşmalı olduğumuz nakliye firmaları aracılığıyla ürün gönderimi organize edilebilmektedir. Bu noktada, nakliye ücreti müşteriye ait olup, sipariş sürecinde ayrıca değerlendirilmelidir.",
-   "card_button":"Ürünler"
+    "paragraph1": "Orion Demir olarak, Türkiye genelinde farklı sektörlerden müşterilerimize kaliteli ve güvenilir ürün tedariki sağlamaktayız. Özellikle nervürlü inşaat demiri tedarikinde geniş ürün yelpazemizle hizmet vermekteyiz.",
+    "paragraph2": "Stoklarımızda yer alan nervürlü inşaat demirleri;Ø8 mm, Ø10 mm, Ø12 mm, Ø14 mm, Ø16 mm, Ø18 mm, Ø20 mm, Ø22 mm, Ø25 mm, Ø32 mm ve Ø40 mm çaplarında mevcuttur.İnşaat sektörünün ihtiyaç duyduğu bu ürünler, TSE standartlarına uygun şekilde sertifikalı ve güvenilir üreticilerden temin edilmektedir",
+    "paragraph3": "Önemli Bilgilendirme: Fiyatlara KDV Dahildir, Nakliye Ücretleri Hariçtir",
+    "paragraph4": "Stok durumu, fiyat teklifi veya sevkiyat süreci hakkında daha fazla bilgi almak isterseniz, bizimle e-posta yoluyla iletişime geçebilirsiniz. İletişim E-Posta Adresi: info@oriondemir.com.tr",
+    "paragraph5": "Firmamız doğrudan sevkiyat (nakliye) hizmeti sunmamakta; ancak müşterilerimizin talebi doğrultusunda, anlaşmalı olduğumuz nakliye firmaları aracılığıyla ürün gönderimi organize edilebilmektedir. Bu noktada, nakliye ücreti müşteriye ait olup, sipariş sürecinde ayrıca değerlendirilmelidir.",
+    "card_button": "Ürünler"
   },
   "HeroSlide": {
     "slide1": {
@@ -78,33 +106,32 @@
     "button": "Daha Fazla Bilgi"
   },
   "Contact": {
-      "mainTitle": "İletişim",
-      "subtitle": "Çözüm önerileriniz ve sorularınız için bizimle iletişime geçin.",
-      "formTitle": "Bize Mesaj Bırakın",
-      "nameLabel": "İsim Soyisim *",
-      "namePlaceholder": "orion demir",
-      "emailLabel": "Email *",
-      "emailPlaceholder": "info@oriondemir.com.tr",
-      "messageLabel": "Mesajınızı Yazınız *",
-      "messagePlaceholder": "Mesajınız...",
-      "sendButton": "Gönder",
-      "addressTitle": "ADRES",
-      "addressLine1": "Süle: Yeşiloba Mh. Turhan Cemal Beriker Bul. Adana İş Merkezi A/Blok No:443 1 Seyhan /ADANA",
-      "addressLine2": "Ofis: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Blok No:50 Kat:1 Daire: 2 Seyhan /ADANA",
-      "phoneTitle": "TELEFON",
-      "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
-      "emailContactTitle": "EMAIL",
-      "contactEmail": "info@oriondemir.com.tr",
-      "companyNameLabel": "Firma Resmi Adı:",
-      "companyNameValue": "Orion Boya Yapı Hırdavat Sanayi ve Dış Ticaret Limited Şirketi",
-      "taxNoLabel": "Vergi No:",
-      "taxNoValue": "6470588486",
-      "taxOfficeLabel": "Vergi Dairesi:",
-      "taxOfficeValue": "5 Ocak",
-      "tradeRegNoLabel": "Ticaret Sicil No:",
-      "tradeRegNoValue": "79529",
-      "mersisNoLabel": "Mersis No:",
-      "mersisNoValue": "0647058848600001"
-    }
-  
+    "mainTitle": "İletişim",
+    "subtitle": "Çözüm önerileriniz ve sorularınız için bizimle iletişime geçin.",
+    "formTitle": "Bize Mesaj Bırakın",
+    "nameLabel": "İsim Soyisim *",
+    "namePlaceholder": "orion demir",
+    "emailLabel": "Email *",
+    "emailPlaceholder": "info@oriondemir.com.tr",
+    "messageLabel": "Mesajınızı Yazınız *",
+    "messagePlaceholder": "Mesajınız...",
+    "sendButton": "Gönder",
+    "addressTitle": "ADRES",
+    "addressLine1": "Süle: Yeşiloba Mh. Turhan Cemal Beriker Bul. Adana İş Merkezi A/Blok No:443 1 Seyhan /ADANA",
+    "addressLine2": "Ofis: Kurtuluş Mh. Cumhuriyet Cad. MNS Plaza A/Blok No:50 Kat:1 Daire: 2 Seyhan /ADANA",
+    "phoneTitle": "TELEFON",
+    "phoneNumber": "0322 504 94 44 - 0546 120 01 01",
+    "emailContactTitle": "EMAIL",
+    "contactEmail": "info@oriondemir.com.tr",
+    "companyNameLabel": "Firma Resmi Adı:",
+    "companyNameValue": "Orion Boya Yapı Hırdavat Sanayi ve Dış Ticaret Limited Şirketi",
+    "taxNoLabel": "Vergi No:",
+    "taxNoValue": "6470588486",
+    "taxOfficeLabel": "Vergi Dairesi:",
+    "taxOfficeValue": "5 Ocak",
+    "tradeRegNoLabel": "Ticaret Sicil No:",
+    "tradeRegNoValue": "79529",
+    "mersisNoLabel": "Mersis No:",
+    "mersisNoValue": "0647058848600001"
+  }
 }
