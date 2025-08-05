@@ -54,7 +54,7 @@ const Location: NextPage = () => {
   const t = useTranslations("Location");
 
   return (
-    <div className="flex items-center justify-center bg-background border-b-2 border-gray-200 font-sans pr-8 pt-4 pb-4 sm:p-6 md:p-8">
+    <div className="flex items-center justify-center w-full bg-background border-b-2 border-gray-200 font-sans pr-2 md:pr-8 pt-4 pb-4 sm:p-6 md:p-8">
       <div className="container mx-auto max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Column - Text Content */}

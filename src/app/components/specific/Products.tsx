@@ -14,7 +14,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   return (
     // The main container allows overflow. The group class has been removed.
-    <div className="relative w-full">
+    <div className="relative w-full overflow-hidden">
       {/* The main card, which contains the base image and is clipped */}
       <div className=" w-full h-full rounded-lg overflow-hidden z-10 border-4 border-blue-900">
         <img
