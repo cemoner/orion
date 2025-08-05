@@ -90,12 +90,12 @@
       "subtitle": "Prüfen Sie die heutigen Betonstahlpreise, fordern Sie ein Angebot an und geben Sie Ihre Bestellung auf — wir liefern in alle 81 Provinzen der Türkei."
     },
     "slide3": {
-      "title": "Stark und Vertrauenswürdig Seit 2019",
-      "subtitle": "Von einem bescheidenen Anfang im Jahr 2019 zu einem führenden Stahlunternehmen mit heute über 200 Teammitgliedern."
+      "title": "Stark und zuverlässig seit 2019",
+      "subtitle": "Seit dem ersten Tag unserer Tätigkeit konzentrieren wir uns auf Qualität, Lieferzeit und technische Unterstützung. Mit unserer bevorzugten Marke in Hunderten von Projekten hinterlassen wir Spuren in den Strukturen der Zukunft."
     },
     "slide4": {
-      "title": "Stark und Vertrauenswürdig Seit 2019",
-      "subtitle": "Von einem bescheidenen Anfang im Jahr 2019 zu einem führenden Stahlunternehmen mit heute über 200 Teammitgliedern."
+      "title": "Sichere Zukunft, solides Fundament",
+      "subtitle": "Steigen Sie mit Orion Demir für stärkere Strukturen auf. Produktionsansatz gemäß ISO, TSE und internationalen Qualitätsnormen."
     },
     "previousButton": "Vorherige Folie",
     "nextButton": "Nächste Folie",
@@ -133,5 +133,46 @@
     "tradeRegNoValue": "79529",
     "mersisNoLabel": "Mersis-Nummer:",
     "mersisNoValue": "0647058848600001"
-  }
+  },
+  "References": {
+    "references": "Referenzen",
+    "intro": "Partnerschaften, die auf Vertrauen und Qualität basieren, sowie Projekte, auf die wir stolz sind.",
+    "businessPartners": "Unsere geschätzten Geschäftspartner",
+    "projectReferences": "Projektreferenzen",
+    "finishedProjects": "Abgeschlossenes Projekt"
+  },
+  "SustainabilityPage": {
+      "heroTitle": "Die Zukunft mit Stahl gestalten",
+      "heroDescription": "Bei Orion Demir betrachten wir Nachhaltigkeit nicht nur als Umweltpolitik, sondern als integralen Bestandteil unseres Geschäfts. Wir handeln mit dem Verständnis, dass Ressourcen effizient genutzt, Umweltauswirkungen minimiert und der Gesellschaft Wert hinzugefügt werden, um zukünftigen Generationen eine lebenswertere Welt zu hinterlassen.",
+      "strategicApproachTitle": "Unser strategischer Ansatz",
+      "strategicApproachSubtitle": "Drei Säulen der Nachhaltigkeit",
+      "strategicApproachDescription": "Unsere Politik, die darauf abzielt, über kurzfristige Erfolge hinaus langfristige Auswirkungen zu erzielen, entwickelt sich entlang dreier Hauptachsen.",
+      "environmentalPillarTitle": "Umweltverträglichkeit",
+      "environmentalPillarQuote": "Respekt vor der Natur ist eine Investition in die Zukunft.",
+      "environmentalPillarPoint1": "Wir statten unsere Produktionslinien mit hocheffizienten Energiesystemen aus und ergreifen messbare Schritte zur Reduzierung unserer Kohlenstoffemissionen.",
+      "environmentalPillarPoint2": "Ein erheblicher Teil des von uns verwendeten Rohmaterials besteht aus recyceltem Stahl, und wir priorisieren die Abfallminimierung.",
+      "environmentalPillarPoint3": "Wir analysieren die Umweltauswirkungen während des gesamten Lebenszyklus unserer Produkte und priorisieren Nachhaltigkeit.",
+      "environmentalPillarPoint4": "Wir setzen Technologien ein, die den Prozesswasserverbrauch reduzieren, und entwickeln alternative Wasserquellen.",
+      "socialPillarTitle": "Soziale Verantwortung",
+      "socialPillarQuote": "Starker Stahl ist mit starken Gesellschaften möglich.",
+      "socialPillarPoint1": "Wir bieten allen unseren Mitarbeitern ein faires, sicheres und inklusives Arbeitsumfeld. Arbeitsschutz und -sicherheit stehen im Mittelpunkt unserer Politik.",
+      "socialPillarPoint2": "Wir erfüllen unsere Verantwortung gegenüber der Gesellschaft durch Bildungs-, Umwelt- und soziale Verantwortungsprojekte.",
+      "socialPillarPoint3": "Wir überwachen die Umsetzung ethischer, ökologischer und sozialer Standards in unserer Lieferkette.",
+      "socialPillarPoint4": "Wir fördern vielfältige Perspektiven, unterstützen eine stärkere Beteiligung von Frauen in der Industrie und bleiben der Chancengleichheit verpflichtet.",
+      "governancePillarTitle": "Unternehmensführung",
+      "governancePillarQuote": "Eine transparente, rechenschaftspflichtige und widerstandsfähige Struktur.",
+      "governancePillarPoint1": "Nachhaltigkeit wird direkt von der Geschäftsleitung verantwortet und in strategische Entscheidungsmechanismen integriert.",
+      "governancePillarPoint2": "Wir entwickeln Szenarioanalysen und Anpassungspläne zur Bewältigung der Risiken des Klimawandels.",
+      "governancePillarPoint3": "Wir dokumentieren unsere Aktivitäten gemäß internationalen Standards und stellen unseren Stakeholdern transparente Informationen zur Verfügung.",
+      "governancePillarPoint4": "Wir bauen eine umweltfreundliche Produktionsstruktur auf, indem wir unsere F&E-Investitionen in Bereichen wie grüner Stahl und kohlenstoffarme Technologien erhöhen.",
+      "goalsTitle": "Entschlossene Schritte in die Zukunft",
+      "goalsDescription": "Unsere konkreten Ziele für eine nachhaltige Zukunft.",
+      "goal1": "Reduzierung der Kohlenstoffintensität pro Produktion um 30% bis 2030.",
+      "goal2": "Einsatz von 90% recyceltem Schrott in den Produktionsprozessen.",
+      "goal3": "Erhöhung des Anteils erneuerbarer Energien auf 50% in allen Produktionsstätten.",
+      "goal4": "Integration in internationale Bewertungssysteme für die Nachhaltigkeitsberichterstattung.",
+      "conclusionTitle": "Wir bauen nicht nur heute, sondern die Zukunft",
+      "conclusionDescription": "Bei Orion Demir treiben wir kontinuierlich einen industriellen Ansatz voran, der Ressourcen effizienter nutzt, umweltfreundlich, sozial verantwortlich und auf ethischen Werten basiert.",
+      "conclusionCallToAction": "Eine nachhaltige Zukunft ist mit entschlossenen Schritten möglich. Wir gehen diese Schritte heute."
+    }
 }

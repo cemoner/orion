@@ -11,6 +11,7 @@
 @theme inline {
 
   --color-background: #FFFFFF; /* White */
+  --color-light-background-blue:#F5FaFF;
   --color-text: #000000;       /* Black */
   --color-background-dark: #0A142F;    /* Custom Blue */
   --color-background-dark-lighter: #111B3A;
@@ -30,7 +31,7 @@
   --font-mono: var(--font-geist-mono);
 
   --breakpoint-*: initial;
-  --breakpoint-xs: 0px;
+  --breakpoint-xs: 300px;
   --breakpoint-sm: 540px;
   --breakpoint-md: 840px;
   --breakpoint-lg: 1024px;

@@ -1,5 +1,7 @@
 import { Leaf, Users, Landmark, Target, Recycle, HeartHandshake, ShieldCheck } from 'lucide-react';
 import React from 'react';
+import { useTranslations } from "next-intl";
+
 
 // This component requires the `lucide-react` package. You can install it with:
 // npm install lucide-react
@@ -41,50 +43,54 @@ const GoalItem = ({ icon, text }: { icon: React.JSX.Element; text: string }) => 
 
 
 export default function SustainabilityPage() {
+
+   const t = useTranslations("SustainabilityPage");
+  
   const pillars = [
     {
       icon: <Leaf className="h-7 w-7" />,
-      title: "Çevresel Sürdürülebilirlik",
-      quote: "Doğaya saygı, geleceğe yatırımdır.",
+      title: t("environmentalPillarTitle"),
+      quote: t("environmentalPillarQuote"),
       points: [
-        "Üretim hatlarımızı yüksek enerji verimliliğine sahip sistemlerle donatıyoruz ve karbon emisyonlarımızı azaltmak için ölçülebilir adımlar atıyoruz.",
-        "Kullandığımız hammaddenin önemli bir kısmı geri dönüştürülmüş çelikten oluşur ve atık minimizasyonuna öncelik veririz.",
-        "Ürünlerimizin yaşam döngüsü boyunca çevresel etkiyi analiz ediyor ve sürdürülebilirliği ön planda tutuyoruz.",
-        "Proses suyu tüketimini azaltan teknolojiler kullanıyor, alternatif su kaynakları geliştiriyoruz."
+        t("environmentalPillarPoint1"),
+        t("environmentalPillarPoint2"),
+        t("environmentalPillarPoint3"),
+        t("environmentalPillarPoint4")
       ]
     },
     {
       icon: <Users className="h-7 w-7" />,
-      title: "Sosyal Sorumluluk",
-      quote: "Güçlü çelik, güçlü toplumlarla mümkündür.",
+      title: t("socialPillarTitle"),
+      quote: t("socialPillarQuote"),
       points: [
-        "Tüm çalışanlarımıza adil, güvenli ve kapsayıcı bir çalışma ortamı sunarız. İş sağlığı ve güvenliği politikamızın merkezindedir.",
-        "Eğitim, çevre ve sosyal sorumluluk projeleriyle topluma karşı sorumluluğumuzu yerine getiriyoruz.",
-        "Tedarik zincirimizde etik, çevresel ve sosyal standartların uygulanmasını gözetiyoruz.",
-        "Farklı bakış açılarını teşvik ediyor, kadınların sanayide daha fazla yer almasını destekliyor ve fırsat eşitliğine bağlı kalıyoruz."
+        t("socialPillarPoint1"),
+        t("socialPillarPoint2"),
+        t("socialPillarPoint3"),
+        t("socialPillarPoint4")
       ]
     },
     {
       icon: <Landmark className="h-7 w-7" />,
-      title: "Kurumsal Yönetişim",
-      quote: "Şeffaf, hesap verebilir ve dirençli bir yapı.",
+      title: t("governancePillarTitle"),
+      quote: t("governancePillarQuote"),
       points: [
-        "Sürdürülebilirlik, üst yönetim tarafından doğrudan sahiplenilir ve stratejik karar mekanizmalarına entegre edilir.",
-        "İklim değişikliğinin risklerini yönetmek amacıyla senaryo analizleri ve adaptasyon planları geliştiriyoruz.",
-        "Faaliyetlerimizi uluslararası standartlara uygun olarak belgeliyor, paydaşlarımıza şeffaf bilgiler sunuyoruz.",
-        "Yeşil çelik ve düşük karbon teknolojileri gibi alanlarda Ar-Ge yatırımlarımızı artırarak çevre dostu bir üretim yapısı inşa ediyoruz."
+        t("governancePillarPoint1"),
+        t("governancePillarPoint2"),
+        t("governancePillarPoint3"),
+        t("governancePillarPoint4")
       ]
     }
   ];
 
   const goals = [
-      { icon: <Target className="h-6 w-6"/>, text: "2030 yılına kadar üretim başına karbon yoğunluğunu %30 azaltmak." },
-      { icon: <Recycle className="h-6 w-6"/>, text: "Üretim süreçlerinde %90 oranında geri dönüştürülmüş hurda kullanmak." },
-      { icon: <HeartHandshake className="h-6 w-6"/>, text: "Tüm üretim tesislerinde yenilenebilir enerji oranını %50’ye çıkarmak." },
-      { icon: <ShieldCheck className="h-6 w-6"/>, text: "Sürdürülebilirlik raporlamasında uluslararası derecelendirme sistemlerine entegre olmak." },
+      { icon: <Target className="h-6 w-6"/>, text: t("goal1") },
+      { icon: <Recycle className="h-6 w-6"/>, text: t("goal2") },
+      { icon: <HeartHandshake className="h-6 w-6"/>, text: t("goal3") },
+      { icon: <ShieldCheck className="h-6 w-6"/>, text: t("goal4") },
   ];
 
   return (
+    
     <main className="bg-background dark:bg-background-dark">
       {/* Hero Section */}
       <section 
@@ -97,10 +103,10 @@ export default function SustainabilityPage() {
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter text-white">
-            Geleceği Demirle <span className="text-green-400">Şekillendiriyoruz</span>
+            {t("heroTitle")}
           </h1>
           <p className="mt-6 text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
-            Orion Demir olarak sürdürülebilirliği yalnızca bir çevre politikası değil, işimizin ayrılmaz bir parçası olarak görüyoruz. Gelecek nesillere daha yaşanabilir bir dünya bırakmak için kaynakları verimli kullanan, çevresel etkileri asgariye indiren ve topluma değer katan bir anlayışla hareket ediyoruz.
+            {t("heroDescription")}
           </p>
         </div>
       </section>
@@ -109,12 +115,12 @@ export default function SustainabilityPage() {
       <section className="py-20 md:py-24 bg-background dark:bg-gray-800/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-base font-semibold text-sustainability-green dark:text-sustainability-green tracking-wider uppercase">Stratejik Yaklaşımımız</h2>
+            <h2 className="text-base font-semibold text-sustainability-green dark:text-sustainability-green tracking-wider uppercase">{t("strategicApproachTitle")}</h2>
             <p className="mt-2 text-3xl font-extrabold text-foreground dark:text-white tracking-tight sm:text-4xl">
-              Sürdürülebilirliğin Üç Sac Ayağı
+              {t("strategicApproachSubtitle")}
             </p>
             <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-400">
-              Kısa vadeli başarıların ötesinde uzun vadeli etki yaratmayı hedefleyen politikamız, üç temel eksende gelişir.
+              {t("strategicApproachDescription")}
             </p>
           </div>
           <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
@@ -130,10 +136,10 @@ export default function SustainabilityPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
                 <h2 className="text-3xl font-extrabold text-foreground dark:text-white tracking-tight sm:text-4xl">
-                    Geleceğe <span className="text-sustainability-green">Kararlı Adımlar</span>
+                    {t("goalsTitle")}
                 </h2>
                 <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-400">
-                    Sürdürülebilir bir gelecek için belirlediğimiz somut hedeflerimiz.
+                    {t("goalsDescription")}
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -148,13 +154,13 @@ export default function SustainabilityPage() {
       <section className="bg-background dark:bg-gray-800/50 py-20 md:py-24">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <h3 className="text-2xl font-bold text-foreground dark:text-white tracking-tight">
-                  Sadece Bugünü Değil, Geleceği İnşa Ediyoruz
+                  {t("conclusionTitle")}
               </h3>
               <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                  Orion Demir olarak, kaynakları daha verimli kullanan, doğayla barışık, topluma duyarlı ve etik değerlere dayalı bir sanayi anlayışını her geçen gün daha ileri taşıyoruz.
+                  {t("conclusionDescription")}
               </p>
               <p className="mt-8 text-xl font-semibold text-sustainability-green dark:text-sustainability-green">
-                  Sürdürülebilir bir gelecek, kararlı adımlarla mümkündür. Biz o adımları bugün atıyoruz.
+                  {t("conclusionCallToAction")}
               </p>
           </div>
       </section>

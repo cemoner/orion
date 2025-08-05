@@ -85,7 +85,7 @@ export const HeroSlide: React.FC = () => {
   useEffect(() => {
     const sliderInterval = setInterval(() => {
       goToNext();
-    }, 5000);
+    }, 8000);
 
     return () => clearInterval(sliderInterval);
   }, [goToNext]);

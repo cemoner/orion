@@ -21,7 +21,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="container min-w-full px-4 py-8 font-sans bg-background text-text">
+    <section className="container min-w-full px-4 pt-8 pb-16 font-sans bg-light-background-blue text-text">
       <div className="text-center mb-4">
         <h1 className="text-4xl font-bold mb-2 p-1">{t("mainTitle")}</h1>
         <p className="text-lg p-1">{t("subtitle")}</p>

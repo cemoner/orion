@@ -95,12 +95,12 @@
       "subtitle": "Check today’s rebar prices, request a quote, and place your order — we deliver across all 81 provinces in Türkiye."
     },
     "slide3": {
-      "title": "Strong and Trusted Since 2019",
-      "subtitle": "From a humble start in 2019 to a leading steel company with over 200 team members today."
+      "title": "Strong and Reliable Since 2019",
+      "subtitle": "Since the first day of our operation, we have focused on quality, delivery time, and engineering support. We leave our mark on the structures of the future with our preferred brand in hundreds of projects."
     },
     "slide4": {
-      "title": "Strong and Trusted Since 2019",
-      "subtitle": "From a humble start in 2019 to a leading steel company with over 200 team members today."
+      "title": "Secure Future, Solid Foundation",
+      "subtitle": "Rise with Orion Demir for stronger structures. Production approach compliant with ISO, TSE, and international quality norms."
     },
     "previousButton": "Previous Slide",
     "nextButton": "Next Slide",
@@ -138,5 +138,46 @@
     "tradeRegNoValue": "79529",
     "mersisNoLabel": "Mersis No:",
     "mersisNoValue": "0647058848600001"
-  }
+  },
+  "References": {
+    "references": "References",
+    "intro": "Collaborations built on trust and quality, and projects we are proud of.",
+    "businessPartners": "Our Valued Business Partners",
+    "projectReferences": "Project References",
+    "finishedProjects": "Completed Project"
+  },
+"SustainabilityPage": {
+      "heroTitle": "Shaping the Future with Steel",
+      "heroDescription": "At Orion Demir, we view sustainability not just as an environmental policy, but as an integral part of our business. We act with an understanding that efficiently uses resources, minimizes environmental impacts, and adds value to society, to leave a more livable world for future generations.",
+      "strategicApproachTitle": "Our Strategic Approach",
+      "strategicApproachSubtitle": "Three Pillars of Sustainability",
+      "strategicApproachDescription": "Our policy, aiming to create long-term impact beyond short-term successes, develops along three main axes.",
+      "environmentalPillarTitle": "Environmental Sustainability",
+      "environmentalPillarQuote": "Respect for nature is an investment in the future.",
+      "environmentalPillarPoint1": "We equip our production lines with highly energy-efficient systems and take measurable steps to reduce our carbon emissions.",
+      "environmentalPillarPoint2": "A significant portion of the raw material we use consists of recycled steel, and we prioritize waste minimization.",
+      "environmentalPillarPoint3": "We analyze the environmental impact throughout the life cycle of our products and prioritize sustainability.",
+      "environmentalPillarPoint4": "We use technologies that reduce process water consumption and develop alternative water sources.",
+      "socialPillarTitle": "Social Responsibility",
+      "socialPillarQuote": "Strong steel is possible with strong societies.",
+      "socialPillarPoint1": "We provide a fair, safe, and inclusive working environment for all our employees. Occupational health and safety are central to our policy.",
+      "socialPillarPoint2": "We fulfill our responsibility to society through education, environmental, and social responsibility projects.",
+      "socialPillarPoint3": "We oversee the implementation of ethical, environmental, and social standards in our supply chain.",
+      "socialPillarPoint4": "We encourage diverse perspectives, support women's greater participation in industry, and remain committed to equal opportunities.",
+      "governancePillarTitle": "Corporate Governance",
+      "governancePillarQuote": "A transparent, accountable, and resilient structure.",
+      "governancePillarPoint1": "Sustainability is directly owned by senior management and integrated into strategic decision-making mechanisms.",
+      "governancePillarPoint2": "We develop scenario analyses and adaptation plans to manage the risks of climate change.",
+      "governancePillarPoint3": "We document our activities in accordance with international standards and provide transparent information to our stakeholders.",
+      "governancePillarPoint4": "We are building an environmentally friendly production structure by increasing our R&D investments in areas such as green steel and low-carbon technologies.",
+      "goalsTitle": "Determined Steps Towards the Future",
+      "goalsDescription": "Our concrete goals for a sustainable future.",
+      "goal1": "Reduce carbon intensity per production by 30% by 2030.",
+      "goal2": "Utilize 90% recycled scrap in production processes.",
+      "goal3": "Increase the proportion of renewable energy to 50% in all production facilities.",
+      "goal4": "Integrate into international rating systems for sustainability reporting.",
+      "conclusionTitle": "We Are Building Not Just Today, But the Future",
+      "conclusionDescription": "At Orion Demir, we are continuously advancing an industrial approach that uses resources more efficiently, is environmentally friendly, socially responsible, and based on ethical values.",
+      "conclusionCallToAction": "A sustainable future is possible with determined steps. We are taking those steps today."
+    }
 }

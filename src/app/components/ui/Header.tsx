@@ -13,7 +13,7 @@ export const Header: FC = () => {
 
   return (
     <header className="bg-background dark:bg-background-dark shadow-md  w-full md:sticky top-0 z-50 h-20 flex items-center justify-between relative">
-      <div className="mx-auto w-full md:px-6 py-6 flex justify-between items-center">
+      <div className="mx-auto w-full md:px-6 py-6 flex justify-center sm:justify-between items-center">
         <div className="text-xl font-bold text-gray-800">
           <Link
             href="/"
@@ -26,7 +26,7 @@ export const Header: FC = () => {
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              className="h-8 w-25 block"
+              className="mh-4 w-16 mr-2 sm:mr-0 s:mh-8 sm:w-25 block"
               viewBox="172 385 672 207"
               enableBackground="176 389 672 207"
             >

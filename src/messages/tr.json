@@ -87,15 +87,15 @@
     },
     "slide2": {
       "title": "Günlük Piyasa Fiyatları ile Şeffaf Fiyatlandırma",
-      "subtitle": "Bugünün demir fiyatlarını kontrol edin, teklif isteyin ve sipariş verin — Türkiye'nin 81 iline teslimat yapıyoruz."
+      "subtitle": "Bugünün demir fiyatlarını kontrol edin, teklif isteyin ve sipariş verin. Türkiye'nin 81 iline teslimat yapıyoruz."
     },
     "slide3": {
       "title": "2019'dan Beri Güçlü ve Güvenilir",
-      "subtitle": "2019'daki mütevazı başlangıçtan bugünün 200'den fazla ekip üyesine sahip lider çelik şirketine."
+      "subtitle": "Faaliyete geçtğimiz ilk günden beri kaliteyi, termin süresini ve mühendislik desteğini merkeze alıyoruz. Yüzlerce projede tercih edilen markamızla geleceğin yapılarında iz bırakıyoruz."
     },
     "slide4": {
-      "title": "2019'dan Beri Güçlü ve Güvenilir",
-      "subtitle": "2019'daki mütevazı başlangıçtan bugünün 200'den fazla ekip üyesine sahip lider çelik şirketine."
+      "title": "Güvenli Gelecek Sağlam Temel",
+      "subtitle": "Daha güçlü yapılar için Orion Demir ile yükselin. ISO, TSE ve uluslarası kalite normlarına uygun üretim anlayışı."
     },
     "previousButton": "Önceki Slayt",
     "nextButton": "Sonraki Slayt",
@@ -133,5 +133,46 @@
     "tradeRegNoValue": "79529",
     "mersisNoLabel": "Mersis No:",
     "mersisNoValue": "0647058848600001"
-  }
+  },
+  "References": {
+    "references":"Referanslar",
+    "intro":"Güven ve kalite üzerine inşa ettiğimiz işbirlikleri ve gurur duyduğumuz projeler.",
+    "businessPartners":"Değerli İş Ortaklarımız",
+    "projectReferences":"Proje Referanslarımız",
+    "finishedProjects":"Tamamlanan Proje"
+  },
+  "SustainabilityPage": {
+      "heroTitle": "Geleceği Demirle Şekillendiriyoruz",
+      "heroDescription": "Orion Demir olarak sürdürülebilirliği yalnızca bir çevre politikası değil, işimizin ayrılmaz bir parçası olarak görüyoruz. Gelecek nesillere daha yaşanabilir bir dünya bırakmak için kaynakları verimli kullanan, çevresel etkileri asgariye indiren ve topluma değer katan bir anlayışla hareket ediyoruz.",
+      "strategicApproachTitle": "Stratejik Yaklaşımımız",
+      "strategicApproachSubtitle": "Sürdürülebilirliğin Üç Sac Ayağı",
+      "strategicApproachDescription": "Kısa vadeli başarıların ötesinde uzun vadeli etki yaratmayı hedefleyen politikamız, üç temel eksende gelişir.",
+      "environmentalPillarTitle": "Çevresel Sürdürülebilirlik",
+      "environmentalPillarQuote": "Doğaya saygı, geleceğe yatırımdır.",
+      "environmentalPillarPoint1": "Üretim hatlarımızı yüksek enerji verimliliğine sahip sistemlerle donatıyoruz ve karbon emisyonlarımızı azaltmak için ölçülebilir adımlar atıyoruz.",
+      "environmentalPillarPoint2": "Kullandığımız hammaddenin önemli bir kısmı geri dönüştürülmüş çelikten oluşur ve atık minimizasyonuna öncelik veririz.",
+      "environmentalPillarPoint3": "Ürünlerimizin yaşam döngüsü boyunca çevresel etkiyi analiz ediyor ve sürdürülebilirliği ön planda tutuyoruz.",
+      "environmentalPillarPoint4": "Proses suyu tüketimini azaltan teknolojiler kullanıyor, alternatif su kaynakları geliştiriyoruz.",
+      "socialPillarTitle": "Sosyal Sorumluluk",
+      "socialPillarQuote": "Güçlü çelik, güçlü toplumlarla mümkündür.",
+      "socialPillarPoint1": "Tüm çalışanlarımıza adil, güvenli ve kapsayıcı bir çalışma ortamı sunarız. İş sağlığı ve güvenliği politikamızın merkezindedir.",
+      "socialPillarPoint2": "Eğitim, çevre ve sosyal sorumluluk projeleriyle topluma karşı sorumluluğumuzu yerine getiriyoruz.",
+      "socialPillarPoint3": "Tedarik zincirimizde etik, çevresel ve sosyal standartların uygulanmasını gözetiyoruz.",
+      "socialPillarPoint4": "Farklı bakış açılarını teşvik ediyor, kadınların sanayide daha fazla yer almasını destekliyor ve fırsat eşitliğine bağlı kalıyoruz.",
+      "governancePillarTitle": "Kurumsal Yönetişim",
+      "governancePillarQuote": "Şeffaf, hesap verebilir ve dirençli bir yapı.",
+      "governancePillarPoint1": "Sürdürülebilirlik, üst yönetim tarafından doğrudan sahiplenilir ve stratejik karar mekanizmalarına entegre edilir.",
+      "governancePillarPoint2": "İklim değişikliğinin risklerini yönetmek amacıyla senaryo analizleri ve adaptasyon planları geliştiriyoruz.",
+      "governancePillarPoint3": "Faaliyetlerimizi uluslararası standartlara uygun olarak belgeliyor, paydaşlarımıza şeffaf bilgiler sunuyoruz.",
+      "governancePillarPoint4": "Yeşil çelik ve düşük karbon teknolojileri gibi alanlarda Ar-Ge yatırımlarımızı artırarak çevre dostu bir üretim yapısı inşa ediyoruz.",
+      "goalsTitle": "Geleceğe Kararlı Adımlar",
+      "goalsDescription": "Sürdürülebilir bir gelecek için belirlediğimiz somut hedeflerimiz.",
+      "goal1": "2030 yılına kadar üretim başına karbon yoğunluğunu %30 azaltmak.",
+      "goal2": "Üretim süreçlerinde %90 oranında geri dönüştürülmüş hurda kullanmak.",
+      "goal3": "Tüm üretim tesislerinde yenilenebilir enerji oranını %50’ye çıkarmak.",
+      "goal4": "Sürdürülebilirlik raporlamasında uluslararası derecelendirme sistemlerine entegre olmak.",
+      "conclusionTitle": "Sadece Bugünü Değil, Geleceği İnşa Ediyoruz",
+      "conclusionDescription": "Orion Demir olarak, kaynakları daha verimli kullanan, doğayla barışık, topluma duyarlı ve etik değerlere dayalı bir sanayi anlayışını her geçen gün daha ileri taşıyoruz.",
+      "conclusionCallToAction": "Sürdürülebilir bir gelecek, kararlı adımlarla mümkündür. Biz o adımları bugün atıyoruz."
+    }
 }

@@ -18,8 +18,8 @@ const AboutImage = () => {
     const t = useTranslations("About_Us_Page");
     return (
         <img 
-            className="rounded-2xl mt-6 shadow-xl border border-white w-full h-full lg:h-9/10 object-cover" 
-            src="/hero1.PNG" 
+            className="rounded-2xl mt-6 shadow-xl w-full h-full lg:h-9/10 object-cover" 
+            src="/aboutphoto.png" 
             alt={t('image_alt')} 
             onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/600x400/cccccc/ffffff?text=Resim+Yüklenemedi'; }}
         />
@@ -57,7 +57,7 @@ export default function AboutUsPage() {
           </div>
         </div>
       </section>
-      <section className="py-16 md:py-24 bg-gray-75 border-t-1 border-gray-300 dark:bg-background-dark-lighter">
+      <section className="py-16 md:py-24 bg-gray-75 border-t-1 border-gray-300 dark:border-0 dark:bg-background-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-16 items-stretch">
             
@@ -97,7 +97,7 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-20 border-t-1 border-gray-300">
+      <section className="py-16 md:py-20 border-t-1 border-gray-300 dark:border-0">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <ShieldCheck className="mx-auto h-10 w-10 text-logo-blue dark:text-logo-blue"/>
             <h2 className="mt-4 text-2xl font-extrabold text-foreground dark:text-text-dark tracking-tight">

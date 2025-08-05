@@ -2,16 +2,18 @@
 
 import React, { useState } from 'react';
 import { Building2, MapPin, PaintRoller, CalendarDays, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useTranslations } from "next-intl";
+
 
 // Data arrays
 const businessPartners = [
-  "Can inşaat", "Tüsan AŞ", "Özkul inşaat", "Sevenler yapı", "My yeşil yapı inşaat", "Ebiri inşaat",
-  "AĞIT hafriyat inşaat", "Maksell İnşaat", "Demiryürek yapı inşaat", "Safir İnşaat", "Neva Grup inşaat",
-  "Esma grup", "By Hilton", "Borusan", "Ark yapı inşaat", "Dem inşaat yapı", "Has İnşaat", "Net holding",
-  "Yıldırım Akdeniz yapı", "Hakan Aslan Yapı inşaat", "Ali kaplan yapı inşaat", "Mbm makina",
-  "Yıldızlar AŞ", "Mor metal AŞ", "Güney Hasır Çelik", "Murat İnşaat Yapı", "Demirsan Demir Çelik",
-  "Erdemler AŞ", "Temsa AŞ", "Tüsaş", "Yapışan Yapı inşaat", "Taşkıran Yapı inşaat", "Hamidi Grup",
-  "Akel inşaat", "Şahbazoğlu Yapı", "My Yeşil İnşaat", "Yüksel Nazlı – Nazlı İnşaat", "Tekin İnşaat"
+  "Can İnşaat", "Tüsan AŞ", "Özkul İnşaat", "Sevenler Yapı", "My Yeşil Yapı İnşaat", "Ebiri İnşaat",
+  "Ağıt Hafriyat İnşaat", "Maksell İnşaat", "Demiryürek Yapı İnşaat", "Safir İnşaat", "Neva Grup İnşaat",
+  "Esma Grup", "By Hilton", "Borusan", "Ark Yapı İnşaat", "Dem İnşaat Yapı", "Has İnşaat", "Net Holding",
+  "Yıldırım Akdeniz Yapı", "Hakan Aslan Yapı İnşaat", "Ali Kaplan Yapı İnşaat", "Mbm Makina",
+  "Yıldızlar AŞ", "Mor Metal AŞ", "Güney Hasır Çelik", "Murat İnşaat Yapı", "Demirsan Demir Çelik",
+  "Erdemler AŞ", "Temsa AŞ", "Tüsaş", "Yapışan Yapı İnşaat", "Taşkıran Yapı İnşaat", "Hamidi Grup",
+  "Akel İnşaat", "Şahbazoğlu Yapı", "My Yeşil İnşaat", "Yüksel Nazlı – Nazlı İnşaat", "Tekin İnşaat"
 ];
 
 const projectReferences = [
@@ -92,18 +94,20 @@ const ReferencesPage = () => {
     setCurrentPartnerPage(pageNumber);
   };
 
+   const t = useTranslations("References");
+
 
   return (
-    <div className="bg-background dark:bg-background-dark text-text dark:text-text-dark min-h-screen">
+    <div className="bg-light-background-blue dark:bg-background-dark text-text dark:text-text-dark min-h-screen">
       <main className="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h1 className="text-5xl font-extrabold sm:text-6xl md:text-7xl">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-logo-blue to-hover-blue">
-              Referanslarımız
+              {t("references")}
             </span>
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-text/80 dark:text-text-dark/80 sm:text-xl">
-            Güven ve kalite üzerine inşa ettiğimiz işbirlikleri ve gurur duyduğumuz projeler.
+           {t("intro")}
           </p>
         </div>
 
@@ -112,7 +116,7 @@ const ReferencesPage = () => {
         {/* ================================================================== */}
         <section>
           <h2 className="text-4xl font-bold mb-12 text-center">
-            Değerli İş Ortaklarımız
+            {t("businessPartners")}
           </h2>
           {/* Added a min-height to prevent layout shifts */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 md:gap-8 min-h-[480px]">
@@ -169,7 +173,7 @@ const ReferencesPage = () => {
         {/* Project References Section with Pagination */}
         <section className="mt-24">
           <h2 className="text-4xl font-bold mb-12 text-center">
-            Proje Referanslarımız
+           {t("projectReferences")}
           </h2>
           {/* Added a min-height to prevent layout shifts when changing pages */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 min-h-[750px] md:min-h-[550px]">
@@ -197,7 +201,7 @@ const ReferencesPage = () => {
                   </div>
                 </div>
                  <div className="bg-gray-50 dark:bg-background-dark border-t border-gray-300 dark:border-gray-900 px-6 py-3">
-                    <span className="text-xs font-semibold text-logo-blue dark:text-hover-blue uppercase tracking-wider">Tamamlanan Proje</span>
+                    <span className="text-xs font-semibold text-logo-blue dark:text-hover-blue uppercase tracking-wider">{t("finishedProjects")}</span>
                 </div>
               </div>
             ))}

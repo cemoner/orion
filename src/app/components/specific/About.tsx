@@ -55,7 +55,7 @@ const AboutUs: NextPage = () => {
   const t = useTranslations("About_Us");
 
   return (
-    <div className="flex items-center justify-center shadow-2xl bg-gray-50 font-sans p-4 sm:p-6 md:p-8">
+    <div className="flex items-center justify-center shadow-2xl bg-gray-100 font-sans p-4 sm:p-6 md:p-8">
       <div className="container mx-auto max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Column - Text Content */}
