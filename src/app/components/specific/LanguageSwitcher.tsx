@@ -112,7 +112,7 @@ const LanguageSwitcher = () => {
       <div>
         <button
           type="button"
-          className="inline-flex w-full justify-center items-center gap-x-2 rounded-md bg-background dark:bg-background-dark px-3 py-2 text-sm font-semibold text-text dark:text-text-dark shadow-sm ring-1 ring-inset ring-border-gray hover:bg-hover-gray dark:hover:bg-hover-gray-dark"
+          className="inline-flex w-full justify-center items-center gap-x-2 rounded-md bg-background dark:bg-background-dark px-3 py-2 text-sm font-semibold text-text dark:text-text-dark shadow-sm hover:bg-hover-gray dark:hover:bg-hover-gray-dark"
           id="menu-button"
           aria-expanded={isOpen}
           aria-haspopup="true"

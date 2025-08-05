@@ -24,9 +24,10 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <Header/>
           {children}
-          <Footer/>
+          <Footer/> 
+          <VerticalTicker items={marketData}/>
           </NextIntlClientProvider>
-        <VerticalTicker items={marketData}/>
+       
       </body>
     </html>
   );

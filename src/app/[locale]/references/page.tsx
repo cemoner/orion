@@ -13,16 +13,18 @@ import { useTranslations } from "next-intl";
 
 // Data arrays
 const businessPartners = [
-  "Temsa AŞ",
+    "OYAK",
+  "Temsa A.Ş.",
   "Tüsaş",
   "SASA Polyester Sanayi A.Ş.",
-  "Borusan",
+  "Borusan Oto Servis ve Tic. A.Ş",
   "Koç Holding A.Ş.",
   "Rönesans Holding A.Ş.",
   "Tekfen Holding A.Ş.",
   "My Yeşil İnşaat",
   "Tekin İnşaat",
-  "Kalyon Holding","Sevenler Yapı",
+  "Kalyon Holding",
+  "Sevenler Yapı",
   "Tosyalı Holding A.Ş.",
   "Ekinciler Holding",
   "Gratis Kozmetik ve Tekstil Ticaret A.Ş.",
@@ -45,13 +47,13 @@ const businessPartners = [
   "Hakan Aslan Yapı İnşaat",
   "Ali Kaplan Yapı İnşaat",
   "Mbm Makina",
-  "Yıldızlar AŞ",
+  "Yıldızlar A.Ş.",
   "Tüsan AŞ",
-  "Mor Metal AŞ",
+  "Mor Metal A.Ş.",
   "Güney Hasır Çelik",
   "Murat İnşaat Yapı",
   "Demirsan Demir Çelik",
-  "Erdemler AŞ",
+  "Erdemler A.Ş",
   "Yapışan Yapı İnşaat",
   "Taşkıran Yapı İnşaat",
   "Hamidi Grup",
@@ -86,7 +88,38 @@ const businessPartners = [
   "Omnia Nişasta Katkı Maddeleri Sanayi ve Ticaret A.Ş.",
   "Tat Nişasta Katkı Maddeleri Sanayi ve Ticaret A.Ş.",
   "Teskim Tekstil Sanayi ve Ticaret A.Ş.",
-  "Kalkavan Holding A.Ş."
+  "Kalkavan Holding A.Ş.",
+ "Palmali Holding",
+  "Demsa Shipping",
+  "Demsa Holding",
+  "Arkas Holding",
+  "Net Holding",
+  "Yapi-Yapi Insaat A.Ş.",
+  "Zes Dijital Ticaret A.Ş.",
+  "Tekbas Insaat Ve Tarim Ticaret San. Ltd. Şti.",
+  "Pilon Yapi",
+  "Dag Yapi A.Ş.",
+  "Polyar Celik Yapi A.Ş.",
+  "Mgg Ticaret A.Ş.",
+  "Mercedes Benz Otomotiv Ticaret Ve Hizmetler A.Ş.",
+  "Kyb Kimyasal Tekstil Ve Ticaret A.Ş.",
+  "Kvk Teknoloji Ürünleri Ve Ticaret A.Ş.",
+  "Kendirliler Haddecilik San. Ve Tic. A.Ş.",
+  "Hasan Kavi Petrol Ürünleri Turizm Ticaret Ve Sanayi A.Ş.",
+  "Habaş Sınai Ve Tıbbi Gazlar A.Ş.",
+  "Arsan Holding",
+  "Guney Celik A.Ş.",
+  "Gunes Motorlu Araclar A.Ş.",
+  "Gri Internet Teknolojileri A.Ş.",
+  "Hcv Muhendislik A.Ş.",
+  "Alves Kablo Sanayi Ve Ticaret Anonim Şirketi",
+  "Diiport Insaat A.Ş.",
+  "Ceka Taahhut Yapi Anonim Şirketi",
+  "Cmd Ticaret Anonim Şirketi",
+  "Bim Birlesik Magazalar A.Ş.",
+  "Aykan Motorlu Servis A.Ş",
+  "Adana Metro İnşaat Sanayi ve Ticaret A.Ş",
+  "Aksa Çukurova Doğalgaz Kazancılar Holding"
 ];
 
 const projectReferences = [
@@ -407,70 +440,64 @@ const ReferencesPage = () => {
           </p>
         </div>
 
-        {/* ================================================================== */}
-        {/* VVVV   BUSINESS PARTNERS SECTION IS DEFINITELY HERE   VVVV */}
-        {/* ================================================================== */}
-        <section>
-          <h2 className="text-4xl font-bold mb-12 text-center">
-            {t("businessPartners")}
-          </h2>
-          {/* Added a min-height to prevent layout shifts */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 md:gap-8 min-h-[480px]">
-            {currentPartners.map((partner, index) => (
-              <div
-                key={index}
-                className="bg-background/60 dark:bg-background-dark-lighter/60 backdrop-blur-lg border border-gray-300 dark:border-gray-900 rounded-xl shadow-lg
-                           p-4 flex flex-col items-center justify-center text-center 
-                           transform hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer"
-              >
-                <Building2
-                  className="w-10 h-10 text-logo-blue dark:text-hover-blue mb-3"
-                  strokeWidth={1.5}
-                />
-                <h3 className="text-base font-semibold">{partner}</h3>
-              </div>
-            ))}
-          </div>
+       <section>
+  <h2 className="text-4xl font-bold mb-12 text-center">
+    {t("businessPartners")}
+  </h2>
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 lg:grid-rows-3 gap-6 md:gap-8 md:h-[480px]">
+    {currentPartners.map((partner, index) => (
+      <div
+        key={index}
+        // MODIFICATION: Removed invalid class `max-h-[480px]-`
+        className="bg-background/60 dark:bg-background-dark-lighter/60 backdrop-blur-lg border border-gray-300 dark:border-gray-900 rounded-xl shadow-lg
+                   p-4 flex flex-col items-center justify-center text-center 
+                   transform hover:-translate-y-2 transition-all duration-300 ease-in-out cursor-pointer"
+      >
+        <Building2
+          className="w-10 h-10 text-logo-blue dark:text-hover-blue mb-3"
+          strokeWidth={1.5}
+        />
+        <h3 className="text-base font-semibold">{partner}</h3>
+      </div>
+    ))}
+  </div>
 
-          {/* Pagination Controls for Business Partners */}
-          <div className="mt-12 flex justify-center items-center space-x-2">
-            <button
-              onClick={() => handlePartnerPageChange(currentPartnerPage - 1)}
-              disabled={currentPartnerPage === 1}
-              className="p-2 rounded-md disabled:opacity-50 disabled:cursor-not-allowed transition-colors
-                         hover:bg-gray-100 dark:hover:bg-background-dark-lighter"
-            >
-              <ChevronLeft className="h-5 w-5" />
-            </button>
-            {Array.from({ length: totalPartnerPages }, (_, i) => i + 1).map(
-              (page) => (
-                <button
-                  key={page}
-                  onClick={() => handlePartnerPageChange(page)}
-                  className={`px-4 py-2 rounded-md text-sm font-medium transition-colors
-                           ${
-                             currentPartnerPage === page
-                               ? "bg-logo-blue text-white shadow-md"
-                               : "hover:bg-gray-100 dark:hover:bg-background-dark-lighter"
-                           }`}
-                >
-                  {page}
-                </button>
-              )
-            )}
-            <button
-              onClick={() => handlePartnerPageChange(currentPartnerPage + 1)}
-              disabled={currentPartnerPage === totalPartnerPages}
-              className="p-2 rounded-md disabled:opacity-50 disabled:cursor-not-allowed transition-colors
-                         hover:bg-gray-100 dark:hover:bg-background-dark-lighter"
-            >
-              <ChevronRight className="h-5 w-5" />
-            </button>
-          </div>
-        </section>
-        {/* ================================================================== */}
-        {/* ^^^^   END OF BUSINESS PARTNERS SECTION   ^^^^ */}
-        {/* ================================================================== */}
+  {/* Pagination Controls for Business Partners */}
+  <div className="mt-12 flex justify-center items-center space-x-2">
+    <button
+      onClick={() => handlePartnerPageChange(currentPartnerPage - 1)}
+      disabled={currentPartnerPage === 1}
+      className="p-2 rounded-md disabled:opacity-50 disabled:cursor-not-allowed transition-colors
+                 hover:bg-gray-100 dark:hover:bg-background-dark-lighter"
+    >
+      <ChevronLeft className="h-5 w-5" />
+    </button>
+    {Array.from({ length: totalPartnerPages }, (_, i) => i + 1).map(
+      (page) => (
+        <button
+          key={page}
+          onClick={() => handlePartnerPageChange(page)}
+          className={`px-4 py-2 rounded-md text-sm font-medium transition-colors
+                    ${
+                      currentPartnerPage === page
+                        ? "bg-logo-blue text-white shadow-md"
+                        : "hover:bg-gray-100 dark:hover:bg-background-dark-lighter"
+                    }`}
+        >
+          {page}
+        </button>
+      )
+    )}
+    <button
+      onClick={() => handlePartnerPageChange(currentPartnerPage + 1)}
+      disabled={currentPartnerPage === totalPartnerPages}
+      className="p-2 rounded-md disabled:opacity-50 disabled:cursor-not-allowed transition-colors
+                 hover:bg-gray-100 dark:hover:bg-background-dark-lighter"
+    >
+      <ChevronRight className="h-5 w-5" />
+    </button>
+  </div>
+</section>
 
         {/* Project References Section with Pagination */}
         <section className="mt-24">

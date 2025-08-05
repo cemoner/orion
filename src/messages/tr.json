@@ -174,5 +174,42 @@
       "conclusionTitle": "Sadece Bugünü Değil, Geleceği İnşa Ediyoruz",
       "conclusionDescription": "Orion Demir olarak, kaynakları daha verimli kullanan, doğayla barışık, topluma duyarlı ve etik değerlere dayalı bir sanayi anlayışını her geçen gün daha ileri taşıyoruz.",
       "conclusionCallToAction": "Sürdürülebilir bir gelecek, kararlı adımlarla mümkündür. Biz o adımları bugün atıyoruz."
+    },
+    "Iron": {
+      "iron":"Demir"
+    },
+    "Offer": {
+    "submissionSuccessTitle": "Teklif Talebiniz Alınmıştır!",
+    "submissionSuccessMessage": "En kısa sürede sizinle iletişime geçeceğiz. Teşekkür ederiz.",
+    "formTitle": "Fiyat Teklifi Alın",
+    "formSubtitle": "Lütfen formu doldurarak ihtiyacınız olan ürünler için teklif isteyiniz.",
+    "fullNameLabel": "İsim Soyisim",
+    "companyNameLabel": "Firma Adı",
+    "phoneLabel": "Telefon",
+    "emailLabel": "Email",
+    "locationLabel": "İl / İlçe",
+    "productsTitle": "Ürünler",
+    "productSelectLabel": "Ürün Seçimi",
+    "quantityLabel": "Miktar (Kg)",
+    "quantityPlaceholder": "Kg Giriniz",
+    "removeProductAriaLabel": "Ürünü kaldır",
+    "addProductButton": "+ Yeni Ürün Ekle",
+    "submitButton": "Teklif Al",
+    "products": {
+      "rebar08": "08 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar10": "10 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar12": "12 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar14": "14 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar16": "16 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar18": "18 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar20": "20 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar22": "22 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar24": "24 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar25": "25 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar26": "26 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar28": "28 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar30": "30 MM NERVÜRLÜ İNŞAAT DEMİRİ",
+      "rebar32": "32 MM NERVÜRLÜ İNŞAAT DEMİRİ"
     }
+  }
 }
