@@ -78,7 +78,9 @@
     "paragraph3": "Önemli Bilgilendirme: Fiyatlara KDV Dahildir, Nakliye Ücretleri Hariçtir",
     "paragraph4": "Stok durumu, fiyat teklifi veya sevkiyat süreci hakkında daha fazla bilgi almak isterseniz, bizimle e-posta yoluyla iletişime geçebilirsiniz. İletişim E-Posta Adresi: info@oriondemir.com.tr",
     "paragraph5": "Firmamız doğrudan sevkiyat (nakliye) hizmeti sunmamakta; ancak müşterilerimizin talebi doğrultusunda, anlaşmalı olduğumuz nakliye firmaları aracılığıyla ürün gönderimi organize edilebilmektedir. Bu noktada, nakliye ücreti müşteriye ait olup, sipariş sürecinde ayrıca değerlendirilmelidir.",
-    "card_button": "Ürünler"
+    "card_button": "Ürünler",
+    "page_header": "Nervürlü İnşaat Demiri",
+    "page_paragraph": "İhtiyaçlarınıza uygun çeşitli boyutlarda yüksek kaliteli nervürlü inşaat demiri ürünlerimize göz atın."
   },
   "HeroSlide": {
     "slide1": {
@@ -135,50 +137,50 @@
     "mersisNoValue": "0647058848600001"
   },
   "References": {
-    "references":"Referanslar",
-    "intro":"Güven ve kalite üzerine inşa ettiğimiz işbirlikleri ve gurur duyduğumuz projeler.",
-    "businessPartners":"Değerli İş Ortaklarımız",
-    "projectReferences":"Proje Referanslarımız",
-    "finishedProjects":"Tamamlanan Proje"
+    "references": "Referanslar",
+    "intro": "Güven ve kalite üzerine inşa ettiğimiz işbirlikleri ve gurur duyduğumuz projeler.",
+    "businessPartners": "Değerli İş Ortaklarımız",
+    "projectReferences": "Proje Referanslarımız",
+    "finishedProjects": "Tamamlanan Proje"
   },
   "SustainabilityPage": {
-      "heroTitle": "Geleceği Demirle Şekillendiriyoruz",
-      "heroDescription": "Orion Demir olarak sürdürülebilirliği yalnızca bir çevre politikası değil, işimizin ayrılmaz bir parçası olarak görüyoruz. Gelecek nesillere daha yaşanabilir bir dünya bırakmak için kaynakları verimli kullanan, çevresel etkileri asgariye indiren ve topluma değer katan bir anlayışla hareket ediyoruz.",
-      "strategicApproachTitle": "Stratejik Yaklaşımımız",
-      "strategicApproachSubtitle": "Sürdürülebilirliğin Üç Sac Ayağı",
-      "strategicApproachDescription": "Kısa vadeli başarıların ötesinde uzun vadeli etki yaratmayı hedefleyen politikamız, üç temel eksende gelişir.",
-      "environmentalPillarTitle": "Çevresel Sürdürülebilirlik",
-      "environmentalPillarQuote": "Doğaya saygı, geleceğe yatırımdır.",
-      "environmentalPillarPoint1": "Üretim hatlarımızı yüksek enerji verimliliğine sahip sistemlerle donatıyoruz ve karbon emisyonlarımızı azaltmak için ölçülebilir adımlar atıyoruz.",
-      "environmentalPillarPoint2": "Kullandığımız hammaddenin önemli bir kısmı geri dönüştürülmüş çelikten oluşur ve atık minimizasyonuna öncelik veririz.",
-      "environmentalPillarPoint3": "Ürünlerimizin yaşam döngüsü boyunca çevresel etkiyi analiz ediyor ve sürdürülebilirliği ön planda tutuyoruz.",
-      "environmentalPillarPoint4": "Proses suyu tüketimini azaltan teknolojiler kullanıyor, alternatif su kaynakları geliştiriyoruz.",
-      "socialPillarTitle": "Sosyal Sorumluluk",
-      "socialPillarQuote": "Güçlü çelik, güçlü toplumlarla mümkündür.",
-      "socialPillarPoint1": "Tüm çalışanlarımıza adil, güvenli ve kapsayıcı bir çalışma ortamı sunarız. İş sağlığı ve güvenliği politikamızın merkezindedir.",
-      "socialPillarPoint2": "Eğitim, çevre ve sosyal sorumluluk projeleriyle topluma karşı sorumluluğumuzu yerine getiriyoruz.",
-      "socialPillarPoint3": "Tedarik zincirimizde etik, çevresel ve sosyal standartların uygulanmasını gözetiyoruz.",
-      "socialPillarPoint4": "Farklı bakış açılarını teşvik ediyor, kadınların sanayide daha fazla yer almasını destekliyor ve fırsat eşitliğine bağlı kalıyoruz.",
-      "governancePillarTitle": "Kurumsal Yönetişim",
-      "governancePillarQuote": "Şeffaf, hesap verebilir ve dirençli bir yapı.",
-      "governancePillarPoint1": "Sürdürülebilirlik, üst yönetim tarafından doğrudan sahiplenilir ve stratejik karar mekanizmalarına entegre edilir.",
-      "governancePillarPoint2": "İklim değişikliğinin risklerini yönetmek amacıyla senaryo analizleri ve adaptasyon planları geliştiriyoruz.",
-      "governancePillarPoint3": "Faaliyetlerimizi uluslararası standartlara uygun olarak belgeliyor, paydaşlarımıza şeffaf bilgiler sunuyoruz.",
-      "governancePillarPoint4": "Yeşil çelik ve düşük karbon teknolojileri gibi alanlarda Ar-Ge yatırımlarımızı artırarak çevre dostu bir üretim yapısı inşa ediyoruz.",
-      "goalsTitle": "Geleceğe Kararlı Adımlar",
-      "goalsDescription": "Sürdürülebilir bir gelecek için belirlediğimiz somut hedeflerimiz.",
-      "goal1": "2030 yılına kadar üretim başına karbon yoğunluğunu %30 azaltmak.",
-      "goal2": "Üretim süreçlerinde %90 oranında geri dönüştürülmüş hurda kullanmak.",
-      "goal3": "Tüm üretim tesislerinde yenilenebilir enerji oranını %50’ye çıkarmak.",
-      "goal4": "Sürdürülebilirlik raporlamasında uluslararası derecelendirme sistemlerine entegre olmak.",
-      "conclusionTitle": "Sadece Bugünü Değil, Geleceği İnşa Ediyoruz",
-      "conclusionDescription": "Orion Demir olarak, kaynakları daha verimli kullanan, doğayla barışık, topluma duyarlı ve etik değerlere dayalı bir sanayi anlayışını her geçen gün daha ileri taşıyoruz.",
-      "conclusionCallToAction": "Sürdürülebilir bir gelecek, kararlı adımlarla mümkündür. Biz o adımları bugün atıyoruz."
-    },
-    "Iron": {
-      "iron":"Demir"
-    },
-    "Offer": {
+    "heroTitle": "Geleceği Demirle Şekillendiriyoruz",
+    "heroDescription": "Orion Demir olarak sürdürülebilirliği yalnızca bir çevre politikası değil, işimizin ayrılmaz bir parçası olarak görüyoruz. Gelecek nesillere daha yaşanabilir bir dünya bırakmak için kaynakları verimli kullanan, çevresel etkileri asgariye indiren ve topluma değer katan bir anlayışla hareket ediyoruz.",
+    "strategicApproachTitle": "Stratejik Yaklaşımımız",
+    "strategicApproachSubtitle": "Sürdürülebilirliğin Üç Sac Ayağı",
+    "strategicApproachDescription": "Kısa vadeli başarıların ötesinde uzun vadeli etki yaratmayı hedefleyen politikamız, üç temel eksende gelişir.",
+    "environmentalPillarTitle": "Çevresel Sürdürülebilirlik",
+    "environmentalPillarQuote": "Doğaya saygı, geleceğe yatırımdır.",
+    "environmentalPillarPoint1": "Üretim hatlarımızı yüksek enerji verimliliğine sahip sistemlerle donatıyoruz ve karbon emisyonlarımızı azaltmak için ölçülebilir adımlar atıyoruz.",
+    "environmentalPillarPoint2": "Kullandığımız hammaddenin önemli bir kısmı geri dönüştürülmüş çelikten oluşur ve atık minimizasyonuna öncelik veririz.",
+    "environmentalPillarPoint3": "Ürünlerimizin yaşam döngüsü boyunca çevresel etkiyi analiz ediyor ve sürdürülebilirliği ön planda tutuyoruz.",
+    "environmentalPillarPoint4": "Proses suyu tüketimini azaltan teknolojiler kullanıyor, alternatif su kaynakları geliştiriyoruz.",
+    "socialPillarTitle": "Sosyal Sorumluluk",
+    "socialPillarQuote": "Güçlü çelik, güçlü toplumlarla mümkündür.",
+    "socialPillarPoint1": "Tüm çalışanlarımıza adil, güvenli ve kapsayıcı bir çalışma ortamı sunarız. İş sağlığı ve güvenliği politikamızın merkezindedir.",
+    "socialPillarPoint2": "Eğitim, çevre ve sosyal sorumluluk projeleriyle topluma karşı sorumluluğumuzu yerine getiriyoruz.",
+    "socialPillarPoint3": "Tedarik zincirimizde etik, çevresel ve sosyal standartların uygulanmasını gözetiyoruz.",
+    "socialPillarPoint4": "Farklı bakış açılarını teşvik ediyor, kadınların sanayide daha fazla yer almasını destekliyor ve fırsat eşitliğine bağlı kalıyoruz.",
+    "governancePillarTitle": "Kurumsal Yönetişim",
+    "governancePillarQuote": "Şeffaf, hesap verebilir ve dirençli bir yapı.",
+    "governancePillarPoint1": "Sürdürülebilirlik, üst yönetim tarafından doğrudan sahiplenilir ve stratejik karar mekanizmalarına entegre edilir.",
+    "governancePillarPoint2": "İklim değişikliğinin risklerini yönetmek amacıyla senaryo analizleri ve adaptasyon planları geliştiriyoruz.",
+    "governancePillarPoint3": "Faaliyetlerimizi uluslararası standartlara uygun olarak belgeliyor, paydaşlarımıza şeffaf bilgiler sunuyoruz.",
+    "governancePillarPoint4": "Yeşil çelik ve düşük karbon teknolojileri gibi alanlarda Ar-Ge yatırımlarımızı artırarak çevre dostu bir üretim yapısı inşa ediyoruz.",
+    "goalsTitle": "Geleceğe Kararlı Adımlar",
+    "goalsDescription": "Sürdürülebilir bir gelecek için belirlediğimiz somut hedeflerimiz.",
+    "goal1": "2030 yılına kadar üretim başına karbon yoğunluğunu %30 azaltmak.",
+    "goal2": "Üretim süreçlerinde %90 oranında geri dönüştürülmüş hurda kullanmak.",
+    "goal3": "Tüm üretim tesislerinde yenilenebilir enerji oranını %50’ye çıkarmak.",
+    "goal4": "Sürdürülebilirlik raporlamasında uluslararası derecelendirme sistemlerine entegre olmak.",
+    "conclusionTitle": "Sadece Bugünü Değil, Geleceği İnşa Ediyoruz",
+    "conclusionDescription": "Orion Demir olarak, kaynakları daha verimli kullanan, doğayla barışık, topluma duyarlı ve etik değerlere dayalı bir sanayi anlayışını her geçen gün daha ileri taşıyoruz.",
+    "conclusionCallToAction": "Sürdürülebilir bir gelecek, kararlı adımlarla mümkündür. Biz o adımları bugün atıyoruz."
+  },
+  "Iron": {
+    "iron": "Demir"
+  },
+  "Offer": {
     "submissionSuccessTitle": "Teklif Talebiniz Alınmıştır!",
     "submissionSuccessMessage": "En kısa sürede sizinle iletişime geçeceğiz. Teşekkür ederiz.",
     "formTitle": "Fiyat Teklifi Alın",
@@ -210,6 +212,58 @@
       "rebar28": "28 MM NERVÜRLÜ İNŞAAT DEMİRİ",
       "rebar30": "30 MM NERVÜRLÜ İNŞAAT DEMİRİ",
       "rebar32": "32 MM NERVÜRLÜ İNŞAAT DEMİRİ"
+    }
+  },
+  "Product_Detail": {
+    "product": {
+      "imageAlt": "Nervürlü İnşaat Demiri",
+      "title": "Nervürlü İnşaat Demiri",
+      "priceRange": "₺26.700,00 – ₺28.300,00",
+      "shortDescription": "Nervürlü inşaat demirleri, modern inşaat sektöründe sıkça kullanılan ve önemli bir rol oynayan yapı malzemelerinden biridir. Bu demirler, özel üretim teknikleriyle üretilerek yüzeylerinde belirgin çıkıntılar oluşturulur."
+    },
+    "importantNote": {
+      "title": "Önemli Not",
+      "content": "Alacağınız ürünler tır bazlıdır. Yani 1 adet = 1 ton. O yüzden sepetinizi 28 tona tamamlamalısınız. Nakliye fiyatı dahil değildir. Ödeme kısmında not olarak nakliye istediğinizi belirtirseniz sizinle iletişime geçerek nakliyeyi ayarlarız."
+    },
+    "actions": {
+      "contactUs": "Bizimle İletişime Geçin"
+    },
+    "tabs": {
+      "description": "Açıklama",
+      "additionalInfo": "Ek Bilgiler"
+    },
+    "description": {
+      "paragraph1": "Nervürlü inşaat demirlerimiz kullanıldığı alanda fark yaratır. Demirlerin kullanım alanlarını sınırlandıramayız. Nervürlü demir, modern inşaat sektöründe önemli bir malzeme olarak kendine sağlam bir yer edinmiştir. Yapısal dayanıklılığı ve esnek kullanımıyla tanınan nervürlü demirler, çeşitli inşaat projelerinde geniş bir kullanım alanına sahiptir.",
+      "feature1": {
+        "title": "Demir Sektöründe Öncü",
+        "content": "Dayanıklılığı şaşırtabilir ama güçlü olduğu için."
+      }
+    },
+    "advantages": {
+      "title": "Kullanım Avantajları",
+      "item1": {
+        "title": "Yüksek Mukavemet:",
+        "description": "Yapılara üstün dayanıklılık ve güvenlik sağlar."
+      },
+      "item2": {
+        "title": "İyi Yapışma Özelliği:",
+        "description": "Betonla mükemmel bir bağ kurarak yapısal bütünlüğü artırır."
+      },
+      "item3": {
+        "title": "Korozyon Direnci:",
+        "description": "Uzun ömürlü kullanım için korozyona karşı dayanıklıdır."
+      },
+      "item4": {
+        "title": "Uzun Ömür:",
+        "description": "Kaliteli malzeme yapısıyla projelerinizin ömrünü uzatır."
+      },
+      "item5": {
+        "title": "Çevre Dostu:",
+        "description": "Geri dönüştürülebilir malzemelerden üretilmiştir."
+      }
+    },
+    "additionalInfo": {
+      "placeholder": "Ek bilgiler buraya eklenecektir."
     }
   }
 }

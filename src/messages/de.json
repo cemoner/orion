@@ -78,7 +78,9 @@
     "paragraph3": "Wichtiger Hinweis: Die Preise enthalten die Mehrwertsteuer, Versandkosten sind nicht inbegriffen.",
     "paragraph4": "Wenn Sie weitere Informationen zu Lagerbestand, Preisangebot oder dem Versandprozess wünschen, können Sie uns per E-Mail kontaktieren. Kontakt-E-Mail-Adresse: info@oriondemir.com.tr",
     "paragraph5": "Unser Unternehmen bietet keinen direkten Versand (Transport) an; jedoch kann auf Kundenwunsch die Lieferung der Produkte über unsere Vertragspartner im Transportbereich organisiert werden. In diesem Fall trägt der Kunde die Versandkosten, welche im Bestellprozess gesondert berücksichtigt werden müssen.",
-    "card_button": "Produkte"
+    "card_button": "Produkte",
+    "page_header": "Rippenbewehrungsstahl",
+    "page_paragraph": "Entdecken Sie unsere hochwertigen Rippenbewehrungsstahl-Produkte in verschiedenen Größen, passend für Ihre Bedürfnisse."
   },
   "HeroSlide": {
     "slide1": {
@@ -210,6 +212,58 @@
       "rebar_28mm": "28 MM Gerippter Bewehrungsstahl",
       "rebar_30mm": "30 MM Gerippter Bewehrungsstahl",
       "rebar_32mm": "32 MM Gerippter Bewehrungsstahl"
+    }
+  },
+  "Product_Detail": {
+    "product": {
+      "imageAlt": "Rippenstahl",
+      "title": "Rippenstahl",
+      "priceRange": "₺26.700,00 – ₺28.300,00",
+      "shortDescription": "Rippenstahl ist einer der Baustoffe, die in der modernen Bauindustrie häufig verwendet werden und eine wichtige Rolle spielen. Diese Stäbe werden mit speziellen Fertigungstechniken hergestellt, um deutliche Rippen auf ihren Oberflächen zu erzeugen."
+    },
+    "importantNote": {
+      "title": "Wichtiger Hinweis",
+      "content": "Die Produkte, die Sie kaufen, werden auf LKW-Basis geliefert. Das bedeutet, 1 Einheit = 1 Tonne. Daher müssen Sie Ihren Warenkorb auf 28 Tonnen auffüllen. Der Versandpreis ist nicht inbegriffen. Wenn Sie im Zahlungsbereich vermerken, dass Sie einen Versand wünschen, werden wir Sie kontaktieren, um diesen zu arrangieren."
+    },
+    "actions": {
+      "contactUs": "Kontaktieren Sie uns"
+    },
+    "tabs": {
+      "description": "Beschreibung",
+      "additionalInfo": "Zusätzliche Informationen"
+    },
+    "description": {
+      "paragraph1": "Unser Rippenstahl macht in seinem Anwendungsbereich einen Unterschied. Wir können die Anwendungsbereiche dieser Stäbe nicht einschränken. Rippenstahl hat sich als wichtiges Material in der modernen Bauindustrie einen festen Platz erobert. Bekannt für seine strukturelle Haltbarkeit und flexible Verwendung, haben Rippenstähle ein breites Anwendungsspektrum in verschiedenen Bauprojekten.",
+      "feature1": {
+        "title": "Führend in der Stahlindustrie",
+        "content": "Seine Haltbarkeit mag überraschen, aber das liegt daran, dass er stark ist."
+      }
+    },
+    "advantages": {
+      "title": "Nutzungsvorteile",
+      "item1": {
+        "title": "Hohe Festigkeit:",
+        "description": "Bietet überlegene Haltbarkeit und Sicherheit für Strukturen."
+      },
+      "item2": {
+        "title": "Gute Haftung:",
+        "description": "Bildet eine ausgezeichnete Verbindung mit Beton und verbessert die strukturelle Integrität."
+      },
+      "item3": {
+        "title": "Korrosionsbeständigkeit:",
+        "description": "Beständig gegen Korrosion für eine langlebige Nutzung."
+      },
+      "item4": {
+        "title": "Lange Lebensdauer:",
+        "description": "Verlängert die Lebensdauer Ihrer Projekte durch seine hochwertige Materialstruktur."
+      },
+      "item5": {
+        "title": "Umweltfreundlich:",
+        "description": "Hergestellt aus recycelbaren Materialien."
+      }
+    },
+    "additionalInfo": {
+      "placeholder": "Zusätzliche Informationen werden hier hinzugefügt."
     }
   }
 }

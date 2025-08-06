@@ -17,9 +17,9 @@ interface TickerItem {
 const getInitialMarketData = (ironTranslation: string): TickerItem[] => [
   { id: 'usd-try', icon: DollarSign, name: 'USD/TRY', value: '...' },
   { id: 'eur-try', icon: Euro, name: 'EUR/TRY', value: '...' },
-  { id: 'iron-12mm', icon: BarChartBig, name: `${ironTranslation} 12MM+`, value: '2,525.50' },
-  { id: 'iron-10mm', icon: BarChartBig, name: `${ironTranslation} 10MM`, value: '2,505.00' },
-  { id: 'iron-08mm', icon: BarChartBig, name: `${ironTranslation} 08MM`, value: '2,635.00' },
+  { id: 'iron-12mm', icon: BarChartBig, name: `${ironTranslation} 12MM+`, value: '25.250,00₺' },
+  { id: 'iron-10mm', icon: BarChartBig, name: `${ironTranslation} 10MM`, value: '25.850,00₺' },
+  { id: 'iron-08mm', icon: BarChartBig, name: `${ironTranslation} 08MM`, value: '26.050,00₺' },
 ];
 
 // TickerItemComponent remains unchanged

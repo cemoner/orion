@@ -83,7 +83,9 @@
     "paragraph3": "Important Notice: VAT is included in the prices, shipping fees are excluded.",
     "paragraph4": "If you would like more information about stock availability, price quotation, or the shipping process, you can contact us via email. Contact Email Address: info@oriondemir.com.tr",
     "paragraph5": "Our company does not provide direct shipping (transportation) services; however, upon our customers' requests, product delivery can be organized through our contracted shipping companies. In this case, the shipping cost is borne by the customer and should be considered separately during the ordering process.",
-    "card_button": "Products"
+    "card_button": "Products",
+     "page_header": "Deformed Reinforcing Bar",
+    "page_paragraph": "Browse our high-quality deformed reinforcing bar products in various sizes to suit your needs."
   },
   "HeroSlide": {
     "slide1": {
@@ -215,6 +217,58 @@
       "rebar_28mm": "28 MM Ribbed Reinforcement Bar",
       "rebar_30mm": "30 MM Ribbed Reinforcement Bar",
       "rebar_32mm": "32 MM Ribbed Reinforcement Bar"
+    }
+  },
+  "Product_Detail": {
+    "product": {
+      "imageAlt": "Deformed Reinforcement Steel",
+      "title": "Deformed Reinforcement Steel",
+      "priceRange": "₺26.700,00 – ₺28.300,00",
+      "shortDescription": "Deformed reinforcement steel is one of the structural materials frequently used and playing a significant role in the modern construction industry. These bars are produced with special manufacturing techniques to create distinct ribs on their surfaces."
+    },
+    "importantNote": {
+      "title": "Important Note",
+      "content": "The products you will purchase are on a truckload basis. This means 1 unit = 1 ton. Therefore, you must fill your cart to 28 tons. Shipping price is not included. If you note that you want shipping in the payment section, we will contact you to arrange it."
+    },
+    "actions": {
+      "contactUs": "Contact Us"
+    },
+    "tabs": {
+      "description": "Description",
+      "additionalInfo": "Additional Information"
+    },
+    "description": {
+      "paragraph1": "Our deformed reinforcement steel makes a difference in its field of use. We cannot limit the application areas of these bars. Deformed steel has established a solid place for itself as an important material in the modern construction industry. Known for its structural durability and flexible use, deformed steel bars have a wide range of applications in various construction projects.",
+      "feature1": {
+        "title": "Leader in the Steel Industry",
+        "content": "Its durability might be surprising, but that's because it's strong."
+      }
+    },
+    "advantages": {
+      "title": "Usage Advantages",
+      "item1": {
+        "title": "High Strength:",
+        "description": "Provides superior durability and safety to structures."
+      },
+      "item2": {
+        "title": "Good Adhesion:",
+        "description": "Forms an excellent bond with concrete, enhancing structural integrity."
+      },
+      "item3": {
+        "title": "Corrosion Resistance:",
+        "description": "Resistant to corrosion for long-lasting use."
+      },
+      "item4": {
+        "title": "Long Lifespan:",
+        "description": "Extends the life of your projects with its quality material structure."
+      },
+      "item5": {
+        "title": "Eco-Friendly:",
+        "description": "Made from recyclable materials."
+      }
+    },
+    "additionalInfo": {
+      "placeholder": "Additional information will be added here."
     }
   }
 }
