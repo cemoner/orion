@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { DollarSign, Euro, BarChartBig } from 'lucide-react';
 import { useTranslations } from "next-intl";
 
-// Define the type for a single ticker item
 interface TickerItem {
   id: string;
   icon: React.ElementType;
@@ -12,17 +11,14 @@ interface TickerItem {
   value: string;
 }
 
-// This function generates the initial data structure. 
-// It now correctly receives the translated word for "Iron".
 const getInitialMarketData = (ironTranslation: string): TickerItem[] => [
   { id: 'usd-try', icon: DollarSign, name: 'USD/TRY', value: '...' },
   { id: 'eur-try', icon: Euro, name: 'EUR/TRY', value: '...' },
-  { id: 'iron-12mm', icon: BarChartBig, name: `${ironTranslation} 12MM+`, value: '25.250,00₺' },
-  { id: 'iron-10mm', icon: BarChartBig, name: `${ironTranslation} 10MM`, value: '25.850,00₺' },
-  { id: 'iron-08mm', icon: BarChartBig, name: `${ironTranslation} 08MM`, value: '26.050,00₺' },
+  { id: 'iron-12mm', icon: BarChartBig, name: `${ironTranslation} 12MM+`, value: '26.700,00₺' },
+  { id: 'iron-10mm', icon: BarChartBig, name: `${ironTranslation} 10MM`, value: '28.100,00₺' },
+  { id: 'iron-08mm', icon: BarChartBig, name: `${ironTranslation} 08MM`, value: '28.300,00₺' },
 ];
 
-// TickerItemComponent remains unchanged
 const TickerItemComponent: React.FC<{ item: TickerItem }> = ({ item }) => {
   const Icon = item.icon;
 
@@ -41,7 +37,6 @@ const TickerItemComponent: React.FC<{ item: TickerItem }> = ({ item }) => {
   );
 };
 
-// VerticalTicker component with corrected styling
 const VerticalTicker: React.FC<{items: TickerItem[]; interval?: number }> = ({items, interval = 2250 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
@@ -90,15 +85,10 @@ const LiveDataProvider: React.FC = () => {
     // Get the translation function from the "Iron" namespace.
     const t = useTranslations("Iron");
     
-    // **FIX:** Using 'iron' as the translation key as requested.
-    // Your en.json should have: { "Iron": { "iron": "Iron" } }
-    // And your tr.json should have: { "Iron": { "iron": "Demir" } }
     const ironWord = t('iron'); 
 
-    // Initialize state with translated data
     const [marketItems, setMarketItems] = useState<TickerItem[]>(() => getInitialMarketData(ironWord));
 
-    // This effect updates the item names whenever the language (and thus ironWord) changes.
     useEffect(() => {
         setMarketItems(currentItems => 
             currentItems.map(item => {
@@ -110,7 +100,7 @@ const LiveDataProvider: React.FC = () => {
         );
     }, [ironWord]);
 
-    // This effect fetches live currency data.
+   
     useEffect(() => {
         const fetchRates = async () => {
             try {

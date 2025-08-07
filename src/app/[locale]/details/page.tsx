@@ -24,8 +24,8 @@ const ProductDetailPage = () => {
 
   return (
     <div className="bg-background dark:bg-background-dark-lighter min-h-screen font-sans">
-      <div className="w-full mx-auto p-4 lg:p-4 sm:p-8 border-b border-gray-200">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+      <div className="w-full mx-auto p-4 lg:p-4 sm:p-8 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 pb-6 dark:border-b dark:border-gray-700">
           {/* --- Product Image Section --- */}
           <div className="w-full">
             <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg h-auto lg:h-full">

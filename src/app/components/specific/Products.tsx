@@ -14,9 +14,9 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   return (
     // The main container allows overflow. The group class has been removed.
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden lg:overflow-visible ">
       {/* The main card, which contains the base image and is clipped */}
-      <div className=" w-full h-full rounded-lg overflow-hidden z-10 border-4 border-blue-900">
+      <div className=" w-full h-full rounded-lg z-10 border-4 border-blue-900">
         <img
           src={imageUrl}
           alt="Corporate Building Exterior"
@@ -31,7 +31,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
       </div>
 
       {/* Wrapper for the overlay image and its hover effect. This is the new hover target. */}
-      <div className="absolute top-35 translate-x-[20%] lg:top-40 lg:translate-x-[-40%] z-20 group">
+      <div className="absolute top-25 translate-x-[20%] lg:top-40 lg:translate-x-[-20%] z-20 group">
         <img
           src={overlayImageUrl}
           alt="Corporate Interior"
@@ -53,7 +53,7 @@ const Products: NextPage = () => {
   const t = useTranslations("Products");
 
   return (
-    <div className="flex items-center flex-col w-full justify-center  bg-gray-50 font-sans mb-8 lg:mb-8 p-4 sm:p-6 md:p-8">
+    <div className="flex items-center flex-col w-full justify-center  bg-gray-50 font-sans p-4 sm:p-6 md:p-8">
       <div className="container mx-auto max-w-7xl mt-12">
         {/* H1 takes its own row, centered */}
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-center">
