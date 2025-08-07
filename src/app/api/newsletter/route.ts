@@ -58,6 +58,7 @@ export async function POST(request: Request) {
       { status: 201 }
     );
   } catch (error) {
+     console.error('Email send error:', error);
     return NextResponse.json(
       { message: 'newsletter.error_generic' },
       
