@@ -14,9 +14,9 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   return (
     // The main container allows overflow. The group class has been removed.
-    <div className="relative w-full overflow-hidden lg:overflow-visible ">
+    <div className="relative w-full overflow-x-hidden overflow-hidden lg:overflow-visible ">
       {/* The main card, which contains the base image and is clipped */}
-      <div className=" w-full h-full rounded-lg z-10 border-4 border-blue-900">
+      <div className="w-full h-full rounded-lg z-10 border-4 border-blue-900">
         <img
           src={imageUrl}
           alt="Corporate Building Exterior"
@@ -31,7 +31,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
       </div>
 
       {/* Wrapper for the overlay image and its hover effect. This is the new hover target. */}
-      <div className="absolute top-25 translate-x-[20%] lg:top-40 lg:translate-x-[-20%] z-20 group">
+      <div className="hidden md:block absolute top-25 translate-x-[20%] lg:top-40 lg:translate-x-[-20%] z-20">
         <img
           src={overlayImageUrl}
           alt="Corporate Interior"
@@ -53,7 +53,7 @@ const Products: NextPage = () => {
   const t = useTranslations("Products");
 
   return (
-    <div className="flex items-center flex-col w-full justify-center  bg-gray-50 font-sans p-4 sm:p-6 md:p-8">
+    <div className="flex items-center flex-col w-full justify-center overflow-x-hidden  bg-gray-50 font-sans p-4 sm:p-6 md:p-8">
       <div className="container mx-auto max-w-7xl mt-12">
         {/* H1 takes its own row, centered */}
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-center">
@@ -84,7 +84,7 @@ const Products: NextPage = () => {
           </div>
 
           {/* Right Column - Image Card (1/3 width on large screens) */}
-          <div className="lg:col-span-1 pl-4 flex justify-center h-full items-start md:justify-end lg:pl-0">
+          <div className="lg:col-span-1 flex justify-center h-full items-start md:justify-end lg:pl-0">
             <ProductCard
               imageUrl="/products1.png"
               overlayImageUrl="/products2.png"

@@ -168,43 +168,43 @@ export const Header: FC = () => {
         <nav className="flex flex-col items-center space-y-4 py-4">
           <Link
             href="/"
-            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm py-2"
+            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm"
           >
             {t("nav.home")}
           </Link>
           <Link
             href="/products"
-            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm pb-4"
+            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm"
           >
             {t("nav.products")}
           </Link>
           <Link
             href="/about"
-            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm pb-4"
+            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm"
           >
             {t("nav.about")}
           </Link>
           <Link
             href="/sustainability"
-            className="text-text dark:text-text-dark text-base lg:text-sm md:text-xs hover:text-hover-blue py-2 mx-1.5 xl:mx-3 rounded-md transition-all duration-300 ease-in-out hover:scale-125 hover:mx-6"
+            className="text-text dark:text-text-dark text-base lg:text-sm md:text-xs hover:text-hover-blue mx-1.5 xl:mx-3 rounded-md transition-all duration-300 ease-in-out hover:scale-125 hover:mx-6"
           >
             {t("nav.sustainability")}
           </Link>
           <Link
             href="/contact"
-            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm pb-4"
+            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm"
           >
             {t("nav.contact")}
           </Link>
           <Link
             href="/offer"
-            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm pb-4"
+            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm"
           >
             {t("nav.offer")}
           </Link>
           <Link
             href="/references"
-            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center py-0"
+            className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center"
           >
             {t("nav.references")}
           </Link>

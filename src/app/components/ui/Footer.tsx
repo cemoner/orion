@@ -33,7 +33,9 @@ export const Footer = () => {
                 type="submit"
                 className="py-3 px-6 text-sm bg-logo-blue hover:bg-logo-blue-dark transition-colors duration-300 text-text-dark rounded-4xl cursor-pointer"
               >
+                <Link href="/contact" className="text-text-dark hover:text-text">
                 {t('address.button')}
+                </Link>
               </button>
             </div>
           </div>
