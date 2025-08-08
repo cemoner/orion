@@ -1,9 +1,14 @@
-import type { NextPage } from "next";
+
+'use client'
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 // Define the props for the component
 interface CorporateCardProps {
+  imageUrl: string;
+  overlayImageUrl: string;
+}
+interface AboutUsProps {
   imageUrl: string;
   overlayImageUrl: string;
 }
@@ -51,7 +56,7 @@ const CorporateCard: React.FC<CorporateCardProps> = ({
 };
 
 // AboutUs Page
-const AboutUs: NextPage = () => {
+const AboutUs: React.FC<AboutUsProps> = ({imageUrl,overlayImageUrl}) => {
   const t = useTranslations("About_Us");
 
   return (
@@ -78,8 +83,8 @@ const AboutUs: NextPage = () => {
           {/* Right Column - Image Card. Added more padding on the left for mobile. */}
           <div className="order-1 lg:order-2 pl-4 md:pl-18 lg:pl-8">
             <CorporateCard
-              imageUrl="/about1.png"
-              overlayImageUrl="/about2.png"
+              imageUrl={imageUrl}
+              overlayImageUrl={overlayImageUrl}
             />
           </div>
         </div>

@@ -2,8 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from "next-intl";
 
+interface ProductsProps {
+  imageUrl: string;
+}
 
-const SustainabilitySection = () => {
+const SustainabilitySection: React.FC<ProductsProps> = ({imageUrl}) => {
     const t = useTranslations("Sustainability");
  
 
@@ -11,7 +14,7 @@ const SustainabilitySection = () => {
    <section className="relative w-full shadow-xl mb-16 overflow-hidden" style={{ maxHeight: '381px' }}>
       <div className="w-full relative" style={{ aspectRatio: '4.034', minHeight:'250px' }}>
         <Image
-          src="/sustainability.png"
+          src={imageUrl}
           alt="Sustainability"
           fill
           className="object-cover object-center"

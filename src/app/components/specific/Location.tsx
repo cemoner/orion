@@ -1,13 +1,19 @@
-import type { NextPage } from "next";
+'use client'
 import { useTranslations } from "next-intl";
 
 // Define the props for the component
-interface CorporateCardProps {
+interface LocationCardProps {
   imageUrl: string;
   overlayImageUrl: string;
 }
 
-const CorporateCard: React.FC<CorporateCardProps> = ({
+interface LocationProps {
+  imageUrl: string;
+  overlayImageUrl: string;
+}
+
+
+const LocationCard: React.FC<LocationCardProps> = ({
   imageUrl,
   overlayImageUrl,
 }) => {
@@ -50,7 +56,7 @@ const CorporateCard: React.FC<CorporateCardProps> = ({
 
 // Location
 // Page
-const Location: NextPage = () => {
+const Location: React.FC<LocationProps> = ({imageUrl,overlayImageUrl}) => {
   const t = useTranslations("Location");
 
   return (
@@ -59,9 +65,9 @@ const Location: NextPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Column - Text Content */}
           <div className="order-2 lg:order-1 pl-8 md:pl-0 lg:pl-16">
-            <CorporateCard
-              imageUrl="/location2.png"
-              overlayImageUrl="/location1.png"
+            <LocationCard
+              imageUrl={imageUrl}
+              overlayImageUrl={overlayImageUrl}
             />
           </div>
 

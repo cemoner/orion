@@ -3,14 +3,26 @@
 import { useTranslations } from "next-intl";
 import React, { useState, useEffect, useCallback } from "react";
 
-// Define the type for a single slide (can remain outside)
+// --- TYPE DEFINITIONS ---
+// This is the internal shape of a slide after merging props and translations.
 interface Slide {
   imageUrl: string;
   title: React.ReactNode;
   subtitle: string;
 }
 
-// --- Chevron Icon Component (No changes) ---
+// STEP 1: DEFINE THE PROPS THE COMPONENT WILL RECEIVE
+// This describes the data that must be passed in from the parent.
+interface SlideDataFromParent {
+  imageUrl: string;
+}
+
+// This defines the full props object for the HeroSlide component.
+interface HeroSlideProps {
+  slides: SlideDataFromParent[];
+}
+
+// --- Chevron Icon Component (UNCHANGED) ---
 const ChevronIcon = ({ direction }: { direction: "left" | "right" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -38,45 +50,31 @@ const ChevronIcon = ({ direction }: { direction: "left" | "right" }) => (
 );
 
 // --- Main Slider Component ---
-export const HeroSlide: React.FC = () => {
+
+// STEP 2: UPDATE THE COMPONENT SIGNATURE TO ACCEPT PROPS
+export const HeroSlide: React.FC<HeroSlideProps> = ({ slides: slidesFromProps }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const t = useTranslations("HeroSlide");
 
-  // ✅ Define slide data INSIDE the component to use the 't' function
-  const slides: Slide[] = [
-    {
-      imageUrl: "/hero1.png",
-      title: t("slide1.title"),
-      subtitle: t("slide1.subtitle"),
-    },
-    {
-      imageUrl: "/hero2.png",
-      title: t("slide2.title"),
-      subtitle: t("slide2.subtitle"),
-    },
-    {
-      imageUrl: "/hero3.png",
-      title: t("slide3.title"),
-      subtitle: t("slide3.subtitle"),
-    },
-    {
-      imageUrl: "/hero4.png",
-      title:t("slide4.title"),
-      subtitle:t("slide4.subtitle")
-    }
-  ];
+  // STEP 3: REPLACE THE HARDCODED ARRAY WITH DYNAMIC DATA
+  // This maps over the props and merges them with the translated text.
+  const slides: Slide[] = slidesFromProps.map((slideProp, index) => ({
+    imageUrl: slideProp.imageUrl, // Data from props
+    title: t(`slide${index + 1}.title`), // Data from translations
+    subtitle: t(`slide${index + 1}.subtitle`), // Data from translations
+  }));
 
   const goToPrevious = useCallback(() => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
     setCurrentIndex(newIndex);
-  }, [currentIndex, slides.length]); // Added slides.length to dependency array
+  }, [currentIndex, slides.length]);
 
   const goToNext = useCallback(() => {
     const isLastSlide = currentIndex === slides.length - 1;
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
-  }, [currentIndex, slides.length]); // Added slides.length to dependency array
+  }, [currentIndex, slides.length]);
 
   const goToSlide = (slideIndex: number) => {
     setCurrentIndex(slideIndex);
@@ -128,7 +126,7 @@ export const HeroSlide: React.FC = () => {
         ))}
       </div>
 
-      {/* Navigation (No changes needed here) */}
+      {/* Navigation (UNCHANGED) */}
       <button
         onClick={goToPrevious}
         className="absolute top-1/2 left-4 md:left-8 transform -translate-y-1/2 z-20 text-white bg-black/30 p-2 rounded-full hover:bg-black/50 transition-colors"

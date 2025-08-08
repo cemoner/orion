@@ -1,9 +1,14 @@
-import type { NextPage } from "next";
+'use client'
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 // Define the props for the component
 interface ProductCardProps {
+  imageUrl: string;
+  overlayImageUrl: string;
+}
+
+interface ProductsProps {
   imageUrl: string;
   overlayImageUrl: string;
 }
@@ -49,7 +54,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 };
 
 // Products Page
-const Products: NextPage = () => {
+const Products: React.FC<ProductsProps> = ({imageUrl,overlayImageUrl}) => {
   const t = useTranslations("Products");
 
   return (
@@ -86,8 +91,8 @@ const Products: NextPage = () => {
           {/* Right Column - Image Card (1/3 width on large screens) */}
           <div className="lg:col-span-1 flex justify-center h-full items-start md:justify-end lg:pl-0">
             <ProductCard
-              imageUrl="/products1.png"
-              overlayImageUrl="/products2.png"
+              imageUrl={imageUrl}
+              overlayImageUrl={overlayImageUrl}
             />
           </div>
         </div>
