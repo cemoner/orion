@@ -1,6 +1,7 @@
 import { Leaf, Users, Landmark, Target, Recycle, HeartHandshake, ShieldCheck } from 'lucide-react';
 import React from 'react';
 import { useTranslations } from "next-intl";
+import ImagePreloader from '@/app/components/specific/ImagePreloader';
 
 
 // This component requires the `lucide-react` package. You can install it with:
@@ -88,15 +89,18 @@ export default function SustainabilityPage() {
       { icon: <HeartHandshake className="h-6 w-6"/>, text: t("goal3") },
       { icon: <ShieldCheck className="h-6 w-6"/>, text: t("goal4") },
   ];
+  const sustainabilityImage = '/sustainabilityhero.png';
+  const images = [sustainabilityImage]
 
   return (
     
-    <main className="bg-background dark:bg-background-dark">
+   <ImagePreloader imageUrls={images}>
+     <main className="bg-background dark:bg-background-dark">
       {/* Hero Section */}
       <section 
         className="relative py-20 md:py-28"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/sustainabilityhero.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${sustainabilityImage}')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -165,5 +169,6 @@ export default function SustainabilityPage() {
           </div>
       </section>
     </main>
+   </ImagePreloader>
   );
 }

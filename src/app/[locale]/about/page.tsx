@@ -3,6 +3,7 @@
 import { Target, CheckCircle, Rocket, ShieldCheck } from 'lucide-react';
 import React from 'react';
 import { useTranslations } from 'next-intl';
+import ImagePreloader from '@/app/components/specific/ImagePreloader';
 
 const ListItem = ({ text }: { text: string }) => (
   <li className="flex items-start">
@@ -13,13 +14,16 @@ const ListItem = ({ text }: { text: string }) => (
   </li>
 );
 
+interface AboutImageProps {
+  imageUrl: string;
+}
 // A new Client Component to handle the image with the onError event handler
-const AboutImage = () => {
+const AboutImage: React.FC<AboutImageProps> = ({imageUrl}) => {
     const t = useTranslations("About_Us_Page");
     return (
         <img 
-            className="rounded-2xl mt-6 shadow-xl w-full h-full lg:h-9/10 object-cover" 
-            src="/aboutphoto.png" 
+            className="rounded-2xl mt-6 shadow-xl w-full object-contain" 
+            src={imageUrl}
             alt={t('image_alt')} 
             onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/600x400/cccccc/ffffff?text=Resim+Yüklenemedi'; }}
         />
@@ -33,8 +37,15 @@ export default function AboutUsPage() {
   const visionPoints = Object.keys(t.raw('vision_points')).map(key => t(`vision_points.${key}`));
   const missionPoints = Object.keys(t.raw('mission_points')).map(key => t(`mission_points.${key}`));
 
+  const imageUrl = "/aboutphoto.png";
+  
+  const images = [
+    imageUrl
+  ]
+
   return (
-    <main className="bg-background px-4 md:px-0 dark:bg-background-dark">
+    <ImagePreloader imageUrls={images}>
+      <main className="bg-background px-4 md:px-0 dark:bg-background-dark">
       {/* Section 1: Hero/Introduction */}
       <section className="py-4 lg:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -52,7 +63,7 @@ export default function AboutUsPage() {
               </p>
             </div>
             <div className="order-1 lg:order-2 flex items-center">
-              <AboutImage />
+              <AboutImage imageUrl={imageUrl} />
             </div>
           </div>
         </div>
@@ -112,5 +123,6 @@ export default function AboutUsPage() {
         </div>
       </section>
     </main>
+    </ImagePreloader>
   );
 }

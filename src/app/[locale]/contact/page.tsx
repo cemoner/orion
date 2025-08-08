@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { MapPin, Phone, Mail } from 'lucide-react';
 
 // Set the character limit
-const MAX_CHARS = 150;
+const MAX_CHARS = 300;
 
 export default function ContactSection() {
   const t = useTranslations("Contact");
