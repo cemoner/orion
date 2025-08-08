@@ -58,7 +58,7 @@ export default function App() {
 const LoadingSpinner = () => {
   return (
     // This container stacks the spinner and the line vertically.
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center z-30">
       {/* This container aligns the spinner and the text side-by-side. */}
       <div className="flex items-center justify-center">
         {/* This container holds the animated spinner parts. */}
@@ -75,7 +75,7 @@ const LoadingSpinner = () => {
           ></div>
         </div>
 
-        <span className="ml-4 font-bold text-6xl tracking-wider" style={{ color: '#2f79ed' }}>
+        <span className="font-bold text-6xl ml-2 mt-1 tracking-wider" style={{ color: '#2f79ed' }}>
           RION
         </span>
       </div>

@@ -3,6 +3,7 @@
 import React from 'react';
 import { useTranslations } from "next-intl";
 import Link from 'next/link';
+import ImagePreloader from '@/app/components/specific/ImagePreloader';
 
 
 // --- TypeScript Interface for ProductCard Props ---
@@ -64,19 +65,30 @@ const App = () => {
     }).format(price);
   };
 
+  const thinRebarImage = "/thin_rebar.png";
+  const midThickRebarImage = "/mid_thick_rebar.png";
+  const thickRebarImage = "/thick_rebar.png";
+
+  const productImages = [
+    thinRebarImage,
+    midThickRebarImage,
+    thickRebarImage,
+  ]
+
   // --- Function to get the image URL based on size ---
   const getImageUrl = (size: number): string => {
     if (size === 8) {
-      return "/thin_rebar.png";
+      return thinRebarImage;
     } else if (size === 10) {
-      return "/mid_thick_rebar.png";
+      return midThickRebarImage
     } else {
-      return "/thick_rebar.png";
+      return thickRebarImage
     }
   };
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-900 min-h-screen p-4 sm:p-8 md:p-12">
+<ImagePreloader imageUrls={productImages}>
+      <div className="bg-slate-50 dark:bg-slate-900 min-h-screen p-4 sm:p-8 md:p-12">
       <div className="max-w-screen-xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -101,6 +113,7 @@ const App = () => {
         </div>
       </div>
     </div>
+</ImagePreloader>
   );
 };
 

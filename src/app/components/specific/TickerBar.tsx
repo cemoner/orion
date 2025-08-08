@@ -56,7 +56,7 @@ const VerticalTicker: React.FC<{items: TickerItem[]; interval?: number }> = ({it
 
   return (
     <div
-      className="w-max bg-gray-800 bg-opacity-70 backdrop-blur-md fixed bottom-4 left-4 z-50 border border-gray-700 rounded-2xl shadow-2xl shadow-black/30"
+      className="w-max bg-gray-800 bg-opacity-70 backdrop-blur-md fixed bottom-4 left-4 z-20 border border-gray-700 rounded-2xl shadow-2xl shadow-black/30"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

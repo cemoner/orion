@@ -7,6 +7,9 @@ import { ThemeSwitcher } from "../specific/ThemeSwitcher";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "../specific/LanguageSwitcher";
 
+
+
+
 export const Header: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const t = useTranslations("Header");
@@ -16,7 +19,7 @@ export const Header: FC = () => {
       <div className="mx-auto w-full md:px-6 py-6 flex justify-center xs:justify-between items-center">
         <div className="text-xl font-bold text-gray-800">
           <Link
-            href="/"
+            href="/#top"
             className="flex items-center hover:text-hover-blue text-logo-blue pt-0.6 pl-4.5"
           >
             <svg
@@ -71,7 +74,7 @@ export const Header: FC = () => {
 
         <nav className="hidden md:flex items-center">
           <Link
-            href="/#"
+            href="/#top"
             className="text-text dark:text-text-dark text-base lg:text-sm md:text-xs hover:text-hover-blue py-2 mx-1.5 xl:mx-3 rounded-md transition-all duration-300 ease-in-out hover:scale-125 hover:mx-6"
           >
             {t("nav.home")}
@@ -167,7 +170,7 @@ export const Header: FC = () => {
       >
         <nav className="flex flex-col items-center space-y-4 py-4">
           <Link
-            href="/"
+            href="/#top"
             className="text-text dark:text-text-dark text-md hover:text-hover-blue w-full text-center shadow-sm"
           >
             {t("nav.home")}
