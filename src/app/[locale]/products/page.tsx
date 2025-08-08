@@ -13,10 +13,6 @@ interface ProductCardProps {
   altText: string;
 }
 
-// --- Main Product Card Component ---
-/**
- * A reusable card component that links to a product detail page.
- */
 const ProductCard: React.FC<ProductCardProps> = ({ size, price, imageUrl, altText }) => (
   <Link href={`/details?size=${size}`} className="block group">
     <div className="relative flex flex-col bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 ease-in-out overflow-hidden h-full">
@@ -48,9 +44,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ size, price, imageUrl, altTex
 const App = () => {
   const productSizes: number[] = [8, 10, 12, 14, 16, 18, 20, 22, 24, 25, 26, 28, 30, 32];
   
-  const rebarImageUrl: string = "https://images.pexels.com/photos/129441/pexels-photo-129441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-
   const t = useTranslations("Products");
+
+  // --- Function to get the price based on size ---
   const getPrice = (size: number): string => {
     let price: number;
     if (size === 8) {
@@ -66,6 +62,17 @@ const App = () => {
       currency: 'TRY',
       minimumFractionDigits: 2,
     }).format(price);
+  };
+
+  // --- Function to get the image URL based on size ---
+  const getImageUrl = (size: number): string => {
+    if (size === 8) {
+      return "/thin_rebar.png";
+    } else if (size === 10) {
+      return "/mid_thick_rebar.png";
+    } else {
+      return "/thick_rebar.png";
+    }
   };
 
   return (
@@ -87,7 +94,7 @@ const App = () => {
               key={size} 
               size={size} 
               price={getPrice(size)}
-              imageUrl={rebarImageUrl}
+              imageUrl={getImageUrl(size)} // Dynamically set image URL
               altText="alttext"
             />
           ))}
