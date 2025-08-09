@@ -11,7 +11,6 @@ interface Slide {
   subtitle: string;
 }
 
-// STEP 1: DEFINE THE PROPS THE COMPONENT WILL RECEIVE
 // This describes the data that must be passed in from the parent.
 interface SlideDataFromParent {
   imageUrl: string;
@@ -50,18 +49,17 @@ const ChevronIcon = ({ direction }: { direction: "left" | "right" }) => (
 );
 
 // --- Main Slider Component ---
-
-// STEP 2: UPDATE THE COMPONENT SIGNATURE TO ACCEPT PROPS
 export const HeroSlide: React.FC<HeroSlideProps> = ({ slides: slidesFromProps }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const t = useTranslations("HeroSlide");
 
-  // STEP 3: REPLACE THE HARDCODED ARRAY WITH DYNAMIC DATA
-  // This maps over the props and merges them with the translated text.
+  // State to track touch starting position for swipe gesture
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+
   const slides: Slide[] = slidesFromProps.map((slideProp, index) => ({
-    imageUrl: slideProp.imageUrl, // Data from props
-    title: t(`slide${index + 1}.title`), // Data from translations
-    subtitle: t(`slide${index + 1}.subtitle`), // Data from translations
+    imageUrl: slideProp.imageUrl,
+    title: t(`slide${index + 1}.title`),
+    subtitle: t(`slide${index + 1}.subtitle`),
   }));
 
   const goToPrevious = useCallback(() => {
@@ -80,6 +78,36 @@ export const HeroSlide: React.FC<HeroSlideProps> = ({ slides: slidesFromProps })
     setCurrentIndex(slideIndex);
   };
 
+  // --- SWIPE HANDLERS ---
+  // Records the initial touch position on the X-axis.
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  // Determines swipe direction and navigates accordingly.
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStart === null) {
+      return;
+    }
+
+    const touchEnd = e.changedTouches[0].clientX;
+    const swipeDistance = touchStart - touchEnd;
+    const minSwipeDistance = 50; // Minimum distance in pixels for a swipe to be registered
+
+    // If swiped left (finger moves from right to left)
+    if (swipeDistance > minSwipeDistance) {
+      goToNext();
+    } 
+    // If swiped right (finger moves from left to right)
+    else if (swipeDistance < -minSwipeDistance) {
+      goToPrevious();
+    }
+
+    // Reset touch start position for the next swipe
+    setTouchStart(null);
+  };
+
+
   useEffect(() => {
     const sliderInterval = setInterval(() => {
       goToNext();
@@ -89,7 +117,12 @@ export const HeroSlide: React.FC<HeroSlideProps> = ({ slides: slidesFromProps })
   }, [goToNext]);
 
   return (
-    <div className="relative w-full h-[clamp(560px,64vh,576px)] lg:h-[clamp(630px,72vh,648px)] overflow-hidden">
+    // Add touch event handlers to the main container
+    <div 
+        className="relative w-full h-[clamp(560px,64vh,576px)] lg:h-[clamp(630px,72vh,648px)] overflow-hidden"
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+    >
       {/* Slides Container */}
       <div className="w-full h-full">
         {slides.map((slide, index) => (
@@ -126,10 +159,10 @@ export const HeroSlide: React.FC<HeroSlideProps> = ({ slides: slidesFromProps })
         ))}
       </div>
 
-      {/* Navigation (UNCHANGED) */}
+      {/* Navigation */}
       <button
         onClick={goToPrevious}
-        className="absolute top-1/2 left-4 md:left-8 transform -translate-y-1/2 z-20 text-white bg-black/30 p-2 rounded-full hover:bg-black/50 transition-colors"
+        className="hidden md:block absolute top-1/2 left-4 md:left-8 transform -translate-y-1/2 z-20 text-white bg-black/30 p-2 rounded-full hover:bg-black/50 transition-colors"
         aria-label={t("previousButton")}
       >
         <ChevronIcon direction="left" />
@@ -137,7 +170,7 @@ export const HeroSlide: React.FC<HeroSlideProps> = ({ slides: slidesFromProps })
 
       <button
         onClick={goToNext}
-        className="absolute top-1/2 right-4 md:right-8 transform -translate-y-1/2 z-20 text-white bg-black/30 p-2 rounded-full hover:bg-black/50 transition-colors"
+        className="hidden md:block absolute top-1/2 right-4 md:right-8 transform -translate-y-1/2 z-20 text-white bg-black/30 p-2 rounded-full hover:bg-black/50 transition-colors"
         aria-label={t("nextButton")}
       >
         <ChevronIcon direction="right" />
