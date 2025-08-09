@@ -20,7 +20,7 @@ const LocationCard: React.FC<LocationCardProps> = ({
 
   return (
     // The main container allows overflow. The group class has been removed.
-    <div className="relative w-full h-96 lg:h-[440px]">
+    <div className="relative w-full h-96 lg:h-[440px] overflow-x-hidden md:overflow-visible">
       {/* The main card, which contains the base image and is clipped */}
       <div className="relative w-full h-full rounded-lg shadow-2xl overflow-hidden z-10 border-4 border-blue-900">
         <img
@@ -37,7 +37,7 @@ const LocationCard: React.FC<LocationCardProps> = ({
       </div>
 
       {/* Wrapper for the overlay image and its hover effect. This is the new hover target. */}
-      <div className="absolute opacity-75 hover:opacity-100 transition-all duration-300 hover:scale-110  top-1/2 right-0 md:right-0 md:translate-x-[7.5%] -translate-y-1/2 -translate-x-[-10%] lg:-translate-x-[-20%] w-2/5 md:translate lg:w-5/10 z-20 group">
+      <div className="absolute opacity-75 hover:opacity-100 transition-all duration-300 hover:scale-110  top-1/2 right-10 md:right-0 md:right-0 md:translate-x-[7.5%] -translate-y-1/2 -translate-x-[-10%] lg:-translate-x-[-20%] w-2/5 md:translate lg:w-5/10 z-20 group">
         <img
           src={overlayImageUrl}
           alt="Corporate Interior"
