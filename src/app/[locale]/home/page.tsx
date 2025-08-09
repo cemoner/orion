@@ -18,8 +18,8 @@ export default function Home() {
   const productsImageUrl = "/products1.png";
   const productsOverlayUrl = "/products2.png";
   const sustainability = "/sustainability.png";
-  const locationImageUrl = "/location1.png";
-  const locationOverlayUrl = "/location2.png";
+  const locationImageUrl = "/location2.png";
+  const locationOverlayUrl = "/location1.png";
   const heroSlideData = [
     { imageUrl: "/hero1.png" },
     { imageUrl: "/hero2.png" },
