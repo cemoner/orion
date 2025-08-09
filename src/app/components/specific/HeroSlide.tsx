@@ -89,7 +89,7 @@ export const HeroSlide: React.FC<HeroSlideProps> = ({ slides: slidesFromProps })
   }, [goToNext]);
 
   return (
-    <div className="relative w-full h-[clamp(560px,64vh,576px)]lg:h-[clamp(700px,80vh,720px)] overflow-hidden">
+    <div className="relative w-full h-[clamp(560px,64vh,576px)] lg:h-[clamp(700px,80vh,720px)] overflow-hidden">
       {/* Slides Container */}
       <div className="w-full h-full">
         {slides.map((slide, index) => (
